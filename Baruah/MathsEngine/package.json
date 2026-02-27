@@ -1,0 +1,21 @@
+{
+  "name": "com.arijeet.mathsengine",
+  "version": "0.1.0",
+  "displayName": "Maths Engine",
+  "description": "Modular math plugin for Unity with extensible algebra, geometry, and numeric systems.",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/arijeetbaruah/Maths-Engine",
+  "changelogUrl": "https://github.com/arijeetbaruah/Maths-Engine/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/arijeetbaruah/Maths-Engine/blob/main/LICENSE",
+  "author": {
+    "name": "Arijeet Baruah",
+    "url": "https://github.com/arijeetbaruah"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Usage",
+      "description": "Basic examples of Maths Engine usage",
+      "path": "Samples~/BasicUsage"
+    }
+  ]
+}
