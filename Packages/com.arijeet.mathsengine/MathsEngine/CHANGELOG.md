@@ -20,7 +20,7 @@ and this project follows \[Semantic Versioning](https://semver.org/).
 
 \### Added
 
-\- 
+- 2 Unit test to check addition and sine functions
 
 
 
