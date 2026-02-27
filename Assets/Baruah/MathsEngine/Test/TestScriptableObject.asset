@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f0481dab4a802a4d9981051cd763da8, type: 3}
+  m_Name: TestScriptableObject
+  m_EditorClassIdentifier: Baruah.MathsEngine.Test::Baruah.MathsEngine.Test.TestScriptableObject
+  _formula:
+    _node:
+      rid: 5776173906853888276
+  references:
+    version: 2
+    RefIds:
+    - rid: 5776173906853888276
+      type: {class: AdditionNode, ns: Baruah.MathsEngine, asm: Baruah.MathsEngine}
+      data:
+        _values:
+        - rid: 5776173906853888277
+        - rid: 5776173906853888278
+    - rid: 5776173906853888277
+      type: {class: SubtractionNode, ns: Baruah.MathsEngine, asm: Baruah.MathsEngine}
+      data:
+        _values:
+        - rid: 5776173906853888280
+        - rid: 5776173906853888281
+    - rid: 5776173906853888278
+      type: {class: MultiplicationNode, ns: Baruah.MathsEngine, asm: Baruah.MathsEngine}
+      data:
+        _values:
+        - rid: 5776173906853888283
+        - rid: 5776173906853888284
+    - rid: 5776173906853888280
+      type: {class: ConstantNode, ns: Baruah.MathsEngine, asm: Baruah.MathsEngine}
+      data:
+        _value: 3
+    - rid: 5776173906853888281
+      type: {class: ConstantNode, ns: Baruah.MathsEngine, asm: Baruah.MathsEngine}
+      data:
+        _value: 2
+    - rid: 5776173906853888283
+      type: {class: ConstantNode, ns: Baruah.MathsEngine, asm: Baruah.MathsEngine}
+      data:
+        _value: 2
+    - rid: 5776173906853888284
+      type: {class: ConstantNode, ns: Baruah.MathsEngine, asm: Baruah.MathsEngine}
+      data:
+        _value: 3

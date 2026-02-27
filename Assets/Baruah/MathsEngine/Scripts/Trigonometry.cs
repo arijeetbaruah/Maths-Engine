@@ -1,0 +1,80 @@
+using UnityEngine;
+
+namespace Baruah.MathsEngine.Trigonometry
+{
+    
+    [System.Serializable]
+    [MathNodeCategory("Trigonometry")]
+    public class Sin : BaseMathNode
+    {
+        [SerializeReference, SerializeField]
+        private BaseMathNode _angle;
+        
+        public override float Calculate(object[] parameter)
+        {
+            return Mathf.Sin(_angle.Calculate(parameter));
+        }
+    }
+    
+    [System.Serializable]
+    [MathNodeCategory("Trigonometry")]
+    public class Cos : BaseMathNode
+    {
+        [SerializeReference, SerializeField]
+        private BaseMathNode _angle;
+        
+        public override float Calculate(object[] parameter)
+        {
+            return Mathf.Cos(_angle.Calculate(parameter));
+        }
+    }
+    
+    [System.Serializable]
+    [MathNodeCategory("Trigonometry")]
+    public class Tan : BaseMathNode
+    {
+        [SerializeReference, SerializeField]
+        private BaseMathNode _angle;
+        
+        public override float Calculate(object[] parameter)
+        {
+            return Mathf.Tan(_angle.Calculate(parameter));
+        }
+    }
+    
+    [System.Serializable]
+    [MathNodeCategory("Trigonometry")]
+    public class Atan2 : BaseMathNode
+    {
+        [SerializeReference, SerializeField]
+        private BaseMathNode _y;
+        [SerializeReference, SerializeField]
+        private BaseMathNode _x;
+        
+        public override float Calculate(object[] parameter)
+        {
+            return Mathf.Atan2(_y.Calculate(parameter), _x.Calculate(parameter));
+        }
+    }
+    
+    
+    [System.Serializable]
+    [MathNodeCategory("Constants")]
+    public class Deg2Rad : BaseMathNode
+    {
+        public override float Calculate(object[] parameter)
+        {
+            return Mathf.Deg2Rad;
+        }
+    }
+    
+    [System.Serializable]
+    [MathNodeCategory("Constants")]
+    public class Rad2Deg : BaseMathNode
+    {
+        public override float Calculate(object[] parameter)
+        {
+            return Mathf.Rad2Deg;
+        }
+    }
+}

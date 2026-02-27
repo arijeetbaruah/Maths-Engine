@@ -1,0 +1,16 @@
+{
+    "name": "Baruah.MathsEngine.Editor",
+    "rootNamespace": "Baruah.MathsEngine.Editor",
+    "references": [
+        "GUID:91101d50605730e4d8ff7e73804e3f15"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
