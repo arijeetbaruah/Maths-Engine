@@ -40,7 +40,7 @@ namespace Baruah.MathsEngine.Editor
 
                 height += 4f;
             }
-            height += EditorGUIUtility.singleLineHeight + 2f;
+            //height += EditorGUIUtility.singleLineHeight + 2f;
 
             return height;
         }
@@ -51,7 +51,7 @@ namespace Baruah.MathsEngine.Editor
 
             EditorGUI.BeginProperty(position, label, property);
 
-            position.y += EditorGUIUtility.singleLineHeight + 2f;
+            //position.y += EditorGUIUtility.singleLineHeight + 2f;
             // Draw box background
             GUI.Box(position, GUIContent.none, EditorStyles.helpBox);
 
@@ -65,8 +65,7 @@ namespace Baruah.MathsEngine.Editor
                 EditorGUIUtility.singleLineHeight
             );
 
-            EditorGUI.PrefixLabel(headerRect, label);
-            headerRect.y += EditorGUIUtility.singleLineHeight + 2f;
+            headerRect = EditorGUI.PrefixLabel(headerRect, label);
 
             string currentTypeName = property.managedReferenceValue?.GetType().Name ?? "None";
 

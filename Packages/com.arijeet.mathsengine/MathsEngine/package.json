@@ -1,6 +1,6 @@
 {
   "name": "com.arijeet.mathsengine",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "displayName": "Maths Engine",
   "description": "Modular math plugin for Unity with extensible algebra, geometry, and numeric systems.",
   "unity": "2021.3",
