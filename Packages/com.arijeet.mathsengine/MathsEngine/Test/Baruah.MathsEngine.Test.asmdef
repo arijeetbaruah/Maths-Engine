@@ -2,15 +2,19 @@
     "name": "Baruah.MathsEngine.Test",
     "rootNamespace": "Baruah.MathsEngine.Test",
     "references": [
-        "GUID:91101d50605730e4d8ff7e73804e3f15"
+        "GUID:91101d50605730e4d8ff7e73804e3f15",
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:0acc523941302664db1f4e527237feb3"
     ],
     "includePlatforms": [
         "Editor"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
     "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],
