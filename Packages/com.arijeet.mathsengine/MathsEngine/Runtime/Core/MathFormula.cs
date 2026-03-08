@@ -1,3 +1,6 @@
+#if ODIN_INSPECTOR
+using Sirenix.OdinInspector;
+#endif
 using UnityEngine;
 
 namespace Baruah.MathsEngine
@@ -6,7 +9,9 @@ namespace Baruah.MathsEngine
     public class MathFormula : ScriptableObject
     {
         public BaseMathNode MathNode => _node;
-        
+     
+        [InfoBox("@ToEquation()")]
+
         [SerializeField, SerializeReference]
         private BaseMathNode _node;
         
@@ -14,5 +19,7 @@ namespace Baruah.MathsEngine
         {
             return _node.Calculate(parameter);
         }
+
+        public string ToEquation() => MathNode.ToEquation() + " = " + Calculate();
     }
 }

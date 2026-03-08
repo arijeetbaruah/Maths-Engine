@@ -36,7 +36,7 @@ namespace Baruah.MathsEngine
         public override string ToEquation()
         {
             if (_entries == null || _entries.Length == 0)
-                return $"0 ? {True?.ToEquation() ?? "0"} : {False?.ToEquation() ?? "0"}";
+                return $"(0 ? {True?.ToEquation() ?? "0"} : {False?.ToEquation() ?? "0"})";
 
             System.Text.StringBuilder sb = new System.Text.StringBuilder();
 
@@ -63,7 +63,7 @@ namespace Baruah.MathsEngine
             string trueEq = True?.ToEquation() ?? "0";
             string falseEq = False?.ToEquation() ?? "0";
 
-            return $"{sb} ? {trueEq} : {falseEq}";
+            return $"({sb} ? {trueEq} : {falseEq})";
         }
 
         private bool EvaluateEntry(ComparisonEntry entry, object[] parameter)
