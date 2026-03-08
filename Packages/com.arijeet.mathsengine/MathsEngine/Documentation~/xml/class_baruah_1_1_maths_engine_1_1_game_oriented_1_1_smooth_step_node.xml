@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="class_baruah_1_1_maths_engine_1_1_game_oriented_1_1_smooth_step_node" kind="class" language="C#" prot="public">
+    <compoundname>Baruah::MathsEngine::GameOriented::SmoothStepNode</compoundname>
+    <basecompoundref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" prot="public" virt="non-virtual">Baruah.MathsEngine.BaseMathNode</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_game_oriented_1_1_smooth_step_node_1a2823072a2bd67d2b4f57a6a59fb881bf" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.GameOriented.SmoothStepNode._from</definition>
+        <argsstring></argsstring>
+        <name>_from</name>
+        <qualifiedname>Baruah.MathsEngine.GameOriented.SmoothStepNode._from</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="77" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_game_oriented_1_1_smooth_step_node_1abb621f51be89b3ab024c86445745d0ac" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.GameOriented.SmoothStepNode._to</definition>
+        <argsstring></argsstring>
+        <name>_to</name>
+        <qualifiedname>Baruah.MathsEngine.GameOriented.SmoothStepNode._to</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="78" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_game_oriented_1_1_smooth_step_node_1a16d4796cb1880170271bdca1ccb4a157" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.GameOriented.SmoothStepNode._t</definition>
+        <argsstring></argsstring>
+        <name>_t</name>
+        <qualifiedname>Baruah.MathsEngine.GameOriented.SmoothStepNode._t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="79" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_game_oriented_1_1_smooth_step_node_1a7734304876220d8102d15db3a0881732" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float Baruah.MathsEngine.GameOriented.SmoothStepNode.Calculate</definition>
+        <argsstring>(object[] parameter)</argsstring>
+        <name>Calculate</name>
+        <qualifiedname>Baruah.MathsEngine.GameOriented.SmoothStepNode.Calculate</qualifiedname>
+        <param>
+          <type>object[]</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="81" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_game_oriented_1_1_smooth_step_node_1aa9811f08fdfa7ddf02592953a11b497b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Baruah.MathsEngine.GameOriented.SmoothStepNode.ToEquation</definition>
+        <argsstring>()</argsstring>
+        <name>ToEquation</name>
+        <qualifiedname>Baruah.MathsEngine.GameOriented.SmoothStepNode.ToEquation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="86" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="86" bodyend="86"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.GameOriented.SmoothStepNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_game_oriented_1_1_smooth_step_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_base_math_node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.GameOriented.SmoothStepNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_game_oriented_1_1_smooth_step_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_base_math_node"/>
+      </node>
+    </collaborationgraph>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="75" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="76" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_baruah_1_1_maths_engine_1_1_game_oriented_1_1_smooth_step_node_1a2823072a2bd67d2b4f57a6a59fb881bf" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::GameOriented::SmoothStepNode</scope><name>_from</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_game_oriented_1_1_smooth_step_node_1a16d4796cb1880170271bdca1ccb4a157" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::GameOriented::SmoothStepNode</scope><name>_t</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_game_oriented_1_1_smooth_step_node_1abb621f51be89b3ab024c86445745d0ac" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::GameOriented::SmoothStepNode</scope><name>_to</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_game_oriented_1_1_smooth_step_node_1a7734304876220d8102d15db3a0881732" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::GameOriented::SmoothStepNode</scope><name>Calculate</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_game_oriented_1_1_smooth_step_node_1aa9811f08fdfa7ddf02592953a11b497b" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::GameOriented::SmoothStepNode</scope><name>ToEquation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

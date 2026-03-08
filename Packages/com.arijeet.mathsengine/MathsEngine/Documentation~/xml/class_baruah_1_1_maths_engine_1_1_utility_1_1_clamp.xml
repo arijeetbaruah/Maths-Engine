@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="class_baruah_1_1_maths_engine_1_1_utility_1_1_clamp" kind="class" language="C#" prot="public">
+    <compoundname>Baruah::MathsEngine::Utility::Clamp</compoundname>
+    <basecompoundref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" prot="public" virt="non-virtual">Baruah.MathsEngine.BaseMathNode</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_utility_1_1_clamp_1adc5c9cce48a269705b91f0c5db26e955" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Utility.Clamp._value</definition>
+        <argsstring></argsstring>
+        <name>_value</name>
+        <qualifiedname>Baruah.MathsEngine.Utility.Clamp._value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" line="10" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_utility_1_1_clamp_1a5a856e64b7c82a1a862add7d70fd2e05" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Utility.Clamp._min</definition>
+        <argsstring></argsstring>
+        <name>_min</name>
+        <qualifiedname>Baruah.MathsEngine.Utility.Clamp._min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" line="12" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_utility_1_1_clamp_1a14ef97d26c997ffe776937dbe7083944" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Utility.Clamp._max</definition>
+        <argsstring></argsstring>
+        <name>_max</name>
+        <qualifiedname>Baruah.MathsEngine.Utility.Clamp._max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" line="14" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_utility_1_1_clamp_1a5db7810bf8fe069e39ad8518271b7a5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float Baruah.MathsEngine.Utility.Clamp.Calculate</definition>
+        <argsstring>(object[] parameter)</argsstring>
+        <name>Calculate</name>
+        <qualifiedname>Baruah.MathsEngine.Utility.Clamp.Calculate</qualifiedname>
+        <param>
+          <type>object[]</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" line="16" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_utility_1_1_clamp_1a47b7971e716f255538bb50edb4a911a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Baruah.MathsEngine.Utility.Clamp.ToEquation</definition>
+        <argsstring>()</argsstring>
+        <name>ToEquation</name>
+        <qualifiedname>Baruah.MathsEngine.Utility.Clamp.ToEquation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" line="21" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Utility.Clamp</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_utility_1_1_clamp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_base_math_node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Utility.Clamp</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_utility_1_1_clamp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_base_math_node"/>
+      </node>
+    </collaborationgraph>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" line="7" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" bodystart="8" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_baruah_1_1_maths_engine_1_1_utility_1_1_clamp_1a14ef97d26c997ffe776937dbe7083944" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Utility::Clamp</scope><name>_max</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_utility_1_1_clamp_1a5a856e64b7c82a1a862add7d70fd2e05" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Utility::Clamp</scope><name>_min</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_utility_1_1_clamp_1adc5c9cce48a269705b91f0c5db26e955" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Utility::Clamp</scope><name>_value</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_utility_1_1_clamp_1a5db7810bf8fe069e39ad8518271b7a5b" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Utility::Clamp</scope><name>Calculate</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_utility_1_1_clamp_1a47b7971e716f255538bb50edb4a911a7" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Utility::Clamp</scope><name>ToEquation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

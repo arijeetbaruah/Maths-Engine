@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node" kind="class" language="C#" prot="public">
+    <compoundname>Baruah::MathsEngine::Formula::Arithmetic::SubtractionNode</compoundname>
+    <basecompoundref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" prot="public" virt="non-virtual">Baruah.MathsEngine.Core.BaseMathNode</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node_1a55b79744d584a0216db6420933462c11" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref>[]</type>
+        <definition>BaseMathNode [] Baruah.MathsEngine.Formula.Arithmetic.SubtractionNode._values</definition>
+        <argsstring></argsstring>
+        <name>_values</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.SubtractionNode._values</qualifiedname>
+        <briefdescription>
+<para>The nodes used for subtraction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="64" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node_1a150d9e95f2186d17cb39de5d609958c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float Baruah.MathsEngine.Formula.Arithmetic.SubtractionNode.Calculate</definition>
+        <argsstring>(object[] parameter)</argsstring>
+        <name>Calculate</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.SubtractionNode.Calculate</qualifiedname>
+        <param>
+          <type>object[]</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Calculates the subtraction chain. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Runtime parameters passed to child nodes.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The resulting value after sequential subtraction.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="71" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="71" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node_1abe0a31c7090eaa1cd592ec4f0d873026" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Baruah.MathsEngine.Formula.Arithmetic.SubtractionNode.ToEquation</definition>
+        <argsstring>()</argsstring>
+        <name>ToEquation</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.SubtractionNode.ToEquation</qualifiedname>
+        <briefdescription>
+<para>Returns the equation representation of the subtraction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="86" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="86" bodyend="87"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A math node that subtracts multiple values sequentially. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The first node acts as the starting value and all subsequent nodes are subtracted from it. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Formula.Arithmetic.SubtractionNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.Core.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Formula.Arithmetic.SubtractionNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.Core.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
+      </node>
+    </collaborationgraph>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="58" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="59" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node_1a55b79744d584a0216db6420933462c11" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Arithmetic::SubtractionNode</scope><name>_values</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node_1a150d9e95f2186d17cb39de5d609958c3" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Arithmetic::SubtractionNode</scope><name>Calculate</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node_1abe0a31c7090eaa1cd592ec4f0d873026" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Arithmetic::SubtractionNode</scope><name>ToEquation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="namespace_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic" kind="namespace" language="C#">
+    <compoundname>Baruah::MathsEngine::Formula::Arithmetic</compoundname>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_addition_node" prot="public">Baruah::MathsEngine::Formula::Arithmetic::AdditionNode</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node" prot="public">Baruah::MathsEngine::Formula::Arithmetic::SubtractionNode</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node" prot="public">Baruah::MathsEngine::Formula::Arithmetic::MultiplicationNode</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_division_node" prot="public">Baruah::MathsEngine::Formula::Arithmetic::DivisionNode</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_constant_node" prot="public">Baruah::MathsEngine::Formula::Arithmetic::ConstantNode</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_modulo" prot="public">Baruah::MathsEngine::Formula::Arithmetic::Modulo</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_power" prot="public">Baruah::MathsEngine::Formula::Arithmetic::Power</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_absolute" prot="public">Baruah::MathsEngine::Formula::Arithmetic::Absolute</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_negate" prot="public">Baruah::MathsEngine::Formula::Arithmetic::Negate</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

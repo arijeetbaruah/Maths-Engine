@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg" kind="class" language="C#" prot="public">
+    <compoundname>Baruah::MathsEngine::Formula::Trigonometry::Rad2Deg</compoundname>
+    <basecompoundref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" prot="public" virt="non-virtual">Baruah.MathsEngine.Core.BaseMathNode</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg_1ab3639bae647311fd96fc4ae8fa42eb3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float Baruah.MathsEngine.Formula.Trigonometry.Rad2Deg.Calculate</definition>
+        <argsstring>(object[] parameter)</argsstring>
+        <name>Calculate</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.Trigonometry.Rad2Deg.Calculate</qualifiedname>
+        <param>
+          <type>object[]</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Returns the radian-to-degree conversion constant. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="185" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="185" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg_1a15296e74c084bafaa7e57f6efe45f405" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Baruah.MathsEngine.Formula.Trigonometry.Rad2Deg.ToEquation</definition>
+        <argsstring>()</argsstring>
+        <name>ToEquation</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.Trigonometry.Rad2Deg.ToEquation</qualifiedname>
+        <briefdescription>
+<para>Returns the equation representation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="193" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="193" bodyend="193"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Constant value used to convert radians to degrees. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Equivalent to Mathf.Rad2Deg. Multiply a radian value by this constant to convert it to degrees. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Formula.Trigonometry.Rad2Deg</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.Core.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Formula.Trigonometry.Rad2Deg</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.Core.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
+      </node>
+    </collaborationgraph>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="180" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="181" bodyend="194"/>
+    <listofallmembers>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg_1ab3639bae647311fd96fc4ae8fa42eb3b" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Trigonometry::Rad2Deg</scope><name>Calculate</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg_1a15296e74c084bafaa7e57f6efe45f405" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Trigonometry::Rad2Deg</scope><name>ToEquation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

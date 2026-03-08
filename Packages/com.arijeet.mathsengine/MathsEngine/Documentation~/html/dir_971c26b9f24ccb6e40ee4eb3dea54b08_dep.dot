@@ -1,0 +1,16 @@
+digraph "Packages/com.arijeet.mathsengine"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_395bafe2adc24fcfed5d14b8ce406a4f {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="Packages", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_395bafe2adc24fcfed5d14b8ce406a4f.html",tooltip=""]
+  subgraph clusterdir_971c26b9f24ccb6e40ee4eb3dea54b08 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_971c26b9f24ccb6e40ee4eb3dea54b08.html",tooltip=""]
+    dir_971c26b9f24ccb6e40ee4eb3dea54b08 [shape=plaintext, label="com.arijeet.mathsengine"];
+  dir_ca5d7cb76f136a3bcdfd54c505d86266 [label="MathsEngine", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_ca5d7cb76f136a3bcdfd54c505d86266.html",tooltip=""];
+  }
+  }
+}

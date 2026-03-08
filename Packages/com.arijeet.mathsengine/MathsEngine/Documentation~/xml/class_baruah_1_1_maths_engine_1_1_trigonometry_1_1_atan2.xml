@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="class_baruah_1_1_maths_engine_1_1_trigonometry_1_1_atan2" kind="class" language="C#" prot="public">
+    <compoundname>Baruah::MathsEngine::Trigonometry::Atan2</compoundname>
+    <basecompoundref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" prot="public" virt="non-virtual">Baruah.MathsEngine.BaseMathNode</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_trigonometry_1_1_atan2_1a58f6700ad45d838ab2c07891f559493b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Trigonometry.Atan2._y</definition>
+        <argsstring></argsstring>
+        <name>_y</name>
+        <qualifiedname>Baruah.MathsEngine.Trigonometry.Atan2._y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="56" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_trigonometry_1_1_atan2_1a7c05d4e8490274580022a7ae4bf62516" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Trigonometry.Atan2._x</definition>
+        <argsstring></argsstring>
+        <name>_x</name>
+        <qualifiedname>Baruah.MathsEngine.Trigonometry.Atan2._x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="58" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_trigonometry_1_1_atan2_1a1a5effa8e86a89de6fc59c740015ff3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float Baruah.MathsEngine.Trigonometry.Atan2.Calculate</definition>
+        <argsstring>(object[] parameter)</argsstring>
+        <name>Calculate</name>
+        <qualifiedname>Baruah.MathsEngine.Trigonometry.Atan2.Calculate</qualifiedname>
+        <param>
+          <type>object[]</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="60" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_trigonometry_1_1_atan2_1a8ea89eb55a9a49deec039fc66d5bf3e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Baruah.MathsEngine.Trigonometry.Atan2.ToEquation</definition>
+        <argsstring>()</argsstring>
+        <name>ToEquation</name>
+        <qualifiedname>Baruah.MathsEngine.Trigonometry.Atan2.ToEquation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="65" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="65" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Trigonometry.Atan2</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_trigonometry_1_1_atan2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_base_math_node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Trigonometry.Atan2</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_trigonometry_1_1_atan2"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_base_math_node"/>
+      </node>
+    </collaborationgraph>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="53" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="54" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_baruah_1_1_maths_engine_1_1_trigonometry_1_1_atan2_1a7c05d4e8490274580022a7ae4bf62516" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Trigonometry::Atan2</scope><name>_x</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_trigonometry_1_1_atan2_1a58f6700ad45d838ab2c07891f559493b" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Trigonometry::Atan2</scope><name>_y</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_trigonometry_1_1_atan2_1a1a5effa8e86a89de6fc59c740015ff3e" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Trigonometry::Atan2</scope><name>Calculate</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_trigonometry_1_1_atan2_1a8ea89eb55a9a49deec039fc66d5bf3e7" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Trigonometry::Atan2</scope><name>ToEquation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

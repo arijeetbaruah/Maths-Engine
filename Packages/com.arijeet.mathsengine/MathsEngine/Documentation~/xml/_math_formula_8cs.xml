@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="_math_formula_8cs" kind="file" language="C#">
+    <compoundname>MathFormula.cs</compoundname>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula" prot="public">Baruah::MathsEngine::Core::MathFormula</innerclass>
+    <innernamespace refid="namespace_baruah">Baruah</innernamespace>
+    <innernamespace refid="namespace_baruah_1_1_maths_engine">Baruah::MathsEngine</innernamespace>
+    <innernamespace refid="namespace_baruah_1_1_maths_engine_1_1_core">Baruah::MathsEngine::Core</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#if<sp/>ODIN_INSPECTOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">Sirenix.OdinInspector;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">UnityEngine;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_baruah_1_1_maths_engine_1_1_core" kindref="compound">Baruah.MathsEngine.Core</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>[CreateAssetMenu(fileName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;MathFormula&quot;</highlight><highlight class="normal">,<sp/>menuName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Baruah/MathsEngine/Maths<sp/>Formula&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="12" refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula" kindref="compound">MathFormula</ref><sp/>:<sp/>ScriptableObject</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14" refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a1d9f5a7337491f66d720cba7b234e507" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref><sp/><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a1d9f5a7337491f66d720cba7b234e507" kindref="member">MathNode</ref><sp/>=&gt;<sp/>_node;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>ODIN_INSPECTOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[InfoBox(</highlight><highlight class="stringliteral">&quot;@ToEquation()&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[SerializeField,<sp/>SerializeReference]</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref><sp/>_node;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27" refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a0bfd0d5615fb1750479122a7e7bf7ade" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a0bfd0d5615fb1750479122a7e7bf7ade" kindref="member">Calculate</ref>(params<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">[]<sp/>parameter)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_node.Calculate(parameter);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a0cf9f05b08b4bc223136512eac4dd319" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a0cf9f05b08b4bc223136512eac4dd319" kindref="member">ToEquation</ref>()<sp/>=&gt;<sp/><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a1d9f5a7337491f66d720cba7b234e507" kindref="member">MathNode</ref>.ToEquation()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>=<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a0bfd0d5615fb1750479122a7e7bf7ade" kindref="member">Calculate</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs"/>
+  </compounddef>
+</doxygen>
