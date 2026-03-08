@@ -5,6 +5,8 @@ namespace Baruah.MathsEngine
     [CreateAssetMenu(fileName = "MathFormula", menuName = "Baruah/MathsEngine/Maths Formula")]
     public class MathFormula : ScriptableObject
     {
+        public BaseMathNode MathNode => _node;
+        
         [SerializeField, SerializeReference]
         private BaseMathNode _node;
         

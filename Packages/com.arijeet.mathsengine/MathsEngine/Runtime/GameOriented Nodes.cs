@@ -15,6 +15,8 @@ namespace Baruah.MathsEngine.GameOriented
         {
             return _curve.Evaluate(_time.Calculate(parameter));
         }
+        
+        public override string ToEquation() => "AnimationCurve(" + _time.ToEquation() + ")";
     }
     
     [System.Serializable]
@@ -25,6 +27,8 @@ namespace Baruah.MathsEngine.GameOriented
         {
             return Time.time;
         }
+
+        public override string ToEquation() => "Time";
     }
     
     [System.Serializable]
@@ -35,7 +39,10 @@ namespace Baruah.MathsEngine.GameOriented
         {
             return Time.deltaTime;
         }
+        
+        public override string ToEquation() => "DeltaTime";
     }
+    
     [System.Serializable]
     [MathNodeCategory("Utility")]
     public class FixedDeltaTimeNode : BaseMathNode
@@ -44,6 +51,8 @@ namespace Baruah.MathsEngine.GameOriented
         {
             return Time.fixedDeltaTime;
         }
+        
+        public override string ToEquation() => "FixedDeltaTime";
     }
 
     [System.Serializable]
@@ -57,6 +66,8 @@ namespace Baruah.MathsEngine.GameOriented
         {
             return Mathf.PingPong(_t.Calculate(parameter), _length.Calculate(parameter));
         }
+        
+        public override string ToEquation() => "PingPong(" + _t.ToEquation() + "," + _length.ToEquation() + ")";
     }
     
     [System.Serializable]
@@ -71,6 +82,8 @@ namespace Baruah.MathsEngine.GameOriented
         {
             return Mathf.SmoothStep(_from.Calculate(parameter), _to.Calculate(parameter), _t.Calculate(parameter));
         }
+        
+        public override string ToEquation() => "SmoothStep(" + _from.ToEquation() + "," + _to.ToEquation() +  "," + _t.ToEquation() +")";
     }
     
     [System.Serializable]
@@ -85,6 +98,8 @@ namespace Baruah.MathsEngine.GameOriented
         {
             return Mathf.MoveTowards(_current.Calculate(parameter), _target.Calculate(parameter), _maxDelta.Calculate(parameter));
         }
+        
+        public override string ToEquation() => "MoveTowards(" + _current.ToEquation() + "," + _target.ToEquation() +  "," + _maxDelta.ToEquation() +")";
     }
     
     [System.Serializable]
@@ -98,6 +113,8 @@ namespace Baruah.MathsEngine.GameOriented
         {
             return Mathf.Min(_a.Calculate(parameter), _b.Calculate(parameter));
         }
+        
+        public override string ToEquation() => "Min(" + _a.ToEquation() + "," + _b.ToEquation() +")";
     }
     
     [System.Serializable]
@@ -111,5 +128,7 @@ namespace Baruah.MathsEngine.GameOriented
         {
             return Mathf.Max(_a.Calculate(parameter), _b.Calculate(parameter));
         }
+        
+        public override string ToEquation() => "Max(" + _a.ToEquation() + "," + _b.ToEquation() +")";
     }
 }

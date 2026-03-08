@@ -32,7 +32,40 @@ namespace Baruah.MathsEngine
 
             return result ? True.Calculate(parameter) : False.Calculate(parameter);
         }
-        
+
+        public override string ToEquation()
+        {
+            if (_entries == null || _entries.Length == 0)
+                return $"0 ? {True?.ToEquation() ?? "0"} : {False?.ToEquation() ?? "0"}";
+
+            System.Text.StringBuilder sb = new System.Text.StringBuilder();
+
+            sb.Append("(");
+
+            for (int i = 0; i < _entries.Length; i++)
+            {
+                var entry = _entries[i];
+
+                string a = entry.A?.ToEquation() ?? "0";
+                string b = entry.B?.ToEquation() ?? "0";
+                string comp = entry.Comparison?.Symbol ?? "?";
+
+                sb.Append($"{a} {comp} {b}");
+
+                if (entry.NextLogical != null)
+                {
+                    sb.Append($" {entry.NextLogical.Symbol} ");
+                }
+            }
+
+            sb.Append(")");
+
+            string trueEq = True?.ToEquation() ?? "0";
+            string falseEq = False?.ToEquation() ?? "0";
+
+            return $"{sb} ? {trueEq} : {falseEq}";
+        }
+
         private bool EvaluateEntry(ComparisonEntry entry, object[] parameter)
         {
             if (entry.Comparison == null)
@@ -60,6 +93,7 @@ namespace Baruah.MathsEngine
     public abstract class LogicalOperator
     {
         public abstract bool Check(bool A, bool B);
+        public abstract string Symbol { get; }
     }
 
     [System.Serializable]
@@ -69,6 +103,8 @@ namespace Baruah.MathsEngine
         {
             return A && B;
         }
+
+        public override string Symbol => " AND ";
     }
     
     [System.Serializable]
@@ -78,6 +114,8 @@ namespace Baruah.MathsEngine
         {
             return A || B;
         }
+        
+        public override string Symbol => " OR ";
     }
     
     [System.Serializable]
@@ -87,5 +125,7 @@ namespace Baruah.MathsEngine
         {
             return A ^ B;
         }
+        
+        public override string Symbol => " XOR ";
     }
 }

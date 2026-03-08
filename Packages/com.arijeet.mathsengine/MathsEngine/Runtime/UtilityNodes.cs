@@ -17,6 +17,8 @@ namespace Baruah.MathsEngine.Utility
         {
             return Mathf.Clamp(_value.Calculate(parameter), _min.Calculate(parameter), _max.Calculate(parameter));
         }
+        
+        public override string ToEquation() => "Clamp(" + _value.ToEquation() + "," + _min.ToEquation() + "," + _max.ToEquation() + ")";
     }
     
     [System.Serializable]
@@ -34,6 +36,8 @@ namespace Baruah.MathsEngine.Utility
         {
             return Mathf.Lerp(_a.Calculate(parameter), _b.Calculate(parameter), _t.Calculate(parameter));
         }
+        
+        public override string ToEquation() => "Lerp(" + _a.ToEquation() + "," + _b.ToEquation() + "," + _t.ToEquation() + ")";
     }
     
     [System.Serializable]
@@ -51,6 +55,9 @@ namespace Baruah.MathsEngine.Utility
         {
             return Mathf.InverseLerp(_a.Calculate(parameter), _b.Calculate(parameter), _t.Calculate(parameter));
         }
+        
+        public override string ToEquation() => "InverseLerp(" + _a.ToEquation() + "," + _b.ToEquation() + "," + _t.ToEquation() + ")";
+
     }
     
     [System.Serializable]
@@ -66,5 +73,8 @@ namespace Baruah.MathsEngine.Utility
         {
             return UnityEngine.Random.Range(_min.Calculate(parameter), _max.Calculate(parameter));
         }
+        
+        public override string ToEquation() => "Random(" + _min.ToEquation() + "," + _max.ToEquation() + ")";
+
     }
 }

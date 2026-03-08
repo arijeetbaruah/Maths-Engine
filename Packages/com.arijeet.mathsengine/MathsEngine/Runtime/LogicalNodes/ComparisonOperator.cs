@@ -6,6 +6,7 @@ namespace Baruah.MathsEngine
     public abstract class ComparisonOperator
     {
         public virtual bool Check(float a, float b) => false;
+        public abstract string Symbol { get; }
     }
 
     [System.Serializable]
@@ -15,6 +16,8 @@ namespace Baruah.MathsEngine
         {
             return a > b;
         }
+
+        public override string Symbol => ">";
     }
     
     [System.Serializable]
@@ -24,6 +27,8 @@ namespace Baruah.MathsEngine
         {
             return a < b;
         }
+        
+        public override string Symbol => "<";
     }
     
     [System.Serializable]
@@ -33,6 +38,8 @@ namespace Baruah.MathsEngine
         {
             return a >= b;
         }
+        
+        public override string Symbol => ">=";
     }
     
     [System.Serializable]
@@ -42,6 +49,8 @@ namespace Baruah.MathsEngine
         {
             return a <= b;
         }
+        
+        public override string Symbol => "<=";
     }
     
     [System.Serializable]
@@ -51,6 +60,8 @@ namespace Baruah.MathsEngine
         {
             return a == b;
         }
+        
+        public override string Symbol => "==";
     }
     
     [System.Serializable]
@@ -60,6 +71,8 @@ namespace Baruah.MathsEngine
         {
             return a != b;
         }
+        
+        public override string Symbol => "!=";
     }
     
     [System.Serializable]
@@ -71,5 +84,7 @@ namespace Baruah.MathsEngine
         {
             return Mathf.Abs(a - b) <= Tolerance;
         }
+        
+        public override string Symbol => "Approx";
     }
 }

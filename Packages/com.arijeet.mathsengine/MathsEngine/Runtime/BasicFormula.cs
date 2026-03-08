@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 namespace Baruah.MathsEngine.Arithmetic
@@ -19,6 +20,8 @@ namespace Baruah.MathsEngine.Arithmetic
             
             return ret;
         }
+
+        public override string ToEquation() => "(" + string.Join(" + ", _values.Select(v => v == null ? "?" : v.ToEquation())) + ")";
     }
     
     [System.Serializable]
@@ -38,6 +41,7 @@ namespace Baruah.MathsEngine.Arithmetic
             
             return ret;
         }
+        public override string ToEquation() => "(" + string.Join(" - ", _values.Select(v => v == null ? "?" : v.ToEquation())) + ")";
     }
     
     [System.Serializable]
@@ -61,6 +65,8 @@ namespace Baruah.MathsEngine.Arithmetic
             
             return ret;
         }
+        
+        public override string ToEquation() => "(" + string.Join(" * ", _values.Select(v => v == null ? "?" : v.ToEquation())) + ")";
     }
     
     [System.Serializable]
@@ -76,6 +82,8 @@ namespace Baruah.MathsEngine.Arithmetic
         {
             return _numerator.Calculate(parameter) / _denominator.Calculate(parameter);
         }
+        
+        public override string ToEquation() => "(" + _numerator.ToEquation() + " / " + _denominator.ToEquation() + ")";
     }
     
     [System.Serializable]
@@ -89,6 +97,8 @@ namespace Baruah.MathsEngine.Arithmetic
         {
             return _value;
         }
+        
+        public override string ToEquation() => _value.ToString();
     }
     
     [System.Serializable]
@@ -104,6 +114,8 @@ namespace Baruah.MathsEngine.Arithmetic
         {
             return _num1.Calculate(parameter) % _num2.Calculate(parameter);
         }
+        
+        public override string ToEquation() => "(" + _num1.ToEquation() + " % " + _num2.ToEquation() + ")";
     }
     
     [System.Serializable]
@@ -119,6 +131,9 @@ namespace Baruah.MathsEngine.Arithmetic
         {
             return Mathf.Pow(_num1.Calculate(parameter), _num2.Calculate(parameter));
         }
+        
+        public override string ToEquation() => "(" + _num1.ToEquation() + " ^ " + _num2.ToEquation() + ")";
+
     }
     
     [System.Serializable]
@@ -132,6 +147,9 @@ namespace Baruah.MathsEngine.Arithmetic
         {
             return Mathf.Abs(_num.Calculate(parameter));
         }
+        
+        public override string ToEquation() => "Abs(" + _num.ToEquation() + ")";
+
     }
     
     [System.Serializable]
@@ -145,5 +163,7 @@ namespace Baruah.MathsEngine.Arithmetic
         {
             return -_num.Calculate(parameter);
         }
+        
+        public override string ToEquation() => "-(" + _num.ToEquation() + ")";
     }
 }

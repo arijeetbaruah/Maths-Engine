@@ -4,5 +4,6 @@ namespace Baruah.MathsEngine
     public abstract class BaseMathNode
     {
         public abstract float Calculate(object[] parameter);
+        public abstract string ToEquation();
     }
 }

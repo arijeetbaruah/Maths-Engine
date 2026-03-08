@@ -14,6 +14,8 @@ namespace Baruah.MathsEngine.Trigonometry
         {
             return Mathf.Sin(_angle.Calculate(parameter));
         }
+        
+        public override string ToEquation() => "Sin(" + _angle.ToEquation() +")";
     }
     
     [System.Serializable]
@@ -27,6 +29,8 @@ namespace Baruah.MathsEngine.Trigonometry
         {
             return Mathf.Cos(_angle.Calculate(parameter));
         }
+        
+        public override string ToEquation() => "Cos(" + _angle.ToEquation() +")";
     }
     
     [System.Serializable]
@@ -40,6 +44,8 @@ namespace Baruah.MathsEngine.Trigonometry
         {
             return Mathf.Tan(_angle.Calculate(parameter));
         }
+
+        public override string ToEquation() => "Tan(" + _angle.ToEquation() +")";
     }
     
     [System.Serializable]
@@ -55,6 +61,8 @@ namespace Baruah.MathsEngine.Trigonometry
         {
             return Mathf.Atan2(_y.Calculate(parameter), _x.Calculate(parameter));
         }
+
+        public override string ToEquation() => "Atan2(" + _y.ToEquation() + " , " + _x.ToEquation() +")";
     }
     
     
@@ -66,6 +74,8 @@ namespace Baruah.MathsEngine.Trigonometry
         {
             return Mathf.Deg2Rad;
         }
+
+        public override string ToEquation() => "Deg2Rad";
     }
     
     [System.Serializable]
@@ -76,5 +86,7 @@ namespace Baruah.MathsEngine.Trigonometry
         {
             return Mathf.Rad2Deg;
         }
+        
+        public override string ToEquation() => "Rad2Deg";
     }
 }
