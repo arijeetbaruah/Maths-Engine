@@ -5,13 +5,17 @@ using UnityEngine;
 
 namespace Baruah.MathsEngine.Core
 {
+    /// <summary>
+    /// ScriptableObject to hold and access Maths Formula
+    /// </summary>
     [CreateAssetMenu(fileName = "MathFormula", menuName = "Baruah/MathsEngine/Maths Formula")]
     public class MathFormula : ScriptableObject
     {
         public BaseMathNode MathNode => _node;
      
+#if ODIN_INSPECTOR
         [InfoBox("@ToEquation()")]
-
+#endif
         [SerializeField, SerializeReference]
         private BaseMathNode _node;
         
@@ -26,9 +30,9 @@ namespace Baruah.MathsEngine.Core
         }
 
         /// <summary>
-/// Produce a single string that presents the node's equation followed by its evaluated numeric result.
-/// </summary>
-/// <returns>A string in the format "&lt;equation&gt; = &lt;value&gt;", where &lt;equation&gt; is the node's equation and &lt;value&gt; is the result of evaluating the formula.</returns>
-public string ToEquation() => MathNode.ToEquation() + " = " + Calculate();
+        /// Produce a single string that presents the node's equation followed by its evaluated numeric result.
+        /// </summary>
+        /// <returns>A string in the format "&lt;equation&gt; = &lt;value&gt;", where &lt;equation&gt; is the node's equation and &lt;value&gt; is the result of evaluating the formula.</returns>
+        public string ToEquation() => MathNode.ToEquation() + " = " + Calculate();
     }
 }

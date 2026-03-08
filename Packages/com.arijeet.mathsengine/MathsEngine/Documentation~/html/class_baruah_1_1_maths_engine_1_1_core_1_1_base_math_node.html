@@ -91,6 +91,9 @@ $(function(){initNavTree('class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_n
   <div class="headertitle"><div class="title">Baruah.MathsEngine.Core.BaseMathNode Class Reference<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Base class for all math nodes used in the formula engine.  
+ <a href="#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Baruah.MathsEngine.Core.BaseMathNode:</div>
 <div class="dyncontent">
@@ -100,9 +103,13 @@ Inheritance diagram for Baruah.MathsEngine.Core.BaseMathNode:</div>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af8358e38c50a568201d3d312aadc384e" id="r_af8358e38c50a568201d3d312aadc384e"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#af8358e38c50a568201d3d312aadc384e">Calculate</a> (object[] parameter)</td></tr>
+<tr class="memdesc:af8358e38c50a568201d3d312aadc384e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the value of this node.  <br /></td></tr>
 <tr class="memitem:ab1bd2760f568a20fa2b5244e26d5d280" id="r_ab1bd2760f568a20fa2b5244e26d5d280"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#ab1bd2760f568a20fa2b5244e26d5d280">ToEquation</a> ()</td></tr>
+<tr class="memdesc:ab1bd2760f568a20fa2b5244e26d5d280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by the tool to preview the equation.  <br /></td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Base class for all math nodes used in the formula engine. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="af8358e38c50a568201d3d312aadc384e" name="af8358e38c50a568201d3d312aadc384e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af8358e38c50a568201d3d312aadc384e">&#9670;&#160;</a></span>Calculate()</h2>
 
@@ -125,6 +132,15 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Calculates the value of this node. </p>
+<p>/// </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parameter</td><td>Runtime calculation context.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Computed value.</dd></dl>
 
 </div>
 </div>
@@ -150,6 +166,9 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Used by the tool to preview the equation. </p>
+<dl class="section return"><dt>Returns</dt><dd>equation in editor formmate</dd></dl>
 
 </div>
 </div>

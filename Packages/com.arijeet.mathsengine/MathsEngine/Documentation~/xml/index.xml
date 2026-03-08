@@ -133,8 +133,8 @@
     <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a0cf9f05b08b4bc223136512eac4dd319" kind="function"><name>ToEquation</name></member>
   </compound>
   <compound refid="class_baruah_1_1_maths_engine_1_1_attribute_1_1_math_node_category_attribute" kind="class"><name>Baruah::MathsEngine::Attribute::MathNodeCategoryAttribute</name>
-    <member refid="class_baruah_1_1_maths_engine_1_1_attribute_1_1_math_node_category_attribute_1aad00ecbfdb7dba4fda1d906b4a26a002" kind="variable"><name>Path</name></member>
-    <member refid="class_baruah_1_1_maths_engine_1_1_attribute_1_1_math_node_category_attribute_1a562d86636e56186542c3e24b36ade6c0" kind="function"><name>MathNodeCategoryAttribute</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_attribute_1_1_math_node_category_attribute_1a958cb2f8d5e2052fc803146f97839d26" kind="variable"><name>Category</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_attribute_1_1_math_node_category_attribute_1ab49ee344c50cf6002ed245c811eb6668" kind="function"><name>MathNodeCategoryAttribute</name></member>
   </compound>
   <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node" kind="class"><name>Baruah::MathsEngine::Formula::GameOriented::MaxNode</name>
     <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node_1a48bd1522cff8a104073039c3d86f8ed5" kind="variable"><name>_a</name></member>

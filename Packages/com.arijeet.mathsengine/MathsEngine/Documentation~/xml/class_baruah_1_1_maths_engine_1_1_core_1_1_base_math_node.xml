@@ -43,12 +43,25 @@
           <declname>parameter</declname>
         </param>
         <briefdescription>
+<para>Calculates the value of this node. </para>
         </briefdescription>
         <detaileddescription>
+<para>/// <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Runtime calculation context.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Computed value.</para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/BaseMathNode.cs" line="6" column="31"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/BaseMathNode.cs" line="14" column="31"/>
       </memberdef>
       <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node_1ab1bd2760f568a20fa2b5244e26d5d280" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>string</type>
@@ -57,15 +70,20 @@
         <name>ToEquation</name>
         <qualifiedname>Baruah.MathsEngine.Core.BaseMathNode.ToEquation</qualifiedname>
         <briefdescription>
+<para>Used by the tool to preview the equation. </para>
         </briefdescription>
         <detaileddescription>
+<para><simplesect kind="return"><para>equation in editor formmate</para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/BaseMathNode.cs" line="7" column="32"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/BaseMathNode.cs" line="19" column="32"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Base class for all math nodes used in the formula engine. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -249,7 +267,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/BaseMathNode.cs" line="4" column="21" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/BaseMathNode.cs" bodystart="5" bodyend="8"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/BaseMathNode.cs" line="7" column="21" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/BaseMathNode.cs" bodystart="8" bodyend="20"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node_1af8358e38c50a568201d3d312aadc384e" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Core::BaseMathNode</scope><name>Calculate</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node_1ab1bd2760f568a20fa2b5244e26d5d280" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Core::BaseMathNode</scope><name>ToEquation</name></member>
