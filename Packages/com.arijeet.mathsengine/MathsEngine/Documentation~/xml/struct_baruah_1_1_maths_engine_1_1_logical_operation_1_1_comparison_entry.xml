@@ -10,12 +10,13 @@
         <name>A</name>
         <qualifiedname>Baruah.MathsEngine.LogicalOperation.ComparisonEntry.A</qualifiedname>
         <briefdescription>
+<para>Left-hand operand node. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="101" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="101" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="152" column="29" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="152" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_baruah_1_1_maths_engine_1_1_logical_operation_1_1_comparison_entry_1ae100a7baa41873124cd05dc6216935b0" prot="public" static="no" mutable="no">
         <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
@@ -24,12 +25,13 @@
         <name>B</name>
         <qualifiedname>Baruah.MathsEngine.LogicalOperation.ComparisonEntry.B</qualifiedname>
         <briefdescription>
+<para>Right-hand operand node. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="102" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="102" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="158" column="29" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="158" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_baruah_1_1_maths_engine_1_1_logical_operation_1_1_comparison_entry_1a8928775d47e29be89761485fdb49a5cc" prot="public" static="no" mutable="no">
         <type><ref refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator" kindref="compound">ComparisonOperator</ref></type>
@@ -38,12 +40,13 @@
         <name>Comparison</name>
         <qualifiedname>Baruah.MathsEngine.LogicalOperation.ComparisonEntry.Comparison</qualifiedname>
         <briefdescription>
+<para>Comparison operator applied to the operands. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="104" column="36" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="104" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="164" column="35" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="164" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_baruah_1_1_maths_engine_1_1_logical_operation_1_1_comparison_entry_1a33465fe79e19ea05090eac26e226a874" prot="public" static="no" mutable="no">
         <type><ref refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_operator" kindref="compound">LogicalOperator</ref></type>
@@ -52,17 +55,20 @@
         <name>NextLogical</name>
         <qualifiedname>Baruah.MathsEngine.LogicalOperation.ComparisonEntry.NextLogical</qualifiedname>
         <briefdescription>
+<para>Logical operator used to combine this entry with the next one. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="106" column="33" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="106" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="170" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="170" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Represents a single comparison operation within a logical chain. </para>
     </briefdescription>
     <detaileddescription>
+<para>Each entry compares two math nodes using a <ref refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator" kindref="compound">ComparisonOperator</ref>. The result can optionally be combined with the next entry using a <ref refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_operator" kindref="compound">LogicalOperator</ref>. </para>
     </detaileddescription>
     <collaborationgraph>
       <node id="1">
@@ -92,7 +98,7 @@
         <link refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_operator"/>
       </node>
     </collaborationgraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="99" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="100" bodyend="107"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="146" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="147" bodyend="171"/>
     <listofallmembers>
       <member refid="struct_baruah_1_1_maths_engine_1_1_logical_operation_1_1_comparison_entry_1a12737fd406b548149d6905772cb1d21a" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::LogicalOperation::ComparisonEntry</scope><name>A</name></member>
       <member refid="struct_baruah_1_1_maths_engine_1_1_logical_operation_1_1_comparison_entry_1ae100a7baa41873124cd05dc6216935b0" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::LogicalOperation::ComparisonEntry</scope><name>B</name></member>

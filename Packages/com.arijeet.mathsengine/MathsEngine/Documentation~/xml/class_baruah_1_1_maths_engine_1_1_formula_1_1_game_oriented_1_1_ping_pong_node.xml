@@ -11,12 +11,13 @@
         <name>_t</name>
         <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.PingPongNode._t</qualifiedname>
         <briefdescription>
+<para>Input value controlling the ping-pong progression. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="64" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="64" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="142" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="142" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_ping_pong_node_1af9b4f4ddfdbc27e1129ce8a9ecb51701" prot="private" static="no" mutable="no">
         <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
@@ -25,12 +26,13 @@
         <name>_length</name>
         <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.PingPongNode._length</qualifiedname>
         <briefdescription>
+<para>Maximum value of the ping-pong range. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="65" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="65" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="148" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="148" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,12 +47,13 @@
           <declname>parameter</declname>
         </param>
         <briefdescription>
+<para>Calculates the ping-pong oscillation value. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="67" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="67" bodyend="70"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="153" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="153" bodyend="156"/>
       </memberdef>
       <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_ping_pong_node_1a99c60c8e0ec02e8b062b7088389aacfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -59,17 +62,20 @@
         <name>ToEquation</name>
         <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.PingPongNode.ToEquation</qualifiedname>
         <briefdescription>
+<para>Returns the equation representation. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="72" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="72" bodyend="72"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="161" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="161" bodyend="162"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Produces a repeating ping-pong value between 0 and a specified length. </para>
     </briefdescription>
     <detaileddescription>
+<para>Internally uses Mathf.PingPong. Useful for oscillating values such as procedural animations or looping gameplay effects. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -95,7 +101,7 @@
         <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
       </node>
     </collaborationgraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="62" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="63" bodyend="73"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="136" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="137" bodyend="163"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_ping_pong_node_1af9b4f4ddfdbc27e1129ce8a9ecb51701" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::GameOriented::PingPongNode</scope><name>_length</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_ping_pong_node_1ae82a18b35b43b769d6a15ab047d040be" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::GameOriented::PingPongNode</scope><name>_t</name></member>

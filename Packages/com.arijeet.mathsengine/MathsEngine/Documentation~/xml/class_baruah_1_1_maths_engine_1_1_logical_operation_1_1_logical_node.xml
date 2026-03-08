@@ -11,12 +11,13 @@
         <name>_entries</name>
         <qualifiedname>Baruah.MathsEngine.LogicalOperation.LogicalNode._entries</qualifiedname>
         <briefdescription>
+<para>Collection of comparison entries forming the logical condition chain. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="11" column="33" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="11" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="30" column="33" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_node_1a7ab63e345918da0c8c755e939a3212dd" prot="private" static="no" mutable="no">
         <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
@@ -25,12 +26,13 @@
         <name>True</name>
         <qualifiedname>Baruah.MathsEngine.LogicalOperation.LogicalNode.True</qualifiedname>
         <briefdescription>
+<para>Node evaluated when the logical condition resolves to true. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="13" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="13" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="36" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_node_1aa6e918cdaaef8ee494095678ec61c823" prot="private" static="no" mutable="no">
         <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
@@ -39,12 +41,13 @@
         <name>False</name>
         <qualifiedname>Baruah.MathsEngine.LogicalOperation.LogicalNode.False</qualifiedname>
         <briefdescription>
+<para>Node evaluated when the logical condition resolves to false. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="14" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="14" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="42" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="42" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -59,12 +62,25 @@
           <declname>parameter</declname>
         </param>
         <briefdescription>
+<para>Evaluates the logical comparison chain and returns the appropriate result node. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Runtime parameters passed to child nodes.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The calculated value from either the True or False branch.</para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="16" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="16" bodyend="36"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="49" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="49" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_node_1a3fd4bc43597e860a7f204b7eb8e03981" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -73,16 +89,20 @@
         <name>ToEquation</name>
         <qualifiedname>Baruah.MathsEngine.LogicalOperation.LogicalNode.ToEquation</qualifiedname>
         <briefdescription>
-<para>Builds a parenthesized ternary equation string representing this logical node and its comparison entries. </para>
+<para>Builds a parenthesized ternary equation string representing this logical node. </para>
         </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>A string containing a parenthesized ternary expression of the form &quot;(&lt;comparison-chain&gt; ? &lt;trueExpression&gt; : &lt;falseExpression&gt;)&quot;. Each comparison is rendered as &quot;A Symbol B&quot; and comparisons are joined using their logical operator symbols. Null child expressions or operators are rendered as &quot;0&quot; or &quot;?&quot; respectively. </para>
+<para>The generated equation follows this format:</para>
+<para><programlisting filename=".cs"><codeline><highlight class="normal">(A<sp/>&gt;<sp/>B<sp/>AND<sp/>C<sp/>&lt;<sp/>D<sp/>?<sp/>TrueValue<sp/>:<sp/>FalseValue)</highlight></codeline>
+</programlisting></para>
+<para>Null nodes are represented as <computeroutput>0</computeroutput> and missing operators as <computeroutput>?</computeroutput>. </para>
+<para><simplesect kind="return"><para>A human-readable equation representation of the logical node.</para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="47" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="47" bodyend="78"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="84" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="84" bodyend="115"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-func">
@@ -101,7 +121,7 @@
           <declname>parameter</declname>
         </param>
         <briefdescription>
-<para>Evaluates a single comparison entry using the provided runtime parameters. </para>
+<para>Evaluates a single comparison entry. </para>
         </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
@@ -109,7 +129,7 @@
 <parametername>entry</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>The comparison entry containing operands A and B, a Comparison operator, and an optional next logical operator.</para>
+<para>The comparison entry containing operands and comparison operator.</para>
 </parameterdescription>
 </parameteritem>
 <parameteritem>
@@ -117,22 +137,28 @@
 <parametername>parameter</parametername>
 </parameternamelist>
 <parameterdescription>
-<para>Runtime parameters forwarded to operand nodes&apos; Calculate methods.</para>
+<para>Runtime parameters forwarded to child nodes.</para>
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para><computeroutput>true</computeroutput> if the entry&apos;s Comparison holds for the evaluated operands; <computeroutput>false</computeroutput> if the Comparison is null or the check fails.</para>
+<simplesect kind="return"><para>True if the comparison evaluates successfully; otherwise false. </para>
 </simplesect>
 </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="86" column="22" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="86" bodyend="95"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="125" column="22" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="125" bodyend="134"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>A math node that evaluates a chain of comparison expressions and returns one of two values. </para>
     </briefdescription>
     <detaileddescription>
+<para>Each <ref refid="struct_baruah_1_1_maths_engine_1_1_logical_operation_1_1_comparison_entry" kindref="compound">ComparisonEntry</ref> evaluates a comparison between two math nodes. Entries can be chained together using logical operators such as AND, OR, or XOR.</para>
+<para>After the comparison chain is evaluated, the node behaves like a ternary expression:</para>
+<para><programlisting filename=".cs"><codeline><highlight class="normal">condition<sp/>?<sp/>True<sp/>:<sp/>False</highlight></codeline>
+</programlisting></para>
+<para>If the final result of the logical evaluation is true, the True node is evaluated and returned. Otherwise the False node is evaluated. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -158,7 +184,7 @@
         <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
       </node>
     </collaborationgraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="8" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="9" bodyend="96"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="24" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="25" bodyend="135"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_node_1a5a40a7768bff58a931c2696772f46c1d" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::LogicalOperation::LogicalNode</scope><name>_entries</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_node_1ab65e790c58ac17cc692ba5c2676b0c23" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::LogicalOperation::LogicalNode</scope><name>Calculate</name></member>

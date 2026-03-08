@@ -11,12 +11,13 @@
         <name>_curve</name>
         <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.AnimationCurveNode._curve</qualifiedname>
         <briefdescription>
+<para>The animation curve used to transform the input value. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="12" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="12" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="23" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_animation_curve_node_1ab49a2e9b188c4e0521c38e90ce17341b" prot="private" static="no" mutable="no">
         <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
@@ -25,12 +26,13 @@
         <name>_time</name>
         <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.AnimationCurveNode._time</qualifiedname>
         <briefdescription>
+<para>Node used to generate the input value (time) for the curve. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="14" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="14" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="29" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="29" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,12 +47,25 @@
           <declname>parameter</declname>
         </param>
         <briefdescription>
+<para>Evaluates the animation curve using the calculated input time. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Runtime parameters passed through the formula evaluation.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The value obtained from the animation curve.</para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="16" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="16" bodyend="19"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="36" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="36" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_animation_curve_node_1a0f5f31cee2693d19b42765397d4e6c9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -59,17 +74,20 @@
         <name>ToEquation</name>
         <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.AnimationCurveNode.ToEquation</qualifiedname>
         <briefdescription>
+<para>Returns the equation representation of the node. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="21" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="21" bodyend="21"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="44" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="44" bodyend="44"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Evaluates a Unity AnimationCurve using the value produced by a time node. </para>
     </briefdescription>
     <detaileddescription>
+<para>This node is useful for creating designer-friendly curves that control gameplay values such as damage scaling, movement acceleration, or animation blending. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -95,7 +113,7 @@
         <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
       </node>
     </collaborationgraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="9" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="10" bodyend="22"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="17" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="18" bodyend="45"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_animation_curve_node_1a5628a7016c325367deb815e509ed6407" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::GameOriented::AnimationCurveNode</scope><name>_curve</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_animation_curve_node_1ab49a2e9b188c4e0521c38e90ce17341b" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::GameOriented::AnimationCurveNode</scope><name>_time</name></member>

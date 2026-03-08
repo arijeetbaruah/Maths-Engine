@@ -18,6 +18,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathNodeCategoryAttribute.cs" line="14" column="23" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathNodeCategoryAttribute.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_baruah_1_1_maths_engine_1_1_attribute_1_1_math_node_category_attribute_1ab49ee344c50cf6002ed245c811eb6668" compoundref="_math_node_category_attribute_8cs" startline="16" endline="19">Baruah.MathsEngine.Attribute.MathNodeCategoryAttribute.MathNodeCategoryAttribute</referencedby>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">

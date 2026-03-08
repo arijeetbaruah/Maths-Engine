@@ -11,12 +11,13 @@
         <name>Symbol</name>
         <qualifiedname>Baruah.MathsEngine.ComparisonOperators.NotEqual.Symbol</qualifiedname>
         <briefdescription>
+<para>Operator symbol used in equations. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="75" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="75" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="159" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="159" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -36,15 +37,17 @@
           <declname>b</declname>
         </param>
         <briefdescription>
+<para>Returns true if the values are different. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="70" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="70" bodyend="73"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="151" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="151" bodyend="154"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Checks whether two values are not equal. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
@@ -72,7 +75,7 @@
         <link refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator"/>
       </node>
     </collaborationgraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="68" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="69" bodyend="76"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="146" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="147" bodyend="160"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_not_equal_1a6864acf4f2ca2c2975716b3072ee5cb0" prot="public" virt="virtual"><scope>Baruah::MathsEngine::ComparisonOperators::NotEqual</scope><name>Check</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_not_equal_1a6457cd9bd2b883709afaca35e2500524" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::ComparisonOperators::NotEqual</scope><name>Symbol</name></member>

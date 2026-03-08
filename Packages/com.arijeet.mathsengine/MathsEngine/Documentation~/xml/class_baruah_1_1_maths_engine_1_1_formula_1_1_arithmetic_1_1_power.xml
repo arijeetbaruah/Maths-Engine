@@ -11,12 +11,13 @@
         <name>_num1</name>
         <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.Power._num1</qualifiedname>
         <briefdescription>
+<para>Base value. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="131" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="131" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="261" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="261" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_power_1a5e53fc74e8d92208351be27e003a6de8" prot="private" static="no" mutable="no">
         <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
@@ -25,12 +26,13 @@
         <name>_num2</name>
         <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.Power._num2</qualifiedname>
         <briefdescription>
+<para>Exponent value. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="133" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="133" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="267" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="267" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -45,12 +47,13 @@
           <declname>parameter</declname>
         </param>
         <briefdescription>
+<para>Calculates the exponentiation result. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="135" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="135" bodyend="138"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="272" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="272" bodyend="275"/>
       </memberdef>
       <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_power_1a58ec1539397e391691357f43716df203" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -59,17 +62,20 @@
         <name>ToEquation</name>
         <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.Power.ToEquation</qualifiedname>
         <briefdescription>
+<para>Returns the equation representation. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="140" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="140" bodyend="140"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="280" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="280" bodyend="281"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Raises a value to the power of another value. </para>
     </briefdescription>
     <detaileddescription>
+<para>Uses Unity&apos;s Mathf.Pow internally. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -95,7 +101,7 @@
         <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
       </node>
     </collaborationgraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="128" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="129" bodyend="142"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="255" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="256" bodyend="282"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_power_1a71ef995cda4d09023f8ef014b60c6594" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Arithmetic::Power</scope><name>_num1</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_power_1a5e53fc74e8d92208351be27e003a6de8" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Arithmetic::Power</scope><name>_num2</name></member>

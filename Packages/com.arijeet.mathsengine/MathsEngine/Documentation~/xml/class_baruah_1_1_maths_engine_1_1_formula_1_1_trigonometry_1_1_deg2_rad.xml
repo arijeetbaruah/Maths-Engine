@@ -15,12 +15,13 @@
           <declname>parameter</declname>
         </param>
         <briefdescription>
+<para>Returns the degree-to-radian conversion constant. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="75" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="75" bodyend="78"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="159" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="159" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_deg2_rad_1acb2c5703e067e034d2649af44de07461" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -29,17 +30,20 @@
         <name>ToEquation</name>
         <qualifiedname>Baruah.MathsEngine.Formula.Trigonometry.Deg2Rad.ToEquation</qualifiedname>
         <briefdescription>
+<para>Returns the equation representation. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="80" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="80" bodyend="80"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="167" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="167" bodyend="167"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Constant value used to convert degrees to radians. </para>
     </briefdescription>
     <detaileddescription>
+<para>Equivalent to Mathf.Deg2Rad. Multiply a degree value by this constant to convert it to radians. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -65,7 +69,7 @@
         <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
       </node>
     </collaborationgraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="73" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="74" bodyend="81"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="154" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="155" bodyend="168"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_deg2_rad_1a47dd1090b97d652fb001df091df984b1" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Trigonometry::Deg2Rad</scope><name>Calculate</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_deg2_rad_1acb2c5703e067e034d2649af44de07461" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Trigonometry::Deg2Rad</scope><name>ToEquation</name></member>

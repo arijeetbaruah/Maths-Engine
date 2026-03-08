@@ -11,12 +11,13 @@
         <name>_angle</name>
         <qualifiedname>Baruah.MathsEngine.Formula.Trigonometry.Cos._angle</qualifiedname>
         <briefdescription>
+<para>Node that produces the angle value in radians. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="28" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="28" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="56" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="56" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -31,12 +32,13 @@
           <declname>parameter</declname>
         </param>
         <briefdescription>
+<para>Calculates the cosine of the evaluated angle. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="30" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="30" bodyend="33"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="61" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="61" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_cos_1a2150d20e7c50271c0d1ec1989c23cb2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -45,17 +47,20 @@
         <name>ToEquation</name>
         <qualifiedname>Baruah.MathsEngine.Formula.Trigonometry.Cos.ToEquation</qualifiedname>
         <briefdescription>
+<para>Returns the equation representation. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="35" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="35" bodyend="35"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="69" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="69" bodyend="69"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Calculates the cosine of an angle. </para>
     </briefdescription>
     <detaileddescription>
+<para>Uses Mathf.Cos internally. The input angle must be in radians. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -81,7 +86,7 @@
         <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
       </node>
     </collaborationgraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="25" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="26" bodyend="36"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" line="50" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Trigonometry.cs" bodystart="51" bodyend="70"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_cos_1a6dd6f6daa7fe25e01fd6801ee088f30c" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Trigonometry::Cos</scope><name>_angle</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_cos_1a6820a79ba9f0cd9c830dea76b92a63a2" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Trigonometry::Cos</scope><name>Calculate</name></member>

@@ -11,12 +11,13 @@
         <name>_values</name>
         <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.MultiplicationNode._values</qualifiedname>
         <briefdescription>
+<para>Nodes whose values will be multiplied. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="57" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="57" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="106" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="106" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -31,12 +32,25 @@
           <declname>parameter</declname>
         </param>
         <briefdescription>
+<para>Calculates the product of all child nodes. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Runtime parameters passed to child nodes.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The multiplication result.</para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="59" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="59" bodyend="72"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="113" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="113" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node_1ac7fcd8ffeef1d75e72b36d03ac079af8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -45,17 +59,20 @@
         <name>ToEquation</name>
         <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.MultiplicationNode.ToEquation</qualifiedname>
         <briefdescription>
+<para>Returns the equation representation of the multiplication. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="74" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="74" bodyend="74"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="133" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="133" bodyend="134"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>A math node that multiplies multiple child nodes together. </para>
     </briefdescription>
     <detaileddescription>
+<para>If any node evaluates to zero the calculation exits early since the result must be zero. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -81,7 +98,7 @@
         <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
       </node>
     </collaborationgraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="54" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="55" bodyend="75"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="100" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="101" bodyend="135"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node_1a3a1a83606b49788c03046cbb7322cedc" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Arithmetic::MultiplicationNode</scope><name>_values</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node_1afaf9c5ecb5d170ba44cfc521c9963909" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Arithmetic::MultiplicationNode</scope><name>Calculate</name></member>

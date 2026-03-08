@@ -91,21 +91,39 @@ $(function(){initNavTree('class_baruah_1_1_maths_engine_1_1_comparison_operators
   <div class="headertitle"><div class="title">Baruah.MathsEngine.ComparisonOperators.ComparisonOperator Class Reference<span class="mlabels"><span class="mlabel abstract">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Base class for all comparison operators used in the math engine.  
+ <a href="#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Baruah.MathsEngine.ComparisonOperators.ComparisonOperator:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator__inherit__graph.png" border="0" usemap="#a_baruah_8_maths_engine_8_comparison_operators_8_comparison_operator_inherit__map" loading="lazy" alt="Inheritance graph"/></div>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+ <div class="center">
+  <img src="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator.png" usemap="#Baruah_2EMathsEngine_2EComparisonOperators_2EComparisonOperator_map" alt=""/>
+  <map id="Baruah_2EMathsEngine_2EComparisonOperators_2EComparisonOperator_map" name="Baruah_2EMathsEngine_2EComparisonOperators_2EComparisonOperator_map">
+<area href="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_approximately.html" title="Checks whether two values are approximately equal within a tolerance." alt="Baruah.MathsEngine.ComparisonOperators.Approximately" shape="rect" coords="0,56,380,80"/>
+<area href="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_equal.html" title="Checks whether two values are exactly equal." alt="Baruah.MathsEngine.ComparisonOperators.Equal" shape="rect" coords="390,56,770,80"/>
+<area href="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_greater.html" title="Checks whether the first value is greater than the second." alt="Baruah.MathsEngine.ComparisonOperators.Greater" shape="rect" coords="780,56,1160,80"/>
+<area href="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_greater_or_equal.html" title="Checks whether the first value is greater than or equal to the second." alt="Baruah.MathsEngine.ComparisonOperators.GreaterOrEqual" shape="rect" coords="1170,56,1550,80"/>
+<area href="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_less.html" title="Checks whether the first value is less than the second." alt="Baruah.MathsEngine.ComparisonOperators.Less" shape="rect" coords="1560,56,1940,80"/>
+<area href="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_less_or_equal.html" title="Checks whether the first value is less than or equal to the second." alt="Baruah.MathsEngine.ComparisonOperators.LessOrEqual" shape="rect" coords="1950,56,2330,80"/>
+<area href="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_not_equal.html" title="Checks whether two values are not equal." alt="Baruah.MathsEngine.ComparisonOperators.NotEqual" shape="rect" coords="2340,56,2720,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3c4d36bcdd7b66c34ecfbaab67d32cb7" id="r_a3c4d36bcdd7b66c34ecfbaab67d32cb7"><td class="memItemLeft">virtual bool&#160;</td><td class="memItemRight"><a class="el" href="#a3c4d36bcdd7b66c34ecfbaab67d32cb7">Check</a> (float a, float b)</td></tr>
+<tr class="memdesc:a3c4d36bcdd7b66c34ecfbaab67d32cb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluates the comparison between two values.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:add13313b5a84df1c01d5a0a70c622245" id="r_add13313b5a84df1c01d5a0a70c622245"><td class="memItemLeft">string&#160;</td><td class="memItemRight"><a class="el" href="#add13313b5a84df1c01d5a0a70c622245">Symbol</a><code> [get]</code></td></tr>
+<tr class="memdesc:add13313b5a84df1c01d5a0a70c622245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Symbol representing the operator in equation form.  <br /></td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Base class for all comparison operators used in the math engine. </p>
+<p>Comparison operators evaluate two floating point values and return a boolean result indicating whether the comparison condition is met. These operators are typically used by logical or conditional nodes inside the formula graph. </p>
+</div><a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
 <a id="a3c4d36bcdd7b66c34ecfbaab67d32cb7" name="a3c4d36bcdd7b66c34ecfbaab67d32cb7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c4d36bcdd7b66c34ecfbaab67d32cb7">&#9670;&#160;</a></span>Check()</h2>
 
@@ -133,6 +151,16 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Evaluates the comparison between two values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>Left-hand operand.</td></tr>
+    <tr><td class="paramname">b</td><td>Right-hand operand.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the comparison condition is satisfied.</dd></dl>
+
 <p>Reimplemented in <a class="el" href="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_approximately.html#a424d126fc0690a64ffe9bd4fa4ddf484">Baruah.MathsEngine.ComparisonOperators.Approximately</a>, <a class="el" href="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_equal.html#a0730fe995b8cec41147c2624f057730a">Baruah.MathsEngine.ComparisonOperators.Equal</a>, <a class="el" href="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_greater.html#aaca87a5dbecd62a02052246d48e393d4">Baruah.MathsEngine.ComparisonOperators.Greater</a>, <a class="el" href="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_greater_or_equal.html#a71bfd3d9fd486e9a30c39bea209df9b4">Baruah.MathsEngine.ComparisonOperators.GreaterOrEqual</a>, <a class="el" href="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_less.html#a11bde133a0db6d76548df5dc1b9bed38">Baruah.MathsEngine.ComparisonOperators.Less</a>, <a class="el" href="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_less_or_equal.html#a9de10b5d558728fde08f7651ac1b019b">Baruah.MathsEngine.ComparisonOperators.LessOrEqual</a>, and <a class="el" href="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_not_equal.html#a6864acf4f2ca2c2975716b3072ee5cb0">Baruah.MathsEngine.ComparisonOperators.NotEqual</a>.</p>
 
 </div>
@@ -157,6 +185,8 @@ Properties</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Symbol representing the operator in equation form. </p>
 
 </div>
 </div>

@@ -11,12 +11,13 @@
         <name>_num</name>
         <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.Negate._num</qualifiedname>
         <briefdescription>
+<para>Input node whose value will be negated. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="165" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="165" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="331" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="331" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -31,12 +32,13 @@
           <declname>parameter</declname>
         </param>
         <briefdescription>
+<para>Calculates the negated value. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="167" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="167" bodyend="170"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="336" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="336" bodyend="339"/>
       </memberdef>
       <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_negate_1a74e1f0941b8517c4c3e669bd9c268450" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -45,17 +47,20 @@
         <name>ToEquation</name>
         <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.Negate.ToEquation</qualifiedname>
         <briefdescription>
+<para>Returns the equation representation. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="172" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="172" bodyend="172"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="344" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="344" bodyend="345"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Negates a numeric value. </para>
     </briefdescription>
     <detaileddescription>
+<para>Converts a value into its negative equivalent. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -81,7 +86,7 @@
         <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
       </node>
     </collaborationgraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="162" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="163" bodyend="173"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="325" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="326" bodyend="346"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_negate_1a058dd7a5643f994a8eefaeb4e02e282f" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Arithmetic::Negate</scope><name>_num</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_negate_1aef9904697f56eb34f53d7e6b948d8921" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Arithmetic::Negate</scope><name>Calculate</name></member>

@@ -11,12 +11,13 @@
         <name>_from</name>
         <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.SmoothStepNode._from</qualifiedname>
         <briefdescription>
+<para>Starting value. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="79" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="79" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="181" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="181" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_smooth_step_node_1aedfe6852c83f2fe1a322ac225ea984d7" prot="private" static="no" mutable="no">
         <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
@@ -25,12 +26,13 @@
         <name>_to</name>
         <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.SmoothStepNode._to</qualifiedname>
         <briefdescription>
+<para>Ending value. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="80" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="80" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="187" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="187" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_smooth_step_node_1a542e54afd2270532d908cde032aad7f2" prot="private" static="no" mutable="no">
         <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
@@ -39,12 +41,13 @@
         <name>_t</name>
         <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.SmoothStepNode._t</qualifiedname>
         <briefdescription>
+<para>Interpolation parameter. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="81" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="81" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="193" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="193" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -59,12 +62,13 @@
           <declname>parameter</declname>
         </param>
         <briefdescription>
+<para>Calculates the smooth interpolation result. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="83" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="83" bodyend="86"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="198" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="198" bodyend="204"/>
       </memberdef>
       <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_smooth_step_node_1afef283e6c9c768c3c8edf01f6caafc73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -73,17 +77,20 @@
         <name>ToEquation</name>
         <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.SmoothStepNode.ToEquation</qualifiedname>
         <briefdescription>
+<para>Returns the equation representation. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="88" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="88" bodyend="88"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="209" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="209" bodyend="210"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Performs smooth interpolation between two values. </para>
     </briefdescription>
     <detaileddescription>
+<para>Uses Mathf.SmoothStep to interpolate between the start and end values with smooth easing. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -109,7 +116,7 @@
         <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
       </node>
     </collaborationgraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="77" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="78" bodyend="89"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="175" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="176" bodyend="211"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_smooth_step_node_1a3ea01f25dc786bce3691fa44f834732d" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::GameOriented::SmoothStepNode</scope><name>_from</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_smooth_step_node_1a542e54afd2270532d908cde032aad7f2" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::GameOriented::SmoothStepNode</scope><name>_t</name></member>

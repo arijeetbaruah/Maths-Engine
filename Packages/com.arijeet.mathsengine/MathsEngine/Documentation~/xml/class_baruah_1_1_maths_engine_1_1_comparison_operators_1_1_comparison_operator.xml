@@ -17,12 +17,13 @@
         <name>Symbol</name>
         <qualifiedname>Baruah.MathsEngine.ComparisonOperators.ComparisonOperator.Symbol</qualifiedname>
         <briefdescription>
+<para>Symbol representing the operator in equation form. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="9" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="9" bodyend="9"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="28" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="28" bodyend="28"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -48,17 +49,40 @@
           <declname>b</declname>
         </param>
         <briefdescription>
+<para>Evaluates the comparison between two values. </para>
         </briefdescription>
         <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Left-hand operand.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Right-hand operand.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the comparison condition is satisfied.</para>
+</simplesect>
+</para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="8" column="29" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="8" bodyend="8"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="23" column="29" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="23" bodyend="23"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Base class for all comparison operators used in the math engine. </para>
     </briefdescription>
     <detaileddescription>
+<para>Comparison operators evaluate two floating point values and return a boolean result indicating whether the comparison condition is met. These operators are typically used by logical or conditional nodes inside the formula graph. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -108,7 +132,7 @@
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="6" column="21" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="7" bodyend="10"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="15" column="21" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="16" bodyend="29"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator_1a3c4d36bcdd7b66c34ecfbaab67d32cb7" prot="public" virt="virtual"><scope>Baruah::MathsEngine::ComparisonOperators::ComparisonOperator</scope><name>Check</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator_1add13313b5a84df1c01d5a0a70c622245" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::ComparisonOperators::ComparisonOperator</scope><name>Symbol</name></member>

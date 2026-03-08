@@ -11,12 +11,13 @@
         <name>Symbol</name>
         <qualifiedname>Baruah.MathsEngine.ComparisonOperators.Equal.Symbol</qualifiedname>
         <briefdescription>
+<para>Operator symbol used in equations. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="64" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="64" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="138" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="138" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -36,17 +37,20 @@
           <declname>b</declname>
         </param>
         <briefdescription>
+<para>Returns true if the values are exactly equal. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="59" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="59" bodyend="62"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="130" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="130" bodyend="133"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Checks whether two values are exactly equal. </para>
     </briefdescription>
     <detaileddescription>
+<para>Floating point equality comparisons can be unreliable due to precision limitations. For approximate comparisons consider using <ref refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_approximately" kindref="compound">Approximately</ref>. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -72,7 +76,7 @@
         <link refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator"/>
       </node>
     </collaborationgraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="57" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="58" bodyend="65"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="125" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="126" bodyend="139"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_equal_1a0730fe995b8cec41147c2624f057730a" prot="public" virt="virtual"><scope>Baruah::MathsEngine::ComparisonOperators::Equal</scope><name>Check</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_equal_1ada675079a6620aac9d12a0df0b2c6552" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::ComparisonOperators::Equal</scope><name>Symbol</name></member>

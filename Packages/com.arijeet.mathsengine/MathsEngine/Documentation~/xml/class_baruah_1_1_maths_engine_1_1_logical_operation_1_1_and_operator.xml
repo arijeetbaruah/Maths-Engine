@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="124" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="124" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="204" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="204" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -40,12 +40,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="119" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="119" bodyend="122"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="199" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="199" bodyend="202"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Logical AND operator. </para>
     </briefdescription>
     <detaileddescription>
+<para>Returns true only if both operands are true. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -71,7 +73,7 @@
         <link refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_operator"/>
       </node>
     </collaborationgraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="117" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="118" bodyend="125"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="197" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="198" bodyend="205"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_and_operator_1a2ab17c2367967fa2eeda56bb2ca2bcb9" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::LogicalOperation::AndOperator</scope><name>Check</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_and_operator_1a81dc60ed83554716361bbe3f2cf00a4d" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::LogicalOperation::AndOperator</scope><name>Symbol</name></member>

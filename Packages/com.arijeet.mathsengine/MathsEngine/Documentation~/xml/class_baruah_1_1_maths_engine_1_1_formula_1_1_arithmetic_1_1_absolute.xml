@@ -11,12 +11,13 @@
         <name>_num</name>
         <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.Absolute._num</qualifiedname>
         <briefdescription>
+<para>Input node whose value will be converted to absolute. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="149" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="149" bodyend="-1"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="299" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="299" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -31,12 +32,13 @@
           <declname>parameter</declname>
         </param>
         <briefdescription>
+<para>Calculates the absolute value. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="151" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="151" bodyend="154"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="304" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="304" bodyend="307"/>
       </memberdef>
       <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_absolute_1ac55fe7326a78c7af3d65db5b6a180968" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>override string</type>
@@ -45,17 +47,20 @@
         <name>ToEquation</name>
         <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.Absolute.ToEquation</qualifiedname>
         <briefdescription>
+<para>Returns the equation representation. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="156" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="156" bodyend="156"/>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="312" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="312" bodyend="313"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>Returns the absolute value of a number. </para>
     </briefdescription>
     <detaileddescription>
+<para>Converts negative numbers into their positive equivalent. </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -81,7 +86,7 @@
         <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
       </node>
     </collaborationgraph>
-    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="146" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="147" bodyend="158"/>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="293" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="294" bodyend="314"/>
     <listofallmembers>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_absolute_1a244090ee7e22bd9217de473a6196cccc" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Arithmetic::Absolute</scope><name>_num</name></member>
       <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_absolute_1adb328c954ab79d50804137c3a92c5981" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Arithmetic::Absolute</scope><name>Calculate</name></member>

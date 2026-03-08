@@ -17,6 +17,7 @@
         <inbodydescription>
         </inbodydescription>
         <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" line="14" column="29" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a0cf9f05b08b4bc223136512eac4dd319" compoundref="_math_formula_8cs" startline="36" endline="36">Baruah.MathsEngine.Core.MathFormula.ToEquation</referencedby>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-attrib">
