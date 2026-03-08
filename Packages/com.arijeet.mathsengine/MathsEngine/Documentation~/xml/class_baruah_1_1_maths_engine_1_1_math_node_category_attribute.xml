@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="class_baruah_1_1_maths_engine_1_1_math_node_category_attribute" kind="class" language="C#" prot="public">
+    <compoundname>Baruah::MathsEngine::MathNodeCategoryAttribute</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Attribute</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_math_node_category_attribute_1a0300f19f05a21f56ab63197dca75377e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Baruah.MathsEngine.MathNodeCategoryAttribute.Path</definition>
+        <argsstring></argsstring>
+        <name>Path</name>
+        <qualifiedname>Baruah.MathsEngine.MathNodeCategoryAttribute.Path</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathNodeCategoryAttribute.cs" line="8" column="23" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathNodeCategoryAttribute.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_math_node_category_attribute_1af9212c8e7037af7ee3031cd1519860b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Baruah.MathsEngine.MathNodeCategoryAttribute.MathNodeCategoryAttribute</definition>
+        <argsstring>(string path)</argsstring>
+        <name>MathNodeCategoryAttribute</name>
+        <qualifiedname>Baruah.MathsEngine.MathNodeCategoryAttribute.MathNodeCategoryAttribute</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathNodeCategoryAttribute.cs" line="9" column="16" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathNodeCategoryAttribute.cs" bodystart="9" bodyend="12"/>
+        <references refid="class_baruah_1_1_maths_engine_1_1_math_node_category_attribute_1a0300f19f05a21f56ab63197dca75377e" compoundref="_math_node_category_attribute_8cs" startline="8">Baruah.MathsEngine.MathNodeCategoryAttribute.Path</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>Baruah.MathsEngine.MathNodeCategoryAttribute</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_math_node_category_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Attribute</label>
+      </node>
+      <node id="1">
+        <label>Baruah.MathsEngine.MathNodeCategoryAttribute</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_math_node_category_attribute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathNodeCategoryAttribute.cs" line="6" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathNodeCategoryAttribute.cs" bodystart="7" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_baruah_1_1_maths_engine_1_1_math_node_category_attribute_1af9212c8e7037af7ee3031cd1519860b8" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::MathNodeCategoryAttribute</scope><name>MathNodeCategoryAttribute</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_math_node_category_attribute_1a0300f19f05a21f56ab63197dca75377e" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::MathNodeCategoryAttribute</scope><name>Path</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

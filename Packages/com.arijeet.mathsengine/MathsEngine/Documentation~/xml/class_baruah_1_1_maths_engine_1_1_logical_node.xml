@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="class_baruah_1_1_maths_engine_1_1_logical_node" kind="class" language="C#" prot="public">
+    <compoundname>Baruah::MathsEngine::LogicalNode</compoundname>
+    <basecompoundref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" prot="public" virt="non-virtual">Baruah.MathsEngine.BaseMathNode</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_logical_node_1a3e304e54ca881411ed711a2995d16a81" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_baruah_1_1_maths_engine_1_1_comparison_entry" kindref="compound">ComparisonEntry</ref>[]</type>
+        <definition>ComparisonEntry [] Baruah.MathsEngine.LogicalNode._entries</definition>
+        <argsstring></argsstring>
+        <name>_entries</name>
+        <qualifiedname>Baruah.MathsEngine.LogicalNode._entries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="9" column="33" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_logical_node_1a0fcd44b5db2ee4ec21b4386871ce3e13" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.LogicalNode.True</definition>
+        <argsstring></argsstring>
+        <name>True</name>
+        <qualifiedname>Baruah.MathsEngine.LogicalNode.True</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="11" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_logical_node_1aa3f35269cc320230d0adaa269e63bb8a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.LogicalNode.False</definition>
+        <argsstring></argsstring>
+        <name>False</name>
+        <qualifiedname>Baruah.MathsEngine.LogicalNode.False</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="12" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_logical_node_1a0e7d3739ff8e9b53e43a0f970b4013f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float Baruah.MathsEngine.LogicalNode.Calculate</definition>
+        <argsstring>(object[] parameter)</argsstring>
+        <name>Calculate</name>
+        <qualifiedname>Baruah.MathsEngine.LogicalNode.Calculate</qualifiedname>
+        <param>
+          <type>object[]</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="14" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="14" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_logical_node_1a550f5e8c94e31b1ac83408e13cab7a1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Baruah.MathsEngine.LogicalNode.ToEquation</definition>
+        <argsstring>()</argsstring>
+        <name>ToEquation</name>
+        <qualifiedname>Baruah.MathsEngine.LogicalNode.ToEquation</qualifiedname>
+        <briefdescription>
+<para>Builds a parenthesized ternary equation string representing this logical node and its comparison entries. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A string containing a parenthesized ternary expression of the form &quot;(&lt;comparison-chain&gt; ? &lt;trueExpression&gt; : &lt;falseExpression&gt;)&quot;. Each comparison is rendered as &quot;A Symbol B&quot; and comparisons are joined using their logical operator symbols. Null child expressions or operators are rendered as &quot;0&quot; or &quot;?&quot; respectively. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="45" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="45" bodyend="76"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_logical_node_1ae00d5eae4ddf9513690aabcbb824adf3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Baruah.MathsEngine.LogicalNode.EvaluateEntry</definition>
+        <argsstring>(ComparisonEntry entry, object[] parameter)</argsstring>
+        <name>EvaluateEntry</name>
+        <qualifiedname>Baruah.MathsEngine.LogicalNode.EvaluateEntry</qualifiedname>
+        <param>
+          <type><ref refid="struct_baruah_1_1_maths_engine_1_1_comparison_entry" kindref="compound">ComparisonEntry</ref></type>
+          <declname>entry</declname>
+        </param>
+        <param>
+          <type>object[]</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Evaluates a single comparison entry using the provided runtime parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>entry</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The comparison entry containing operands A and B, a Comparison operator, and an optional next logical operator.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Runtime parameters forwarded to operand nodes&apos; Calculate methods.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><computeroutput>true</computeroutput> if the entry&apos;s Comparison holds for the evaluated operands; <computeroutput>false</computeroutput> if the Comparison is null or the check fails.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="84" column="22" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="84" bodyend="93"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.LogicalNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_logical_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_base_math_node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.LogicalNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_logical_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_base_math_node"/>
+      </node>
+    </collaborationgraph>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="6" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" bodystart="7" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_baruah_1_1_maths_engine_1_1_logical_node_1a3e304e54ca881411ed711a2995d16a81" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::LogicalNode</scope><name>_entries</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_logical_node_1a0e7d3739ff8e9b53e43a0f970b4013f0" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::LogicalNode</scope><name>Calculate</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_logical_node_1ae00d5eae4ddf9513690aabcbb824adf3" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::LogicalNode</scope><name>EvaluateEntry</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_logical_node_1aa3f35269cc320230d0adaa269e63bb8a" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::LogicalNode</scope><name>False</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_logical_node_1a550f5e8c94e31b1ac83408e13cab7a1d" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::LogicalNode</scope><name>ToEquation</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_logical_node_1a0fcd44b5db2ee4ec21b4386871ce3e13" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::LogicalNode</scope><name>True</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

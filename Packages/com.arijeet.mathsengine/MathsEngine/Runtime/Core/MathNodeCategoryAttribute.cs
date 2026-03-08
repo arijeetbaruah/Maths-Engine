@@ -1,9 +1,9 @@
 using System;
 
-namespace Baruah.MathsEngine
+namespace Baruah.MathsEngine.Attribute
 {
     [AttributeUsage(AttributeTargets.Class)]
-    public class MathNodeCategoryAttribute : Attribute
+    public class MathNodeCategoryAttribute : System.Attribute
     {
         public string Path;
         public MathNodeCategoryAttribute(string path)

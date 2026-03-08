@@ -1,6 +1,8 @@
+using Baruah.MathsEngine.Attribute;
+using Baruah.MathsEngine.Core;
 using UnityEngine;
 
-namespace Baruah.MathsEngine.Utility
+namespace Baruah.MathsEngine.Formula.Utility
 {
     [System.Serializable]
     [MathNodeCategory("Utility/Range")]

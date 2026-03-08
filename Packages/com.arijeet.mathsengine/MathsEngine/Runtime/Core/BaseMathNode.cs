@@ -1,4 +1,4 @@
-namespace Baruah.MathsEngine
+namespace Baruah.MathsEngine.Core
 {
     [System.Serializable]
     public abstract class BaseMathNode

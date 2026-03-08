@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.16.1" xml:lang="en-US">
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_absolute" kind="class"><name>Baruah::MathsEngine::Formula::Arithmetic::Absolute</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_absolute_1a244090ee7e22bd9217de473a6196cccc" kind="variable"><name>_num</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_absolute_1adb328c954ab79d50804137c3a92c5981" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_absolute_1ac55fe7326a78c7af3d65db5b6a180968" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_addition_node" kind="class"><name>Baruah::MathsEngine::Formula::Arithmetic::AdditionNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_addition_node_1afbddc806f32fe4d63396d2b2cc3ca8f8" kind="variable"><name>_values</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_addition_node_1a94a6adf3e885ef5791e116ea8cf24b6c" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_addition_node_1aaba010ef1b9e86e65aa6060b6d9199c3" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_and_operator" kind="class"><name>Baruah::MathsEngine::LogicalOperation::AndOperator</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_and_operator_1a81dc60ed83554716361bbe3f2cf00a4d" kind="property"><name>Symbol</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_and_operator_1a2ab17c2367967fa2eeda56bb2ca2bcb9" kind="function"><name>Check</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_animation_curve_node" kind="class"><name>Baruah::MathsEngine::Formula::GameOriented::AnimationCurveNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_animation_curve_node_1a5628a7016c325367deb815e509ed6407" kind="variable"><name>_curve</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_animation_curve_node_1ab49a2e9b188c4e0521c38e90ce17341b" kind="variable"><name>_time</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_animation_curve_node_1abc9153a3d14cc9ca5b07a4e9aa6e23ed" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_animation_curve_node_1a0f5f31cee2693d19b42765397d4e6c9d" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_approximately" kind="class"><name>Baruah::MathsEngine::ComparisonOperators::Approximately</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_approximately_1a1b6bbefef3dbd37bea2ffc25826ab618" kind="variable"><name>Tolerance</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_approximately_1aaa0a4c68950c34a4e02faabc10928c6d" kind="property"><name>Symbol</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_approximately_1a424d126fc0690a64ffe9bd4fa4ddf484" kind="function"><name>Check</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_atan2" kind="class"><name>Baruah::MathsEngine::Formula::Trigonometry::Atan2</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_atan2_1a6af4d46c114da2fd635383004ca0fe2f" kind="variable"><name>_y</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_atan2_1a00ccaadf17f8a899f6df84f38041634f" kind="variable"><name>_x</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_atan2_1a92cf4b5a646997ba7df8c4fd3f0dd193" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_atan2_1a35bb26df318c8313c38e2b54f2a50ca1" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kind="class"><name>Baruah::MathsEngine::Core::BaseMathNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node_1af8358e38c50a568201d3d312aadc384e" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node_1ab1bd2760f568a20fa2b5244e26d5d280" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_clamp" kind="class"><name>Baruah::MathsEngine::Formula::Utility::Clamp</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_clamp_1a70add300101e447d7ad7ce799f7b5a70" kind="variable"><name>_value</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_clamp_1a875e97ad1c3c7a3998de7db6ddb346da" kind="variable"><name>_min</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_clamp_1a05a0ec8f3374dac5c8f77131a6c2cc15" kind="variable"><name>_max</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_clamp_1a94ff2ecfcd86a9f311e0a1715cfd6aef" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_clamp_1a80015acf1b4c576e2897d2bd537a5f27" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="struct_baruah_1_1_maths_engine_1_1_logical_operation_1_1_comparison_entry" kind="struct"><name>Baruah::MathsEngine::LogicalOperation::ComparisonEntry</name>
+    <member refid="struct_baruah_1_1_maths_engine_1_1_logical_operation_1_1_comparison_entry_1a12737fd406b548149d6905772cb1d21a" kind="variable"><name>A</name></member>
+    <member refid="struct_baruah_1_1_maths_engine_1_1_logical_operation_1_1_comparison_entry_1ae100a7baa41873124cd05dc6216935b0" kind="variable"><name>B</name></member>
+    <member refid="struct_baruah_1_1_maths_engine_1_1_logical_operation_1_1_comparison_entry_1a8928775d47e29be89761485fdb49a5cc" kind="variable"><name>Comparison</name></member>
+    <member refid="struct_baruah_1_1_maths_engine_1_1_logical_operation_1_1_comparison_entry_1a33465fe79e19ea05090eac26e226a874" kind="variable"><name>NextLogical</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator" kind="class"><name>Baruah::MathsEngine::ComparisonOperators::ComparisonOperator</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator_1add13313b5a84df1c01d5a0a70c622245" kind="property"><name>Symbol</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator_1a3c4d36bcdd7b66c34ecfbaab67d32cb7" kind="function"><name>Check</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_constant_node" kind="class"><name>Baruah::MathsEngine::Formula::Arithmetic::ConstantNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_constant_node_1a9406315c16292d225895f948270d97dd" kind="variable"><name>_value</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_constant_node_1a431819451cc7dd31fd54ea5b224b160a" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_constant_node_1a9bac07286cd649a2b9a2097a6f9c88e8" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_cos" kind="class"><name>Baruah::MathsEngine::Formula::Trigonometry::Cos</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_cos_1a6dd6f6daa7fe25e01fd6801ee088f30c" kind="variable"><name>_angle</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_cos_1a6820a79ba9f0cd9c830dea76b92a63a2" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_cos_1a2150d20e7c50271c0d1ec1989c23cb2c" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_deg2_rad" kind="class"><name>Baruah::MathsEngine::Formula::Trigonometry::Deg2Rad</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_deg2_rad_1a47dd1090b97d652fb001df091df984b1" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_deg2_rad_1acb2c5703e067e034d2649af44de07461" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_delta_time_node" kind="class"><name>Baruah::MathsEngine::Formula::GameOriented::DeltaTimeNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_delta_time_node_1a3bead673f744210ecce13ebbcc2869db" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_delta_time_node_1aee02f03e71ccb3b3662023ae343a6afc" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_division_node" kind="class"><name>Baruah::MathsEngine::Formula::Arithmetic::DivisionNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_division_node_1a28159690dc9b28bab9fa0cd19bec71f4" kind="variable"><name>_numerator</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_division_node_1a03d17038b4886fb63b9a22caabe17ad5" kind="variable"><name>_denominator</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_division_node_1a979f89668e054d73f64f3988d184b811" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_division_node_1aa8c81cc4af247179e20cc5cf46fe940a" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_equal" kind="class"><name>Baruah::MathsEngine::ComparisonOperators::Equal</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_equal_1ada675079a6620aac9d12a0df0b2c6552" kind="property"><name>Symbol</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_equal_1a0730fe995b8cec41147c2624f057730a" kind="function"><name>Check</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_fixed_delta_time_node" kind="class"><name>Baruah::MathsEngine::Formula::GameOriented::FixedDeltaTimeNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_fixed_delta_time_node_1a79d444d4b15831540fcb0c323298990a" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_fixed_delta_time_node_1abd4ae01cefbca555282990487a1e0626" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_greater" kind="class"><name>Baruah::MathsEngine::ComparisonOperators::Greater</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_greater_1a7faaae86ed7cac4c5497f50788d8e42c" kind="property"><name>Symbol</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_greater_1aaca87a5dbecd62a02052246d48e393d4" kind="function"><name>Check</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_greater_or_equal" kind="class"><name>Baruah::MathsEngine::ComparisonOperators::GreaterOrEqual</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_greater_or_equal_1a65cc3e01607c94f30372bc17db810d26" kind="property"><name>Symbol</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_greater_or_equal_1a71bfd3d9fd486e9a30c39bea209df9b4" kind="function"><name>Check</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_inverse_lerp" kind="class"><name>Baruah::MathsEngine::Formula::Utility::InverseLerp</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_inverse_lerp_1aa2fe9175816ff429f617d489020500e9" kind="variable"><name>_a</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_inverse_lerp_1a0e3b0c0f54ede2402538124923c472c0" kind="variable"><name>_b</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_inverse_lerp_1a1f2a51df071e55524198558fabe04a26" kind="variable"><name>_t</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_inverse_lerp_1a15b4ae688756bab3398211df144820ac" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_inverse_lerp_1adc307ade00d5ebf3acb329c8336bf64b" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp" kind="class"><name>Baruah::MathsEngine::Formula::Utility::Lerp</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a0679f77687a4836e52d2e01486ede8e5" kind="variable"><name>_a</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a545416dced9583c105b23f1ae25009ab" kind="variable"><name>_b</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a1a289bfc7b95f7c7a60110892bd9e9b4" kind="variable"><name>_t</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a61e363da87faef0356cdfafde4c41f8c" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a295277090a98bff30cbbb5349ebae696" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_less" kind="class"><name>Baruah::MathsEngine::ComparisonOperators::Less</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_less_1ae299389411b653eb06e935bf03ed6415" kind="property"><name>Symbol</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_less_1a11bde133a0db6d76548df5dc1b9bed38" kind="function"><name>Check</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_less_or_equal" kind="class"><name>Baruah::MathsEngine::ComparisonOperators::LessOrEqual</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_less_or_equal_1abf15d47d20a6a933f9a26125356a71ca" kind="property"><name>Symbol</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_less_or_equal_1a9de10b5d558728fde08f7651ac1b019b" kind="function"><name>Check</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_node" kind="class"><name>Baruah::MathsEngine::LogicalOperation::LogicalNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_node_1a5a40a7768bff58a931c2696772f46c1d" kind="variable"><name>_entries</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_node_1a7ab63e345918da0c8c755e939a3212dd" kind="variable"><name>True</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_node_1aa6e918cdaaef8ee494095678ec61c823" kind="variable"><name>False</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_node_1ab65e790c58ac17cc692ba5c2676b0c23" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_node_1a3fd4bc43597e860a7f204b7eb8e03981" kind="function"><name>ToEquation</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_node_1af2048ac6e8daa45631a0b5c6fa6e1ae7" kind="function"><name>EvaluateEntry</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_operator" kind="class"><name>Baruah::MathsEngine::LogicalOperation::LogicalOperator</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_operator_1a1c27089ce302fee51a7908f8955a96b9" kind="property"><name>Symbol</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_operator_1aa905a584c854826e7c40d723aa19aede" kind="function"><name>Check</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula" kind="class"><name>Baruah::MathsEngine::Core::MathFormula</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a1d9f5a7337491f66d720cba7b234e507" kind="property"><name>MathNode</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a6b4e529c0beb076f6abf3b425c7bbf77" kind="variable"><name>_node</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a0bfd0d5615fb1750479122a7e7bf7ade" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a0cf9f05b08b4bc223136512eac4dd319" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_attribute_1_1_math_node_category_attribute" kind="class"><name>Baruah::MathsEngine::Attribute::MathNodeCategoryAttribute</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_attribute_1_1_math_node_category_attribute_1aad00ecbfdb7dba4fda1d906b4a26a002" kind="variable"><name>Path</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_attribute_1_1_math_node_category_attribute_1a562d86636e56186542c3e24b36ade6c0" kind="function"><name>MathNodeCategoryAttribute</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node" kind="class"><name>Baruah::MathsEngine::Formula::GameOriented::MaxNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node_1a48bd1522cff8a104073039c3d86f8ed5" kind="variable"><name>_a</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node_1aadeb1db13df2217de1c271a277add0bd" kind="variable"><name>_b</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node_1a713c82b7b85b8cb91d67775916868ea2" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node_1a0083a781d86f2b9f1906fff6b5c34c16" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node" kind="class"><name>Baruah::MathsEngine::Formula::GameOriented::MinNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node_1a4e85a7d0842fa29b9a5a9fffe3bfa7d2" kind="variable"><name>_a</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node_1a23e2c702ee94cdf1eba8b592da5138e3" kind="variable"><name>_b</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node_1a8bf26a5a10cd597fd06e932cd0c40019" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node_1ac2e1b35150a39211b3be2c36a0d550eb" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_modulo" kind="class"><name>Baruah::MathsEngine::Formula::Arithmetic::Modulo</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_modulo_1a3ca63ebc61b0cbab0d282971462880bf" kind="variable"><name>_num1</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_modulo_1a6614122eaadf347d98755505c420f594" kind="variable"><name>_num2</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_modulo_1af0aeb0baaf2edab2b60c4c4fa32bb996" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_modulo_1a08e4e95856dfcfbe59d194c240a365a8" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_move_towards_node" kind="class"><name>Baruah::MathsEngine::Formula::GameOriented::MoveTowardsNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_move_towards_node_1abec0a9bee3615056ed77d485f063dfd4" kind="variable"><name>_current</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_move_towards_node_1ac8881599069a5807788b23d8cd331302" kind="variable"><name>_target</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_move_towards_node_1a7c642a7932085530fb8b1c90d8facf0f" kind="variable"><name>_maxDelta</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_move_towards_node_1a07aa96508932176392f4398e666f2c46" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_move_towards_node_1a7fd82e3865ed8821c7b7c97644c9d702" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node" kind="class"><name>Baruah::MathsEngine::Formula::Arithmetic::MultiplicationNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node_1a3a1a83606b49788c03046cbb7322cedc" kind="variable"><name>_values</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node_1afaf9c5ecb5d170ba44cfc521c9963909" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node_1ac7fcd8ffeef1d75e72b36d03ac079af8" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_negate" kind="class"><name>Baruah::MathsEngine::Formula::Arithmetic::Negate</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_negate_1a058dd7a5643f994a8eefaeb4e02e282f" kind="variable"><name>_num</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_negate_1aef9904697f56eb34f53d7e6b948d8921" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_negate_1a74e1f0941b8517c4c3e669bd9c268450" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_not_equal" kind="class"><name>Baruah::MathsEngine::ComparisonOperators::NotEqual</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_not_equal_1a6457cd9bd2b883709afaca35e2500524" kind="property"><name>Symbol</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_not_equal_1a6864acf4f2ca2c2975716b3072ee5cb0" kind="function"><name>Check</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_or_operator" kind="class"><name>Baruah::MathsEngine::LogicalOperation::OrOperator</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_or_operator_1a4a8d9757f068857b88cca3c2d52d1a01" kind="property"><name>Symbol</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_or_operator_1a7f41be57970de312a86b455d0e958b19" kind="function"><name>Check</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_ping_pong_node" kind="class"><name>Baruah::MathsEngine::Formula::GameOriented::PingPongNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_ping_pong_node_1ae82a18b35b43b769d6a15ab047d040be" kind="variable"><name>_t</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_ping_pong_node_1af9b4f4ddfdbc27e1129ce8a9ecb51701" kind="variable"><name>_length</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_ping_pong_node_1af823c7c5edff469cd2a5eb2b52176c9b" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_ping_pong_node_1a99c60c8e0ec02e8b062b7088389aacfc" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_power" kind="class"><name>Baruah::MathsEngine::Formula::Arithmetic::Power</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_power_1a71ef995cda4d09023f8ef014b60c6594" kind="variable"><name>_num1</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_power_1a5e53fc74e8d92208351be27e003a6de8" kind="variable"><name>_num2</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_power_1a388687bb8d3c09574b7d09e52e134649" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_power_1a58ec1539397e391691357f43716df203" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg" kind="class"><name>Baruah::MathsEngine::Formula::Trigonometry::Rad2Deg</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg_1ab3639bae647311fd96fc4ae8fa42eb3b" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg_1a15296e74c084bafaa7e57f6efe45f405" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_random" kind="class"><name>Baruah::MathsEngine::Formula::Utility::Random</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_random_1a2758ac6241eb23b3edfcd680da816ce6" kind="variable"><name>_min</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_random_1ad937b463c077576186154cdcf76594d1" kind="variable"><name>_max</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_random_1a9404b5969685fcd908da5d54103ec296" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_random_1a91f2310a66b40eddf0725b0e6c824a82" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_sin" kind="class"><name>Baruah::MathsEngine::Formula::Trigonometry::Sin</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_sin_1a1a9d28dc5df5311602161ab7697de3fb" kind="variable"><name>_angle</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_sin_1a52198643b51af5a370ef8cb55fa6021f" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_sin_1a92d2faa18828cfc6dce9832f726a94ef" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_smooth_step_node" kind="class"><name>Baruah::MathsEngine::Formula::GameOriented::SmoothStepNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_smooth_step_node_1a3ea01f25dc786bce3691fa44f834732d" kind="variable"><name>_from</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_smooth_step_node_1aedfe6852c83f2fe1a322ac225ea984d7" kind="variable"><name>_to</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_smooth_step_node_1a542e54afd2270532d908cde032aad7f2" kind="variable"><name>_t</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_smooth_step_node_1ac1933950b09d3dae30bf4c5942c17c4e" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_smooth_step_node_1afef283e6c9c768c3c8edf01f6caafc73" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node" kind="class"><name>Baruah::MathsEngine::Formula::Arithmetic::SubtractionNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node_1a55b79744d584a0216db6420933462c11" kind="variable"><name>_values</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node_1a150d9e95f2186d17cb39de5d609958c3" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node_1abe0a31c7090eaa1cd592ec4f0d873026" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_tan" kind="class"><name>Baruah::MathsEngine::Formula::Trigonometry::Tan</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_tan_1abe1a27967c895af3ce62a72f59b446ee" kind="variable"><name>_angle</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_tan_1a4d70d5ca45d09130e111bf10eb035674" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_tan_1ae57f73dcbc60dcf2b42f7cde7697af43" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_time_node" kind="class"><name>Baruah::MathsEngine::Formula::GameOriented::TimeNode</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_time_node_1ae8c7b597a235886b53b3ab66feab4bf2" kind="function"><name>Calculate</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_time_node_1a35ab39271929ef447d396ff43e6f1cc1" kind="function"><name>ToEquation</name></member>
+  </compound>
+  <compound refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_xor_operator" kind="class"><name>Baruah::MathsEngine::LogicalOperation::XorOperator</name>
+    <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_xor_operator_1a3f61ee1f171d11035c8b77266481fffe" kind="property"><name>Symbol</name></member>
+    <member refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_xor_operator_1a2903352d6a49826a0ee3cd56d4c637ad" kind="function"><name>Check</name></member>
+  </compound>
+  <compound refid="namespace_baruah" kind="namespace"><name>Baruah</name>
+  </compound>
+  <compound refid="namespace_baruah_1_1_maths_engine" kind="namespace"><name>Baruah::MathsEngine</name>
+  </compound>
+  <compound refid="namespace_baruah_1_1_maths_engine_1_1_attribute" kind="namespace"><name>Baruah::MathsEngine::Attribute</name>
+  </compound>
+  <compound refid="namespace_baruah_1_1_maths_engine_1_1_comparison_operators" kind="namespace"><name>Baruah::MathsEngine::ComparisonOperators</name>
+  </compound>
+  <compound refid="namespace_baruah_1_1_maths_engine_1_1_core" kind="namespace"><name>Baruah::MathsEngine::Core</name>
+  </compound>
+  <compound refid="namespace_baruah_1_1_maths_engine_1_1_formula" kind="namespace"><name>Baruah::MathsEngine::Formula</name>
+  </compound>
+  <compound refid="namespace_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic" kind="namespace"><name>Baruah::MathsEngine::Formula::Arithmetic</name>
+  </compound>
+  <compound refid="namespace_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented" kind="namespace"><name>Baruah::MathsEngine::Formula::GameOriented</name>
+  </compound>
+  <compound refid="namespace_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry" kind="namespace"><name>Baruah::MathsEngine::Formula::Trigonometry</name>
+  </compound>
+  <compound refid="namespace_baruah_1_1_maths_engine_1_1_formula_1_1_utility" kind="namespace"><name>Baruah::MathsEngine::Formula::Utility</name>
+  </compound>
+  <compound refid="namespace_baruah_1_1_maths_engine_1_1_logical_operation" kind="namespace"><name>Baruah::MathsEngine::LogicalOperation</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_unity_engine" kind="namespace"><name>UnityEngine</name>
+  </compound>
+  <compound refid="_basic_formula_8cs" kind="file"><name>BasicFormula.cs</name>
+  </compound>
+  <compound refid="_base_math_node_8cs" kind="file"><name>BaseMathNode.cs</name>
+  </compound>
+  <compound refid="_math_formula_8cs" kind="file"><name>MathFormula.cs</name>
+  </compound>
+  <compound refid="_math_node_category_attribute_8cs" kind="file"><name>MathNodeCategoryAttribute.cs</name>
+  </compound>
+  <compound refid="_game_oriented_01_nodes_8cs" kind="file"><name>GameOriented Nodes.cs</name>
+  </compound>
+  <compound refid="_comparison_operator_8cs" kind="file"><name>ComparisonOperator.cs</name>
+  </compound>
+  <compound refid="_logical_node_8cs" kind="file"><name>LogicalNode.cs</name>
+  </compound>
+  <compound refid="_trigonometry_8cs" kind="file"><name>Trigonometry.cs</name>
+  </compound>
+  <compound refid="_utility_nodes_8cs" kind="file"><name>UtilityNodes.cs</name>
+  </compound>
+  <compound refid="dir_971c26b9f24ccb6e40ee4eb3dea54b08" kind="dir"><name>Packages/com.arijeet.mathsengine</name>
+  </compound>
+  <compound refid="dir_88155f3678fbd74e00bf1d2857e75617" kind="dir"><name>Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core</name>
+  </compound>
+  <compound refid="dir_947cf29b62e83a546614839e849e23f7" kind="dir"><name>Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes</name>
+  </compound>
+  <compound refid="dir_ca5d7cb76f136a3bcdfd54c505d86266" kind="dir"><name>Packages/com.arijeet.mathsengine/MathsEngine</name>
+  </compound>
+  <compound refid="dir_395bafe2adc24fcfed5d14b8ce406a4f" kind="dir"><name>Packages</name>
+  </compound>
+  <compound refid="dir_3dc6b2192970b92023f9bb84cf4b7274" kind="dir"><name>Packages/com.arijeet.mathsengine/MathsEngine/Runtime</name>
+  </compound>
+</doxygenindex>

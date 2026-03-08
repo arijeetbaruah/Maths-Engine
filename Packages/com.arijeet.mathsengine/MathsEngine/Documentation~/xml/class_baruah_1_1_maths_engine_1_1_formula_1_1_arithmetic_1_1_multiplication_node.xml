@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node" kind="class" language="C#" prot="public">
+    <compoundname>Baruah::MathsEngine::Formula::Arithmetic::MultiplicationNode</compoundname>
+    <basecompoundref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" prot="public" virt="non-virtual">Baruah.MathsEngine.Core.BaseMathNode</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node_1a3a1a83606b49788c03046cbb7322cedc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref>[]</type>
+        <definition>BaseMathNode [] Baruah.MathsEngine.Formula.Arithmetic.MultiplicationNode._values</definition>
+        <argsstring></argsstring>
+        <name>_values</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.MultiplicationNode._values</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="57" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node_1afaf9c5ecb5d170ba44cfc521c9963909" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float Baruah.MathsEngine.Formula.Arithmetic.MultiplicationNode.Calculate</definition>
+        <argsstring>(object[] parameter)</argsstring>
+        <name>Calculate</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.MultiplicationNode.Calculate</qualifiedname>
+        <param>
+          <type>object[]</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="59" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="59" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node_1ac7fcd8ffeef1d75e72b36d03ac079af8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Baruah.MathsEngine.Formula.Arithmetic.MultiplicationNode.ToEquation</definition>
+        <argsstring>()</argsstring>
+        <name>ToEquation</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.Arithmetic.MultiplicationNode.ToEquation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="74" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Formula.Arithmetic.MultiplicationNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.Core.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Formula.Arithmetic.MultiplicationNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.Core.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
+      </node>
+    </collaborationgraph>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="54" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="55" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node_1a3a1a83606b49788c03046cbb7322cedc" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Arithmetic::MultiplicationNode</scope><name>_values</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node_1afaf9c5ecb5d170ba44cfc521c9963909" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Arithmetic::MultiplicationNode</scope><name>Calculate</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node_1ac7fcd8ffeef1d75e72b36d03ac079af8" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Arithmetic::MultiplicationNode</scope><name>ToEquation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

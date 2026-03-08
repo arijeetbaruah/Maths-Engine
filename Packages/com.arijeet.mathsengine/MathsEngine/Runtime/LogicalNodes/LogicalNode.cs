@@ -1,6 +1,8 @@
+using Baruah.MathsEngine.ComparisonOperators;
+using Baruah.MathsEngine.Core;
 using UnityEngine;
 
-namespace Baruah.MathsEngine
+namespace Baruah.MathsEngine.LogicalOperation
 {
     [System.Serializable]
     public class LogicalNode : BaseMathNode

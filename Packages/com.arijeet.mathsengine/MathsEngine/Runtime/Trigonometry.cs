@@ -1,6 +1,8 @@
+using Baruah.MathsEngine.Attribute;
+using Baruah.MathsEngine.Core;
 using UnityEngine;
 
-namespace Baruah.MathsEngine.Trigonometry
+namespace Baruah.MathsEngine.Formula.Trigonometry
 {
     
     [System.Serializable]

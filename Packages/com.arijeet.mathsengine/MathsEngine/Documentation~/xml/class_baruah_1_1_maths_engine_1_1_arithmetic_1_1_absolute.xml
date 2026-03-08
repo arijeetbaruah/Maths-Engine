@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="class_baruah_1_1_maths_engine_1_1_arithmetic_1_1_absolute" kind="class" language="C#" prot="public">
+    <compoundname>Baruah::MathsEngine::Arithmetic::Absolute</compoundname>
+    <basecompoundref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" prot="public" virt="non-virtual">Baruah.MathsEngine.BaseMathNode</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_arithmetic_1_1_absolute_1adeb2583a30298e3a6437a030a79662f8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Arithmetic.Absolute._num</definition>
+        <argsstring></argsstring>
+        <name>_num</name>
+        <qualifiedname>Baruah.MathsEngine.Arithmetic.Absolute._num</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="147" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="147" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_arithmetic_1_1_absolute_1ae9e3fc5f42b681e70908d05b8a3f8366" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float Baruah.MathsEngine.Arithmetic.Absolute.Calculate</definition>
+        <argsstring>(object[] parameter)</argsstring>
+        <name>Calculate</name>
+        <qualifiedname>Baruah.MathsEngine.Arithmetic.Absolute.Calculate</qualifiedname>
+        <param>
+          <type>object[]</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="149" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_arithmetic_1_1_absolute_1a9cdbc9625891b68d803e940f07b3db47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Baruah.MathsEngine.Arithmetic.Absolute.ToEquation</definition>
+        <argsstring>()</argsstring>
+        <name>ToEquation</name>
+        <qualifiedname>Baruah.MathsEngine.Arithmetic.Absolute.ToEquation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="154" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="154" bodyend="154"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Arithmetic.Absolute</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_arithmetic_1_1_absolute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_base_math_node"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Arithmetic.Absolute</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_arithmetic_1_1_absolute"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_base_math_node"/>
+      </node>
+    </collaborationgraph>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" line="144" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/BasicFormula.cs" bodystart="145" bodyend="156"/>
+    <listofallmembers>
+      <member refid="class_baruah_1_1_maths_engine_1_1_arithmetic_1_1_absolute_1adeb2583a30298e3a6437a030a79662f8" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Arithmetic::Absolute</scope><name>_num</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_arithmetic_1_1_absolute_1ae9e3fc5f42b681e70908d05b8a3f8366" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Arithmetic::Absolute</scope><name>Calculate</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_arithmetic_1_1_absolute_1a9cdbc9625891b68d803e940f07b3db47" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Arithmetic::Absolute</scope><name>ToEquation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

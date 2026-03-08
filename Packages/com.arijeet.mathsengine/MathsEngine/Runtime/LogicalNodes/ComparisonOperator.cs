@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Baruah.MathsEngine
+namespace Baruah.MathsEngine.ComparisonOperators
 {
     [System.Serializable]
     public abstract class ComparisonOperator

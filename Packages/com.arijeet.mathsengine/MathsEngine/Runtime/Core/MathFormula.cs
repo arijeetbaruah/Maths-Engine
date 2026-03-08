@@ -3,7 +3,7 @@ using Sirenix.OdinInspector;
 #endif
 using UnityEngine;
 
-namespace Baruah.MathsEngine
+namespace Baruah.MathsEngine.Core
 {
     [CreateAssetMenu(fileName = "MathFormula", menuName = "Baruah/MathsEngine/Maths Formula")]
     public class MathFormula : ScriptableObject

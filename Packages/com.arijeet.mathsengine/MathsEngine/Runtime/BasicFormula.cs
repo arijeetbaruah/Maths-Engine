@@ -1,10 +1,12 @@
 using System.Linq;
+using Baruah.MathsEngine.Attribute;
+using Baruah.MathsEngine.Core;
 #if ODIN_INSPECTOR
 using Sirenix.OdinInspector;
 #endif
 using UnityEngine;
 
-namespace Baruah.MathsEngine.Arithmetic
+namespace Baruah.MathsEngine.Formula.Arithmetic
 {
     [System.Serializable]
     [MathNodeCategory("Arithmetic")]

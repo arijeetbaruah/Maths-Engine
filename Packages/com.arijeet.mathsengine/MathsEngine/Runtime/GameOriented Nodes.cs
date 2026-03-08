@@ -1,6 +1,8 @@
+using Baruah.MathsEngine.Attribute;
+using Baruah.MathsEngine.Core;
 using UnityEngine;
 
-namespace Baruah.MathsEngine.GameOriented
+namespace Baruah.MathsEngine.Formula.GameOriented
 {
     [System.Serializable]
     [MathNodeCategory("Utility")]
