@@ -33,10 +33,19 @@ namespace Baruah.MathsEngine
             return result ? True.Calculate(parameter) : False.Calculate(parameter);
         }
 
+        /// <summary>
+        /// Builds a parenthesized ternary equation string representing this logical node and its comparison entries.
+        /// </summary>
+        /// <returns>
+        /// A string containing a parenthesized ternary expression of the form
+        /// "(<comparison-chain> ? <trueExpression> : <falseExpression>)".
+        /// Each comparison is rendered as "A Symbol B" and comparisons are joined using their logical operator symbols.
+        /// Null child expressions or operators are rendered as "0" or "?" respectively.
+        /// </returns>
         public override string ToEquation()
         {
             if (_entries == null || _entries.Length == 0)
-                return $"0 ? {True?.ToEquation() ?? "0"} : {False?.ToEquation() ?? "0"}";
+                return $"(0 ? {True?.ToEquation() ?? "0"} : {False?.ToEquation() ?? "0"})";
 
             System.Text.StringBuilder sb = new System.Text.StringBuilder();
 
@@ -63,9 +72,15 @@ namespace Baruah.MathsEngine
             string trueEq = True?.ToEquation() ?? "0";
             string falseEq = False?.ToEquation() ?? "0";
 
-            return $"{sb} ? {trueEq} : {falseEq}";
+            return $"({sb} ? {trueEq} : {falseEq})";
         }
 
+        /// <summary>
+        /// Evaluates a single comparison entry using the provided runtime parameters.
+        /// </summary>
+        /// <param name="entry">The comparison entry containing operands A and B, a Comparison operator, and an optional next logical operator.</param>
+        /// <param name="parameter">Runtime parameters forwarded to operand nodes' Calculate methods.</param>
+        /// <returns>`true` if the entry's Comparison holds for the evaluated operands; `false` if the Comparison is null or the check fails.</returns>
         private bool EvaluateEntry(ComparisonEntry entry, object[] parameter)
         {
             if (entry.Comparison == null)
