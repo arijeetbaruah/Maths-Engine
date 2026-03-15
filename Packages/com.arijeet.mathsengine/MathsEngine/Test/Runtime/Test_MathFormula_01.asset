@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3735216192110920048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ConstantNode
+  m_EditorClassIdentifier: Baruah.MathsEngine:Baruah.MathsEngine.Formula.Arithmetic:ConstantNode
+  _value: 6
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,79 +25,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87206a7637f2a3141a2071a61d64a147, type: 3}
   m_Name: Test_MathFormula_01
   m_EditorClassIdentifier: Baruah.MathsEngine::Baruah.MathsEngine.MathFormula
-  _node:
-    rid: 8238323496164786446
-  references:
-    version: 2
-    RefIds:
-    - rid: -2
-      type: {class: , ns: , asm: }
-    - rid: 3156526545376903230
-      type: {class: LogicalNode, ns: Baruah.MathsEngine, asm: Baruah.MathsEngine}
-      data:
-        _entries:
-        - A:
-            rid: 3156526545376903231
-          B:
-            rid: 3156526545376903232
-          Comparison:
-            rid: 3156526545376903236
-          NextLogical:
-            rid: 3156526545376903237
-        - A:
-            rid: 3156526545376903231
-          B:
-            rid: 3156526545376903232
-          Comparison:
-            rid: 3156526545376903236
-          NextLogical:
-            rid: -2
-        True:
-          rid: 3156526545376903233
-        False:
-          rid: 3156526545376903234
-    - rid: 3156526545376903231
-      type: {class: ConstantNode, ns: Baruah.MathsEngine.Arithmetic, asm: Baruah.MathsEngine}
-      data:
-        _value: 3
-    - rid: 3156526545376903232
-      type: {class: ConstantNode, ns: Baruah.MathsEngine.Arithmetic, asm: Baruah.MathsEngine}
-      data:
-        _value: 4
-    - rid: 3156526545376903233
-      type: {class: Deg2Rad, ns: Baruah.MathsEngine.Trigonometry, asm: Baruah.MathsEngine}
-      data: 
-    - rid: 3156526545376903234
-      type: {class: Rad2Deg, ns: Baruah.MathsEngine.Trigonometry, asm: Baruah.MathsEngine}
-      data: 
-    - rid: 3156526545376903236
-      type: {class: Equal, ns: Baruah.MathsEngine, asm: Baruah.MathsEngine}
-      data: 
-    - rid: 3156526545376903237
-      type: {class: AndOperator, ns: Baruah.MathsEngine, asm: Baruah.MathsEngine}
-      data: 
-    - rid: 8238323496164786446
-      type: {class: AdditionNode, ns: Baruah.MathsEngine.Arithmetic, asm: Baruah.MathsEngine}
-      data:
-        _values:
-        - rid: 8238323496164786448
-        - rid: 8238323496164786449
-    - rid: 8238323496164786448
-      type: {class: ConstantNode, ns: Baruah.MathsEngine.Arithmetic, asm: Baruah.MathsEngine}
-      data:
-        _value: 3
-    - rid: 8238323496164786449
-      type: {class: SubtractionNode, ns: Baruah.MathsEngine.Arithmetic, asm: Baruah.MathsEngine}
-      data:
-        _values:
-        - rid: 8238323496164786450
-        - rid: 8238323496164786451
-        - rid: 3156526545376903230
-    - rid: 8238323496164786450
-      type: {class: ConstantNode, ns: Baruah.MathsEngine.Arithmetic, asm: Baruah.MathsEngine}
-      data:
-        _value: 4
-    - rid: 8238323496164786451
-      type: {class: ConstantNode, ns: Baruah.MathsEngine.Arithmetic, asm: Baruah.MathsEngine}
-      data:
-        _value: 2
+  _node: {fileID: 7341712648278352887}
+  _nodes: []
+--- !u!114 &5356878624094131546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ConstantNode
+  m_EditorClassIdentifier: Baruah.MathsEngine:Baruah.MathsEngine.Formula.Arithmetic:ConstantNode
+  _value: 4
+--- !u!114 &7341712648278352887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c71d23234766448a387201bb231781, type: 3}
+  m_Name: AdditionNode
+  m_EditorClassIdentifier: Baruah.MathsEngine::Baruah.MathsEngine.Formula.Arithmetic.AdditionNode
+  _values:
+  - {fileID: 5356878624094131546}
+  - {fileID: -3735216192110920048}

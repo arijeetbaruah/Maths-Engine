@@ -12,7 +12,7 @@ namespace Baruah.MathsEngine.Formula.GameOriented
     /// gameplay values such as damage scaling, movement acceleration,
     /// or animation blending.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Utility")]
     public class AnimationCurveNode : BaseMathNode
     {
@@ -52,7 +52,7 @@ namespace Baruah.MathsEngine.Formula.GameOriented
     /// Equivalent to <see cref="Time.time"/>.
     /// Useful for time-based procedural formulas.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Utility")]
     public class TimeNode : BaseMathNode
     {
@@ -78,7 +78,7 @@ namespace Baruah.MathsEngine.Formula.GameOriented
     /// Equivalent to <see cref="Time.deltaTime"/>.
     /// Commonly used for frame-rate independent calculations.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Utility")]
     public class DeltaTimeNode : BaseMathNode
     {
@@ -104,7 +104,7 @@ namespace Baruah.MathsEngine.Formula.GameOriented
     /// Equivalent to <see cref="Time.fixedDeltaTime"/>.
     /// Useful for physics-related calculations.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Utility")]
     public class FixedDeltaTimeNode : BaseMathNode
     {
@@ -131,7 +131,7 @@ namespace Baruah.MathsEngine.Formula.GameOriented
     /// Useful for oscillating values such as procedural animations
     /// or looping gameplay effects.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Utility")]
     public class PingPongNode : BaseMathNode
     {
@@ -170,7 +170,7 @@ namespace Baruah.MathsEngine.Formula.GameOriented
     /// Uses <see cref="Mathf.SmoothStep"/> to interpolate between
     /// the start and end values with smooth easing.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Utility")]
     public class SmoothStepNode : BaseMathNode
     {
@@ -219,7 +219,7 @@ namespace Baruah.MathsEngine.Formula.GameOriented
     /// Useful for smoothing values such as velocity, health regeneration,
     /// or animation blending.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Utility")]
     public class MoveTowardsNode : BaseMathNode
     {
@@ -266,7 +266,7 @@ namespace Baruah.MathsEngine.Formula.GameOriented
     /// <remarks>
     /// Uses <see cref="Mathf.Min"/>.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Utility")]
     public class MinNode : BaseMathNode
     {
@@ -304,7 +304,7 @@ namespace Baruah.MathsEngine.Formula.GameOriented
     /// <remarks>
     /// Uses <see cref="Mathf.Max"/>.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Utility")]
     public class MaxNode : BaseMathNode
     {

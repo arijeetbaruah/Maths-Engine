@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node" kind="class" language="C#" prot="public">
+    <compoundname>Baruah::MathsEngine::Formula::GameOriented::MaxNode</compoundname>
+    <basecompoundref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" prot="public" virt="non-virtual">Baruah.MathsEngine.Core.BaseMathNode</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node_1a48bd1522cff8a104073039c3d86f8ed5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Formula.GameOriented.MaxNode._a</definition>
+        <argsstring></argsstring>
+        <name>_a</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.MaxNode._a</qualifiedname>
+        <briefdescription>
+<para>First value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="315" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node_1aadeb1db13df2217de1c271a277add0bd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Formula.GameOriented.MaxNode._b</definition>
+        <argsstring></argsstring>
+        <name>_b</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.MaxNode._b</qualifiedname>
+        <briefdescription>
+<para>Second value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="321" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="321" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node_1a713c82b7b85b8cb91d67775916868ea2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float Baruah.MathsEngine.Formula.GameOriented.MaxNode.Calculate</definition>
+        <argsstring>(object[] parameter)</argsstring>
+        <name>Calculate</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.MaxNode.Calculate</qualifiedname>
+        <param>
+          <type>object[]</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Calculates the maximum value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="326" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="326" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node_1a0083a781d86f2b9f1906fff6b5c34c16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Baruah.MathsEngine.Formula.GameOriented.MaxNode.ToEquation</definition>
+        <argsstring>()</argsstring>
+        <name>ToEquation</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.MaxNode.ToEquation</qualifiedname>
+        <briefdescription>
+<para>Returns the equation representation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="334" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="334" bodyend="335"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Returns the larger of two values. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Uses Mathf.Max. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Formula.GameOriented.MaxNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.Core.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Formula.GameOriented.MaxNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.Core.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="309" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="310" bodyend="336"/>
+    <listofallmembers>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node_1a48bd1522cff8a104073039c3d86f8ed5" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::GameOriented::MaxNode</scope><name>_a</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node_1aadeb1db13df2217de1c271a277add0bd" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::GameOriented::MaxNode</scope><name>_b</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node_1a713c82b7b85b8cb91d67775916868ea2" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::GameOriented::MaxNode</scope><name>Calculate</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node_1a0083a781d86f2b9f1906fff6b5c34c16" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::GameOriented::MaxNode</scope><name>ToEquation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

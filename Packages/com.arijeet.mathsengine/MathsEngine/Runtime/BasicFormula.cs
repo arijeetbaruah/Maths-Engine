@@ -1,10 +1,76 @@
+using System.Collections.Generic;
 using System.Linq;
 using Baruah.MathsEngine.Attribute;
 using Baruah.MathsEngine.Core;
+using Sirenix.Utilities;
+#if ODIN_INSPECTOR
+#if UNITY_EDITOR
+using System;
+using Sirenix.OdinInspector.Editor;
+#endif
+using Sirenix.OdinInspector;
+#endif
 using UnityEngine;
 
 namespace Baruah.MathsEngine.Formula.Arithmetic
 {
+    public abstract class ArithmeticBase : BaseMathNode
+    {
+        /// <summary>
+        /// The nodes whose results will be added together.
+        /// </summary>
+        [SerializeReference, SerializeField]
+#if ODIN_INSPECTOR
+        [ListDrawerSettings(HideAddButton = true)]
+#endif
+        protected List<BaseMathNode> _values = new ();
+
+#if ODIN_INSPECTOR
+        [Button("Add Node", Style = ButtonStyle.Box)]
+        private void AddNode()
+        {
+#if UNITY_EDITOR
+            string GetCateoryNames(Type type)
+            {
+                string path = type.Name;
+                var category = type.GetCustomAttributes(typeof(MathNodeCategoryAttribute), false)
+                    .FirstOrDefault() as MathNodeCategoryAttribute;
+
+                if (category != null)
+                    path = category.Category + "/" + type.Name;
+
+                return path;
+            }
+            
+            var types = UnityEditor.TypeCache.GetTypesDerivedFrom<BaseMathNode>()
+                .Where(t => !t.IsAbstract);
+
+            var selector = new GenericSelector<Type>(
+                "Select Math Node",
+                false,
+                t => GetCateoryNames(t),
+                types
+            );
+
+            selector.SelectionConfirmed += selection =>
+            {
+                var type = selection.FirstOrDefault();
+                if (type == null) return;
+
+                var node = ScriptableObject.CreateInstance(type) as BaseMathNode;
+
+                _values.Add(node);
+
+                GUI.changed = true;
+            };
+
+            selector.ShowInPopup();
+#endif
+        }
+#endif
+    }
+    
+    
     /// <summary>
     /// A math node that sums the results of multiple child nodes.
     /// </summary>
@@ -12,16 +78,10 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
     /// Each value node is evaluated and the results are added together.
     /// This node supports any number of inputs.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Arithmetic")]
-    public class AdditionNode : BaseMathNode
+    public class AdditionNode : ArithmeticBase
     {
-        /// <summary>
-        /// The nodes whose results will be added together.
-        /// </summary>
-        [SerializeReference, SerializeField]
-        private BaseMathNode[] _values;
-
         /// <summary>
         /// Calculates the sum of all child nodes.
         /// </summary>
@@ -53,16 +113,10 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
     /// The first node acts as the starting value and all subsequent
     /// nodes are subtracted from it.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Arithmetic")]
-    public class SubtractionNode : BaseMathNode
+    public class SubtractionNode : ArithmeticBase
     {
-        /// <summary>
-        /// The nodes used for subtraction.
-        /// </summary>
-        [SerializeReference, SerializeField]
-        private BaseMathNode[] _values;
-
         /// <summary>
         /// Calculates the subtraction chain.
         /// </summary>
@@ -72,7 +126,7 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
         {
             float ret = _values[0].Calculate(parameter);
 
-            for (int index = 1; index < _values.Length; index++)
+            for (int index = 1; index < _values.Count; index++)
             {
                 ret -= _values[index].Calculate(parameter);
             }
@@ -95,16 +149,10 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
     /// If any node evaluates to zero the calculation exits early
     /// since the result must be zero.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Arithmetic")]
-    public class MultiplicationNode : BaseMathNode
+    public class MultiplicationNode : ArithmeticBase
     {
-        /// <summary>
-        /// Nodes whose values will be multiplied.
-        /// </summary>
-        [SerializeReference, SerializeField]
-        private BaseMathNode[] _values;
-
         /// <summary>
         /// Calculates the product of all child nodes.
         /// </summary>
@@ -142,7 +190,7 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
     /// The numerator is evaluated first, followed by the denominator.
     /// No explicit protection against division by zero is performed.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Arithmetic")]
     public class DivisionNode : BaseMathNode
     {
@@ -181,7 +229,7 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
     /// This node always returns the same value regardless of input parameters.
     /// Useful for defining numeric constants in formulas.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Constants")]
     public class ConstantNode : BaseMathNode
     {
@@ -212,7 +260,7 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
     /// <remarks>
     /// Returns the remainder after dividing the first number by the second.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Arithmetic")]
     public class Modulo : BaseMathNode
     {
@@ -250,7 +298,7 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
     /// <remarks>
     /// Uses Unity's Mathf.Pow internally.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Arithmetic")]
     public class Power : BaseMathNode
     {
@@ -288,7 +336,7 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
     /// <remarks>
     /// Converts negative numbers into their positive equivalent.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Arithmetic")]
     public class Absolute : BaseMathNode
     {
@@ -320,7 +368,7 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
     /// <remarks>
     /// Converts a value into its negative equivalent.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Arithmetic")]
     public class Negate : BaseMathNode
     {

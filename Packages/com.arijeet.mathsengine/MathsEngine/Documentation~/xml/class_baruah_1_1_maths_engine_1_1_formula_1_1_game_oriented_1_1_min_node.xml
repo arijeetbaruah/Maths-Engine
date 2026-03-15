@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node" kind="class" language="C#" prot="public">
+    <compoundname>Baruah::MathsEngine::Formula::GameOriented::MinNode</compoundname>
+    <basecompoundref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" prot="public" virt="non-virtual">Baruah.MathsEngine.Core.BaseMathNode</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node_1a4e85a7d0842fa29b9a5a9fffe3bfa7d2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Formula.GameOriented.MinNode._a</definition>
+        <argsstring></argsstring>
+        <name>_a</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.MinNode._a</qualifiedname>
+        <briefdescription>
+<para>First value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="277" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node_1a23e2c702ee94cdf1eba8b592da5138e3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Formula.GameOriented.MinNode._b</definition>
+        <argsstring></argsstring>
+        <name>_b</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.MinNode._b</qualifiedname>
+        <briefdescription>
+<para>Second value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="283" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="283" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node_1a8bf26a5a10cd597fd06e932cd0c40019" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float Baruah.MathsEngine.Formula.GameOriented.MinNode.Calculate</definition>
+        <argsstring>(object[] parameter)</argsstring>
+        <name>Calculate</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.MinNode.Calculate</qualifiedname>
+        <param>
+          <type>object[]</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Calculates the minimum value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="288" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="288" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node_1ac2e1b35150a39211b3be2c36a0d550eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Baruah.MathsEngine.Formula.GameOriented.MinNode.ToEquation</definition>
+        <argsstring>()</argsstring>
+        <name>ToEquation</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.GameOriented.MinNode.ToEquation</qualifiedname>
+        <briefdescription>
+<para>Returns the equation representation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="296" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="296" bodyend="297"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Returns the smaller of two values. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Uses Mathf.Min. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Formula.GameOriented.MinNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.Core.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Formula.GameOriented.MinNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.Core.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="271" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" bodystart="272" bodyend="298"/>
+    <listofallmembers>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node_1a4e85a7d0842fa29b9a5a9fffe3bfa7d2" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::GameOriented::MinNode</scope><name>_a</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node_1a23e2c702ee94cdf1eba8b592da5138e3" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::GameOriented::MinNode</scope><name>_b</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node_1a8bf26a5a10cd597fd06e932cd0c40019" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::GameOriented::MinNode</scope><name>Calculate</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node_1ac2e1b35150a39211b3be2c36a0d550eb" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::GameOriented::MinNode</scope><name>ToEquation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

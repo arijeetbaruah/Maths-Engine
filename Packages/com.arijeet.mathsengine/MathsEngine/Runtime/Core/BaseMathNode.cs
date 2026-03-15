@@ -1,10 +1,14 @@
+using UnityEngine;
+#if ODIN_INSPECTOR
+using Sirenix.OdinInspector;
+#endif
+
 namespace Baruah.MathsEngine.Core
 {
     /// <summary>
     /// Base class for all math nodes used in the formula engine.
     /// </summary>
-    [System.Serializable]
-    public abstract class BaseMathNode
+    public abstract class BaseMathNode : ScriptableObject
     {
         /// /// <summary>
         /// Calculates the value of this node.

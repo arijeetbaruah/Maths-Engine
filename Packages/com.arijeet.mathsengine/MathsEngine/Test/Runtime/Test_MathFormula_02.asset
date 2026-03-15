@@ -1,5 +1,85 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5035057840786797296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ConstantNode
+  m_EditorClassIdentifier: Baruah.MathsEngine:Baruah.MathsEngine.Formula.Arithmetic:ConstantNode
+  _value: 0
+--- !u!114 &-4909159735593731007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ConstantNode
+  m_EditorClassIdentifier: Baruah.MathsEngine:Baruah.MathsEngine.Formula.Arithmetic:ConstantNode
+  _value: 2
+--- !u!114 &-3452976468065596456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ConstantNode
+  m_EditorClassIdentifier: Baruah.MathsEngine:Baruah.MathsEngine.Formula.Arithmetic:ConstantNode
+  _value: 0
+--- !u!114 &-2699574057010241936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ConstantNode
+  m_EditorClassIdentifier: Baruah.MathsEngine:Baruah.MathsEngine.Formula.Arithmetic:ConstantNode
+  _value: 0
+--- !u!114 &-2477808239624168826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ConstantNode
+  m_EditorClassIdentifier: Baruah.MathsEngine:Baruah.MathsEngine.Formula.Arithmetic:ConstantNode
+  _value: 0
+--- !u!114 &-509716560011767942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: AdditionNode
+  m_EditorClassIdentifier: Baruah.MathsEngine:Baruah.MathsEngine.Formula.Arithmetic:AdditionNode
+  _values:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,26 +92,84 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87206a7637f2a3141a2071a61d64a147, type: 3}
   m_Name: Test_MathFormula_02
   m_EditorClassIdentifier: Baruah.MathsEngine::Baruah.MathsEngine.MathFormula
-  _node:
-    rid: 8238323496164786452
-  references:
-    version: 2
-    RefIds:
-    - rid: 8238323496164786452
-      type: {class: Sin, ns: Baruah.MathsEngine.Trigonometry, asm: Baruah.MathsEngine}
-      data:
-        _angle:
-          rid: 8238323496164786454
-    - rid: 8238323496164786454
-      type: {class: MultiplicationNode, ns: Baruah.MathsEngine.Arithmetic, asm: Baruah.MathsEngine}
-      data:
-        _values:
-        - rid: 8238323496164786455
-        - rid: 8238323496164786457
-    - rid: 8238323496164786455
-      type: {class: ConstantNode, ns: Baruah.MathsEngine.Arithmetic, asm: Baruah.MathsEngine}
-      data:
-        _value: 90
-    - rid: 8238323496164786457
-      type: {class: Deg2Rad, ns: Baruah.MathsEngine.Trigonometry, asm: Baruah.MathsEngine}
-      data: 
+  _node: {fileID: -509716560011767942}
+  _nodes: []
+--- !u!114 &1024635029753971650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ConstantNode
+  m_EditorClassIdentifier: Baruah.MathsEngine:Baruah.MathsEngine.Formula.Arithmetic:ConstantNode
+  _value: 0
+--- !u!114 &3612016045354168439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Deg2Rad
+  m_EditorClassIdentifier: Baruah.MathsEngine:Baruah.MathsEngine.Formula.Trigonometry:Deg2Rad
+--- !u!114 &5611674757723548725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ConstantNode
+  m_EditorClassIdentifier: Baruah.MathsEngine:Baruah.MathsEngine.Formula.Arithmetic:ConstantNode
+  _value: 3
+--- !u!114 &6586653073732143159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ConstantNode
+  m_EditorClassIdentifier: Baruah.MathsEngine:Baruah.MathsEngine.Formula.Arithmetic:ConstantNode
+  _value: 3
+--- !u!114 &8013194059682267031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01c71d23234766448a387201bb231781, type: 3}
+  m_Name: AdditionNode
+  m_EditorClassIdentifier: Baruah.MathsEngine::Baruah.MathsEngine.Formula.Arithmetic.AdditionNode
+  _values:
+  - {fileID: 6586653073732143159}
+  - {fileID: -4909159735593731007}
+--- !u!114 &8767060150568307515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: ConstantNode
+  m_EditorClassIdentifier: Baruah.MathsEngine:Baruah.MathsEngine.Formula.Arithmetic:ConstantNode
+  _value: 0
