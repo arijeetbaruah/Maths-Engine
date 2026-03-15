@@ -13,7 +13,7 @@ namespace Baruah.MathsEngine.Formula.Utility
     /// If the value is greater than the maximum it returns the maximum.
     /// Otherwise the value is returned unchanged.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Utility/Range")]
     public class Clamp : BaseMathNode
     {
@@ -63,7 +63,7 @@ namespace Baruah.MathsEngine.Formula.Utility
     /// Uses <see cref="Mathf.Lerp"/>.
     /// The interpolation parameter <c>t</c> typically ranges from 0 to 1.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Utility")]
     public class Lerp : BaseMathNode
     {
@@ -111,7 +111,7 @@ namespace Baruah.MathsEngine.Formula.Utility
     /// Uses <see cref="Mathf.InverseLerp"/>.
     /// Determines where a value lies between two endpoints.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Utility")]
     public class InverseLerp : BaseMathNode
     {
@@ -159,7 +159,7 @@ namespace Baruah.MathsEngine.Formula.Utility
     /// Uses <see cref="UnityEngine.Random.Range(float,float)"/>.
     /// Each evaluation may return a different result.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Utility")]
     public class Random : BaseMathNode
     {

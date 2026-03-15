@@ -11,7 +11,7 @@ namespace Baruah.MathsEngine.Formula.Trigonometry
     /// Uses <see cref="Mathf.Sin"/> internally.
     /// The input angle is expected to be in radians.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Trigonometry")]
     public class Sin : BaseMathNode
     {
@@ -45,7 +45,7 @@ namespace Baruah.MathsEngine.Formula.Trigonometry
     /// Uses <see cref="Mathf.Cos"/> internally.
     /// The input angle must be in radians.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Trigonometry")]
     public class Cos : BaseMathNode
     {
@@ -77,7 +77,7 @@ namespace Baruah.MathsEngine.Formula.Trigonometry
     /// Uses <see cref="Mathf.Tan"/>.
     /// The input angle should be in radians.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Trigonometry")]
     public class Tan : BaseMathNode
     {
@@ -110,7 +110,7 @@ namespace Baruah.MathsEngine.Formula.Trigonometry
     /// The result is returned in radians.
     /// This node is commonly used to calculate directions or rotation angles.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Trigonometry")]
     public class Atan2 : BaseMathNode
     {
@@ -149,7 +149,7 @@ namespace Baruah.MathsEngine.Formula.Trigonometry
     /// Equivalent to <see cref="Mathf.Deg2Rad"/>.
     /// Multiply a degree value by this constant to convert it to radians.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Constants")]
     public class Deg2Rad : BaseMathNode
     {
@@ -175,7 +175,7 @@ namespace Baruah.MathsEngine.Formula.Trigonometry
     /// Equivalent to <see cref="Mathf.Rad2Deg"/>.
     /// Multiply a radian value by this constant to convert it to degrees.
     /// </remarks>
-    [System.Serializable]
+    
     [MathNodeCategory("Constants")]
     public class Rad2Deg : BaseMathNode
     {

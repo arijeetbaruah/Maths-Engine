@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_not_equal" kind="class" language="C#" prot="public">
+    <compoundname>Baruah::MathsEngine::ComparisonOperators::NotEqual</compoundname>
+    <basecompoundref refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator" prot="public" virt="non-virtual">Baruah.MathsEngine.ComparisonOperators.ComparisonOperator</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_not_equal_1a6457cd9bd2b883709afaca35e2500524" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>override string</type>
+        <definition>override string Baruah.MathsEngine.ComparisonOperators.NotEqual.Symbol</definition>
+        <argsstring></argsstring>
+        <name>Symbol</name>
+        <qualifiedname>Baruah.MathsEngine.ComparisonOperators.NotEqual.Symbol</qualifiedname>
+        <briefdescription>
+<para>Operator symbol used in equations. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="159" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_not_equal_1a6864acf4f2ca2c2975716b3072ee5cb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool Baruah.MathsEngine.ComparisonOperators.NotEqual.Check</definition>
+        <argsstring>(float a, float b)</argsstring>
+        <name>Check</name>
+        <qualifiedname>Baruah.MathsEngine.ComparisonOperators.NotEqual.Check</qualifiedname>
+        <reimplements refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator_1a3c4d36bcdd7b66c34ecfbaab67d32cb7">Check</reimplements>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the values are different. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="151" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="151" bodyend="154"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Checks whether two values are not equal. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.ComparisonOperators.NotEqual</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_not_equal"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.ComparisonOperators.ComparisonOperator</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.ComparisonOperators.NotEqual</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_not_equal"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.ComparisonOperators.ComparisonOperator</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_comparison_operator"/>
+      </node>
+    </collaborationgraph>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" line="146" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/ComparisonOperator.cs" bodystart="147" bodyend="160"/>
+    <listofallmembers>
+      <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_not_equal_1a6864acf4f2ca2c2975716b3072ee5cb0" prot="public" virt="virtual"><scope>Baruah::MathsEngine::ComparisonOperators::NotEqual</scope><name>Check</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_comparison_operators_1_1_not_equal_1a6457cd9bd2b883709afaca35e2500524" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::ComparisonOperators::NotEqual</scope><name>Symbol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

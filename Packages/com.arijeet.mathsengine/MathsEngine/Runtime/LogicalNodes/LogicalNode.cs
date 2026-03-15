@@ -20,7 +20,6 @@ namespace Baruah.MathsEngine.LogicalOperation
     /// If the final result of the logical evaluation is true, the <see cref="True"/> node
     /// is evaluated and returned. Otherwise the <see cref="False"/> node is evaluated.
     /// </remarks>
-    [System.Serializable]
     public class LogicalNode : BaseMathNode
     {
         /// <summary>

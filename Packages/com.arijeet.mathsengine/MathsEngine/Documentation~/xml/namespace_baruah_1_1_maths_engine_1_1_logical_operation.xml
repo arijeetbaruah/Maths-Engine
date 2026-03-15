@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="namespace_baruah_1_1_maths_engine_1_1_logical_operation" kind="namespace" language="C#">
+    <compoundname>Baruah::MathsEngine::LogicalOperation</compoundname>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_node" prot="public">Baruah::MathsEngine::LogicalOperation::LogicalNode</innerclass>
+    <innerclass refid="struct_baruah_1_1_maths_engine_1_1_logical_operation_1_1_comparison_entry" prot="public">Baruah::MathsEngine::LogicalOperation::ComparisonEntry</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_logical_operator" prot="public">Baruah::MathsEngine::LogicalOperation::LogicalOperator</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_and_operator" prot="public">Baruah::MathsEngine::LogicalOperation::AndOperator</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_or_operator" prot="public">Baruah::MathsEngine::LogicalOperation::OrOperator</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_xor_operator" prot="public">Baruah::MathsEngine::LogicalOperation::XorOperator</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/LogicalNodes/LogicalNode.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

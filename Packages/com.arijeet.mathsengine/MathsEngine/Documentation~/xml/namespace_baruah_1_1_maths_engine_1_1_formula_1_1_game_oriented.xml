@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="namespace_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented" kind="namespace" language="C#">
+    <compoundname>Baruah::MathsEngine::Formula::GameOriented</compoundname>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_animation_curve_node" prot="public">Baruah::MathsEngine::Formula::GameOriented::AnimationCurveNode</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_time_node" prot="public">Baruah::MathsEngine::Formula::GameOriented::TimeNode</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_delta_time_node" prot="public">Baruah::MathsEngine::Formula::GameOriented::DeltaTimeNode</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_fixed_delta_time_node" prot="public">Baruah::MathsEngine::Formula::GameOriented::FixedDeltaTimeNode</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_ping_pong_node" prot="public">Baruah::MathsEngine::Formula::GameOriented::PingPongNode</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_smooth_step_node" prot="public">Baruah::MathsEngine::Formula::GameOriented::SmoothStepNode</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_move_towards_node" prot="public">Baruah::MathsEngine::Formula::GameOriented::MoveTowardsNode</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node" prot="public">Baruah::MathsEngine::Formula::GameOriented::MinNode</innerclass>
+    <innerclass refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node" prot="public">Baruah::MathsEngine::Formula::GameOriented::MaxNode</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/GameOriented Nodes.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

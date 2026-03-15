@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp" kind="class" language="C#" prot="public">
+    <compoundname>Baruah::MathsEngine::Formula::Utility::Lerp</compoundname>
+    <basecompoundref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" prot="public" virt="non-virtual">Baruah.MathsEngine.Core.BaseMathNode</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a0679f77687a4836e52d2e01486ede8e5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Formula.Utility.Lerp._a</definition>
+        <argsstring></argsstring>
+        <name>_a</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.Utility.Lerp._a</qualifiedname>
+        <briefdescription>
+<para>Starting value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" line="74" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a545416dced9583c105b23f1ae25009ab" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Formula.Utility.Lerp._b</definition>
+        <argsstring></argsstring>
+        <name>_b</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.Utility.Lerp._b</qualifiedname>
+        <briefdescription>
+<para>Ending value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" line="80" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a1a289bfc7b95f7c7a60110892bd9e9b4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Formula.Utility.Lerp._t</definition>
+        <argsstring></argsstring>
+        <name>_t</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.Utility.Lerp._t</qualifiedname>
+        <briefdescription>
+<para>Interpolation parameter. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" line="86" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a61e363da87faef0356cdfafde4c41f8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override float</type>
+        <definition>override float Baruah.MathsEngine.Formula.Utility.Lerp.Calculate</definition>
+        <argsstring>(object[] parameter)</argsstring>
+        <name>Calculate</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.Utility.Lerp.Calculate</qualifiedname>
+        <param>
+          <type>object[]</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Calculates the interpolated value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" line="91" column="31" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" bodystart="91" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a295277090a98bff30cbbb5349ebae696" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Baruah.MathsEngine.Formula.Utility.Lerp.ToEquation</definition>
+        <argsstring>()</argsstring>
+        <name>ToEquation</name>
+        <qualifiedname>Baruah.MathsEngine.Formula.Utility.Lerp.ToEquation</qualifiedname>
+        <briefdescription>
+<para>Returns the equation representation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" line="102" column="32" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" bodystart="102" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Linearly interpolates between two values. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Uses Mathf.Lerp. The interpolation parameter <computeroutput>t</computeroutput> typically ranges from 0 to 1. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Formula.Utility.Lerp</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.Core.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Formula.Utility.Lerp</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Baruah.MathsEngine.Core.BaseMathNode</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" line="68" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/UtilityNodes.cs" bodystart="69" bodyend="104"/>
+    <listofallmembers>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a0679f77687a4836e52d2e01486ede8e5" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Utility::Lerp</scope><name>_a</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a545416dced9583c105b23f1ae25009ab" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Utility::Lerp</scope><name>_b</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a1a289bfc7b95f7c7a60110892bd9e9b4" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Utility::Lerp</scope><name>_t</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a61e363da87faef0356cdfafde4c41f8c" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Utility::Lerp</scope><name>Calculate</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp_1a295277090a98bff30cbbb5349ebae696" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Formula::Utility::Lerp</scope><name>ToEquation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

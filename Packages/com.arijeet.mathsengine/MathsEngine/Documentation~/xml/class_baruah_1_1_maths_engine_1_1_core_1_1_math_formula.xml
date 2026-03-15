@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.16.1" xml:lang="en-US">
+  <compounddef id="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula" kind="class" language="C#" prot="public">
+    <compoundname>Baruah::MathsEngine::Core::MathFormula</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScriptableObject</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a1d9f5a7337491f66d720cba7b234e507" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Core.MathFormula.MathNode</definition>
+        <argsstring></argsstring>
+        <name>MathNode</name>
+        <qualifiedname>Baruah.MathsEngine.Core.MathFormula.MathNode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" line="15" column="29" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a88acd0e5f842d0a49446fb2d5ff64a96" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>IReadOnlyList&lt; <ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref> &gt;</type>
+        <definition>IReadOnlyList&lt;BaseMathNode&gt; Baruah.MathsEngine.Core.MathFormula.Nodes</definition>
+        <argsstring></argsstring>
+        <name>Nodes</name>
+        <qualifiedname>Baruah.MathsEngine.Core.MathFormula.Nodes</qualifiedname>
+        <briefdescription>
+<para>List of all nodes in the formula. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" line="28" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a6b4e529c0beb076f6abf3b425c7bbf77" prot="private" static="no" mutable="no">
+        <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+        <definition>BaseMathNode Baruah.MathsEngine.Core.MathFormula._node</definition>
+        <argsstring></argsstring>
+        <name>_node</name>
+        <qualifiedname>Baruah.MathsEngine.Core.MathFormula._node</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" line="21" column="30" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1aa929f3e3906182f2330772ba418af7ac" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref> &gt;</type>
+        <definition>List&lt;BaseMathNode&gt; Baruah.MathsEngine.Core.MathFormula._nodes</definition>
+        <argsstring></argsstring>
+        <name>_nodes</name>
+        <qualifiedname>Baruah.MathsEngine.Core.MathFormula._nodes</qualifiedname>
+        <initializer>= new()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" line="23" column="23" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a0bfd0d5615fb1750479122a7e7bf7ade" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Baruah.MathsEngine.Core.MathFormula.Calculate</definition>
+        <argsstring>(params object[] parameter)</argsstring>
+        <name>Calculate</name>
+        <qualifiedname>Baruah.MathsEngine.Core.MathFormula.Calculate</qualifiedname>
+        <param>
+          <type>params object[]</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+<para>Computes the numeric result of the encapsulated math node using the provided inputs. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parameter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A variable list of inputs passed to the underlying math node; expected types and order depend on the node implementation.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The computed result as a float.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" line="35" column="22" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a0cf9f05b08b4bc223136512eac4dd319" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Baruah.MathsEngine.Core.MathFormula.ToEquation</definition>
+        <argsstring>()</argsstring>
+        <name>ToEquation</name>
+        <qualifiedname>Baruah.MathsEngine.Core.MathFormula.ToEquation</qualifiedname>
+        <briefdescription>
+<para>Produce a single string that presents the node&apos;s equation followed by its evaluated numeric result. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A string in the format &quot;&amp;lt;equation&amp;gt; = &amp;lt;value&amp;gt;&quot;, where &lt;equation&gt; is the node&apos;s equation and &lt;value&gt; is the result of evaluating the formula.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" line="44" column="23" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" bodystart="44" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a89993a034bb2c7c3e9aff5a5c43df2f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Baruah.MathsEngine.Core.MathFormula.RemoveNode</definition>
+        <argsstring>(BaseMathNode node)</argsstring>
+        <name>RemoveNode</name>
+        <qualifiedname>Baruah.MathsEngine.Core.MathFormula.RemoveNode</qualifiedname>
+        <param>
+          <type><ref refid="class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node" kindref="compound">BaseMathNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>Removes a node from the formula. (UNITY_EDITOR only). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Node to be removed</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" line="71" column="21" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" bodystart="71" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a280f69ac137076d268d5ecb455499c74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Baruah.MathsEngine.Core.MathFormula.AddNode&lt; T &gt;</definition>
+        <argsstring>(T node)</argsstring>
+        <name>AddNode&lt; T &gt;</name>
+        <qualifiedname>Baruah.MathsEngine.Core.MathFormula.AddNode&lt; T &gt;</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" line="86" column="16" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" bodystart="86" bodyend="97"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>ScriptableObject to hold and access Maths <ref refid="namespace_baruah_1_1_maths_engine_1_1_formula" kindref="compound">Formula</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Core.MathFormula</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Baruah.MathsEngine.Core.MathFormula</label>
+        <link refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ScriptableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" line="13" column="11" bodyfile="Packages/com.arijeet.mathsengine/MathsEngine/Runtime/Core/MathFormula.cs" bodystart="14" bodyend="98"/>
+    <listofallmembers>
+      <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a6b4e529c0beb076f6abf3b425c7bbf77" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Core::MathFormula</scope><name>_node</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1aa929f3e3906182f2330772ba418af7ac" prot="private" virt="non-virtual"><scope>Baruah::MathsEngine::Core::MathFormula</scope><name>_nodes</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a280f69ac137076d268d5ecb455499c74" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Core::MathFormula</scope><name>AddNode&lt; T &gt;</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a0bfd0d5615fb1750479122a7e7bf7ade" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Core::MathFormula</scope><name>Calculate</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a1d9f5a7337491f66d720cba7b234e507" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Core::MathFormula</scope><name>MathNode</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a88acd0e5f842d0a49446fb2d5ff64a96" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Core::MathFormula</scope><name>Nodes</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a89993a034bb2c7c3e9aff5a5c43df2f1" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Core::MathFormula</scope><name>RemoveNode</name></member>
+      <member refid="class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula_1a0cf9f05b08b4bc223136512eac4dd319" prot="public" virt="non-virtual"><scope>Baruah::MathsEngine::Core::MathFormula</scope><name>ToEquation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
