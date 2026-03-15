@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['utilitynodes_2ecs_0',['UtilityNodes.cs',['../_utility_nodes_8cs.html',1,'']]]
+  ['rad2deg_0',['Rad2Deg',['../class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg.html',1,'Baruah::MathsEngine::Formula::Trigonometry']]],
+  ['random_1',['Random',['../class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_random.html',1,'Baruah::MathsEngine::Formula::Utility']]],
+  ['removenode_2',['RemoveNode',['../class_baruah_1_1_maths_engine_1_1_core_1_1_math_formula.html#a89993a034bb2c7c3e9aff5a5c43df2f1',1,'Baruah::MathsEngine::Core::MathFormula']]],
+  ['root_20node_20that_20defines_20the_20calculation_3',['A formula contains a &lt;b&gt;root node&lt;/b&gt; that defines the calculation.',['../getting_started.html#autotoc_md11',1,'']]]
 ];

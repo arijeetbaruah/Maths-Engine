@@ -25,6 +25,26 @@
 var NAVTREE =
 [
   [ "MathsEngine", "index.html", [
+    [ "Creating Custom Nodes", "custom_nodes.html", [
+      [ "Documentation", "index.html#autotoc_md19", null ],
+      [ "Features", "index.html#autotoc_md20", null ],
+      [ "Creating a Custom Node", "custom_nodes.html#autotoc_md1", null ],
+      [ "Example: Square Node", "custom_nodes.html#autotoc_md3", null ],
+      [ "Node Inputs", "custom_nodes.html#autotoc_md4", null ]
+    ] ],
+    [ "Getting Started", "getting_started.html", [
+      [ "Installation", "getting_started.html#autotoc_md6", null ],
+      [ "Core Concepts", "getting_started.html#autotoc_md8", null ],
+      [ "Creating Your First Formula", "getting_started.html#autotoc_md10", [
+        [ "A formula contains a <b>root node</b> that defines the calculation.", "getting_started.html#autotoc_md11", [
+          [ "Step 1 — Create a Formula Asset", "getting_started.html#autotoc_md12", null ],
+          [ "Step 2 — Configure the Node Graph", "getting_started.html#autotoc_md14", null ],
+          [ "Step 3 — Evaluate the Formula", "getting_started.html#autotoc_md16", null ]
+        ] ],
+        [ "Viewing the Equation", "getting_started.html#autotoc_md17", null ],
+        [ "Passing Parameters", "getting_started.html#autotoc_md18", null ]
+      ] ]
+    ] ],
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ]
     ] ],
