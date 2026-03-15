@@ -1,161 +1,82 @@
 # Maths Engine
 
-**Maths Engine** is a Unity plugin that allows designers to **visually configure mathematical formulas** using ScriptableObjects, Prefabs, and config assets instead of hardcoded code.
+MathsEngine is designed to be extensible.  
+You can create your own mathematical operations by implementing custom **Math Nodes**.
 
-It transforms math into **data**.
+All nodes derive from `BaseMathNode`.
 
-Designers build formulas visually.  
-Programmers evaluate them at runtime.
+---
 
-This enables:
+## Creating a Custom Node
 
--   Data-driven balancing
-    
--   Designer-owned logic
-    
--   Rapid iteration
-    
--   No recompiles
-    
--   No code churn
-    
--   Safer tuning
-    
--   Modular gameplay systems
-    
--   Reusable formulas
-    
--   Clean separation of logic and data
+To create a new node:
 
-## Table of Contents
-- [How to use](#how-to-use)
-- [Install](#install)
-  - [via npm](#via-npm)
-  - [via OpenUPM](#via-openupm)
-  - [via Git URL](#via-git-url)
-  - [Tests](#tests)
-- [Configuration](#configuration)
+1. Create a class that inherits from `BaseMathNode`
+2. Define the node inputs
+3. Implement the `Calculate()` function
+4. Implement `ToEquation()` for debugging and visualization
 
-<!-- toc -->
+---
+## Example: Square Node
 
-## How to use
+The following example creates a node that squares a value.
 
-### Designer Flow
-
-1.  Create a **Formula Asset** (ScriptableObject / Prefab-based config)
-    
-2.  Add math nodes (Add, Multiply, Clamp, Curve, etc)
-    
-3.  Connect nodes visually
-    
-4.  Bind variables (ATK, DEF, Level, HP, etc)
-    
-5.  Preview output
-    
-6.  Save the formula asset
-    
-
-### Runtime Flow
-
-```C#
-float  result  =  formula.Evaluate(context);
+```
+result = value * value
 ```
 
-Math becomes a **graph**, not a line of code.
+```csharp
+using Baruah.MathsEngine.Core;
+using UnityEngine;
 
-## Install
-
-### via npm
-
-Open `Packages/manifest.json` with your favorite text editor. Add a [scoped registry](https://docs.unity3d.com/Manual/upm-scoped.html) and following line to dependencies block:
-```json
+public class SquareNode : BaseMathNode
 {
-  "scopedRegistries": [
+    [SerializeField]
+    private BaseMathNode value;
+
+    public override float Calculate(object[] parameters)
     {
-      "name": "npmjs",
-      "url": "https://registry.npmjs.org/",
-      "scopes": [
-        "com.arijeet"
-      ]
+        float v = value.Calculate(parameters);
+        return v * v;
     }
-  ],
-  "dependencies": {
-    "com.arijeet.mathsengine": "1.0.0"
-  }
+
+    public override string ToEquation()
+    {
+        return $"({value.ToEquation()}^2)";
+    }
 }
 ```
-Package should now appear in package manager.
+___
+## Node Inputs
 
-### via Git URL
+Nodes usually take other nodes as inputs.
 
-Open `Packages/manifest.json` with your favorite text editor. Add following line to the dependencies block:
-```json
-{
-  "dependencies": {
-    "https://github.com/arijeetbaruah/Maths-Engine.git?path=/Packages/com.arijeet.mathsengine/MathsEngine"
-  }
-}
+Example:
+```
+Multiply
+├─ Node A
+└─ Node B
 ```
 
-### Tests
-
-The package can optionally be set as *testable*.
-In practice this means that tests in the package will be visible in the [Unity Test Runner](https://docs.unity3d.com/2017.4/Documentation/Manual/testing-editortestsrunner.html).
-
-Open `Packages/manifest.json` with your favorite text editor. Add following line **after** the dependencies block:
-```json
-{
-  "dependencies": {
-  },
-  "testables": [ "com.arijeet.mathsengine" ]
-}
+Implementation example:
 ```
+[SerializeField]
+private BaseMathNode inputA;
 
-## Configuration
-### Formula System
-
-Maths Engine uses **data-defined formulas**:
-
--   Formulas are assets
-    
--   Nodes are operators
-    
--   Connections define execution flow
-    
--   Variables are bound at runtime
-    
--   Evaluation is deterministic
-    
--   Serialization-safe
-    
--   Runtime-validated
-    
-
-### Variable Binding
-
-Variables are resolved from a **runtime context**:
-```C#
-formula.Evaluate(context);
+[SerializeField]
+private BaseMathNode inputB;
 ```
+___
+Using the Custom Node
 
-Context can include:
+Once created, the node can be added to a MathFormula.
 
--   Character stats
-    
--   Game state
-    
--   Config values
-    
--   Progression data
-    
--   Environment values
-    
--   AI data
-    
--   Economy values
-
-## License
-
-MIT License
-
-Copyright © 2026 Arijeet Baruah
+Example graph:
+```
+Square
+└─ Constant(5)
+```
+Result:
+```
+5² = 25
+```
