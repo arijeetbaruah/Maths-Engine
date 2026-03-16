@@ -2,6 +2,8 @@
   <img src="docs/images/social-preview.png" alt="Maths Engine Banner"/>
 </p>
 
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/arijeetbaruah/Maths-Engine?utm_source=oss&utm_medium=github&utm_campaign=arijeetbaruah%2FMaths-Engine&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
+
 <h1 align="center">Maths Engine</h1>
 
 <p align="center">
