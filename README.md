@@ -1,82 +1,182 @@
-# Maths Engine
+<p align="center">
+  <img src="docs/images/social-preview.png" alt="Maths Engine Banner"/>
+</p>
 
-MathsEngine is designed to be extensible.  
-You can create your own mathematical operations by implementing custom **Math Nodes**.
+<h1 align="center">Maths Engine</h1>
 
-All nodes derive from `BaseMathNode`.
+<p align="center">
+Serializable Math Formula System for Unity
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/github/stars/arijeetbaruah/Maths-Engine?style=for-the-badge">
+<img src="https://img.shields.io/github/license/arijeetbaruah/Maths-Engine?style=for-the-badge">
+<img src="https://img.shields.io/github/issues/arijeetbaruah/Maths-Engine?style=for-the-badge">
+
+</p>
 
 ---
 
-## Creating a Custom Node
+## ✨ Overview
 
-To create a new node:
+**Maths Engine** is a modular system for building **serializable mathematical formulas in Unity**.
 
-1. Create a class that inherits from `BaseMathNode`
-2. Define the node inputs
-3. Implement the `Calculate()` function
-4. Implement `ToEquation()` for debugging and visualization
+Instead of hardcoding equations in scripts, you can create flexible formula graphs using reusable **Math Nodes**.
+
+This makes it ideal for systems like:
+
+* Damage calculations
+* AI decision formulas
+* Gameplay balancing
+* Procedural systems
+* Conditional logic
 
 ---
-## Example: Square Node
 
-The following example creates a node that squares a value.
+## 🚀 Features
 
-```
-result = value * value
-```
+* Modular **node-based math system**
+* Fully **serializable formulas**
+* Runtime **formula evaluation**
+* Human-readable **equation generation**
+* Extensible **custom math nodes**
+* Logical operators for conditional formulas
+* Comparison operators
 
-```csharp
-using Baruah.MathsEngine.Core;
-using UnityEngine;
+---
 
-public class SquareNode : BaseMathNode
-{
-    [SerializeField]
-    private BaseMathNode value;
+## 🧩 Example Formula
 
-    public override float Calculate(object[] parameters)
-    {
-        float v = value.Calculate(parameters);
-        return v * v;
-    }
+Example conditional formula:
 
-    public override string ToEquation()
-    {
-        return $"({value.ToEquation()}^2)";
-    }
-}
-```
-___
-## Node Inputs
-
-Nodes usually take other nodes as inputs.
-
-Example:
-```
-Multiply
-├─ Node A
-└─ Node B
+```text
+(HP < 30 AND EnemyDistance < 5) ? Damage * 2 : Damage
 ```
 
-Implementation example:
-```
-[SerializeField]
-private BaseMathNode inputA;
+Generated equation output:
 
-[SerializeField]
-private BaseMathNode inputB;
+```text
+((HP < 30 AND EnemyDistance < 5) ? (Damage * 2) : Damage)
 ```
-___
-Using the Custom Node
 
-Once created, the node can be added to a MathFormula.
+---
 
-Example graph:
+## 📦 Installation
+
+### Unity Package Manager (Git URL)
+
+1. Open **Unity Package Manager**
+2. Click **Add package from git URL**
+3. Paste:
+
 ```
-Square
-└─ Constant(5)
+https://github.com/arijeetbaruah/Maths-Engine.git
 ```
-Result:
+
+Unity will install the package automatically.
+
+---
+
+### Manual Installation
+
+Clone the repository:
+
 ```
-5² = 25
+git clone https://github.com/arijeetbaruah/Maths-Engine.git
 ```
+
+Copy the runtime folder into your Unity project:
+
+```
+Assets/
+ └── MathsEngine/
+```
+
+Unity will compile the scripts automatically.
+
+---
+
+### Verify Installation
+
+1. Right-click in the Project window
+2. Navigate to:
+
+```
+Create → Baruah → Maths Engine → Maths Formula
+```
+
+3. Create a **Math Formula asset**
+
+If the asset appears, installation succeeded.
+
+---
+
+## 📖 Documentation
+
+Full documentation is available here:
+
+https://arijeetbaruah.github.io/Maths-Engine/
+
+Getting started guide:
+
+https://arijeetbaruah.github.io/Maths-Engine/getting_started.html
+
+---
+
+## 🏗 Architecture
+
+Maths Engine is built around modular **Math Nodes**.
+
+```
+BaseMathNode
+ ├── Arithmetic Nodes
+ ├── Comparison Nodes
+ ├── Logical Nodes
+ └── Custom Nodes
+```
+
+Each node can evaluate itself and generate a readable equation.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+Please read:
+
+```
+CONTRIBUTING.md
+```
+
+before submitting a pull request.
+
+Pull requests should follow the repository template.
+
+---
+
+## 🌟 Contributors
+
+Thanks to all contributors who help improve this project.
+
+<a href="https://github.com/arijeetbaruah/Maths-Engine/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=arijeetbaruah/Maths-Engine" />
+</a>
+
+---
+
+## 🛡 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## ⭐ Support the Project
+
+If you find this project useful:
+
+* ⭐ Star the repository
+* 🐛 Report issues
+* 🧩 Contribute new nodes
+* 📢 Share it with other Unity developers
