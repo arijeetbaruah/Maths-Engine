@@ -4,41 +4,47 @@ var annotated_dup =
       [ "MathsEngine", "namespace_baruah_1_1_maths_engine.html", [
         [ "Formula", "namespace_baruah_1_1_maths_engine_1_1_formula.html", [
           [ "Arithmetic", "namespace_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic.html", [
-            [ "ArithmeticBase", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_arithmetic_base.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_arithmetic_base" ],
-            [ "AdditionNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_addition_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_addition_node" ],
-            [ "SubtractionNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node" ],
-            [ "MultiplicationNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node" ],
-            [ "DivisionNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_division_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_division_node" ],
-            [ "ConstantNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_constant_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_constant_node" ],
-            [ "Modulo", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_modulo.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_modulo" ],
-            [ "Power", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_power.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_power" ],
             [ "Absolute", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_absolute.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_absolute" ],
-            [ "Negate", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_negate.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_negate" ]
+            [ "AdditionNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_addition_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_addition_node" ],
+            [ "ArithmeticBase", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_arithmetic_base.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_arithmetic_base" ],
+            [ "DivisionNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_division_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_division_node" ],
+            [ "Modulo", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_modulo.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_modulo" ],
+            [ "MultiplicationNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node" ],
+            [ "Negate", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_negate.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_negate" ],
+            [ "Power", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_power.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_power" ],
+            [ "SubtractionNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_subtraction_node" ]
           ] ],
-          [ "GameOriented", "namespace_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented.html", [
-            [ "AnimationCurveNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_animation_curve_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_animation_curve_node" ],
-            [ "TimeNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_time_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_time_node" ],
-            [ "DeltaTimeNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_delta_time_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_delta_time_node" ],
-            [ "FixedDeltaTimeNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_fixed_delta_time_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_fixed_delta_time_node" ],
-            [ "PingPongNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_ping_pong_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_ping_pong_node" ],
-            [ "SmoothStepNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_smooth_step_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_smooth_step_node" ],
-            [ "MoveTowardsNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_move_towards_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_move_towards_node" ],
-            [ "MinNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_min_node" ],
-            [ "MaxNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented_1_1_max_node" ]
+          [ "Constants", "namespace_baruah_1_1_maths_engine_1_1_formula_1_1_constants.html", [
+            [ "ConstantNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_constants_1_1_constant_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_constants_1_1_constant_node" ]
           ] ],
           [ "Trigonometry", "namespace_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry.html", [
-            [ "Sin", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_sin.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_sin" ],
-            [ "Cos", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_cos.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_cos" ],
-            [ "Tan", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_tan.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_tan" ],
-            [ "Atan2", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_atan2.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_atan2" ],
             [ "Deg2Rad", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_deg2_rad.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_deg2_rad" ],
-            [ "Rad2Deg", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg" ]
+            [ "Rad2Deg", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_rad2_deg" ],
+            [ "Atan2", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_atan2.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_atan2" ],
+            [ "Cos", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_cos.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_cos" ],
+            [ "Sin", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_sin.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_sin" ],
+            [ "Tan", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_tan.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry_1_1_tan" ]
+          ] ],
+          [ "Random", "namespace_baruah_1_1_maths_engine_1_1_formula_1_1_random.html", [
+            [ "UnityRange", "class_baruah_1_1_maths_engine_1_1_formula_1_1_random_1_1_unity_range.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_random_1_1_unity_range" ],
+            [ "XorShift32Random", "class_baruah_1_1_maths_engine_1_1_formula_1_1_random_1_1_xor_shift32_random.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_random_1_1_xor_shift32_random" ]
           ] ],
           [ "Utility", "namespace_baruah_1_1_maths_engine_1_1_formula_1_1_utility.html", [
-            [ "Clamp", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_clamp.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_clamp" ],
-            [ "Lerp", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp" ],
-            [ "InverseLerp", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_inverse_lerp.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_inverse_lerp" ],
-            [ "Random", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_random.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_random" ]
+            [ "Range", "namespace_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_range.html", [
+              [ "Clamp", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_range_1_1_clamp.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_range_1_1_clamp" ],
+              [ "InverseLerp", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_range_1_1_inverse_lerp.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_range_1_1_inverse_lerp" ],
+              [ "Lerp", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_range_1_1_lerp.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_range_1_1_lerp" ]
+            ] ],
+            [ "AnimationCurveNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_animation_curve_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_animation_curve_node" ],
+            [ "BaseRangeNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_base_range_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_base_range_node" ],
+            [ "DeltaTimeNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_delta_time_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_delta_time_node" ],
+            [ "FixedDeltaTimeNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_fixed_delta_time_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_fixed_delta_time_node" ],
+            [ "MaxNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_max_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_max_node" ],
+            [ "MinNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_min_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_min_node" ],
+            [ "MoveTowardsNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_move_towards_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_move_towards_node" ],
+            [ "PingPongNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_ping_pong_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_ping_pong_node" ],
+            [ "SmoothStepNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_smooth_step_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_smooth_step_node" ],
+            [ "TimeNode", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_time_node.html", "class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_time_node" ]
           ] ]
         ] ],
         [ "Core", "namespace_baruah_1_1_maths_engine_1_1_core.html", [
@@ -65,7 +71,8 @@ var annotated_dup =
           [ "AndOperator", "class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_and_operator.html", "class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_and_operator" ],
           [ "OrOperator", "class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_or_operator.html", "class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_or_operator" ],
           [ "XorOperator", "class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_xor_operator.html", "class_baruah_1_1_maths_engine_1_1_logical_operation_1_1_xor_operator" ]
-        ] ]
+        ] ],
+        [ "MathEngineExample", "class_baruah_1_1_maths_engine_1_1_math_engine_example.html", null ]
       ] ]
     ] ]
 ];

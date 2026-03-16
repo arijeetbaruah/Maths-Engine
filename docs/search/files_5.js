@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['trigonometry_2ecs_0',['Trigonometry.cs',['../_trigonometry_8cs.html',1,'']]]
+  ['getting_2dstarted_2emd_0',['getting-started.md',['../getting-started_8md.html',1,'']]]
 ];

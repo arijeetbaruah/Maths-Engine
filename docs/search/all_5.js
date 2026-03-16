@@ -8,11 +8,15 @@ var searchData=
   ['baruah_3a_3amathsengine_3a_3acore_5',['Core',['../namespace_baruah_1_1_maths_engine_1_1_core.html',1,'Baruah::MathsEngine']]],
   ['baruah_3a_3amathsengine_3a_3aformula_6',['Formula',['../namespace_baruah_1_1_maths_engine_1_1_formula.html',1,'Baruah::MathsEngine']]],
   ['baruah_3a_3amathsengine_3a_3aformula_3a_3aarithmetic_7',['Arithmetic',['../namespace_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic.html',1,'Baruah::MathsEngine::Formula']]],
-  ['baruah_3a_3amathsengine_3a_3aformula_3a_3agameoriented_8',['GameOriented',['../namespace_baruah_1_1_maths_engine_1_1_formula_1_1_game_oriented.html',1,'Baruah::MathsEngine::Formula']]],
-  ['baruah_3a_3amathsengine_3a_3aformula_3a_3atrigonometry_9',['Trigonometry',['../namespace_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry.html',1,'Baruah::MathsEngine::Formula']]],
-  ['baruah_3a_3amathsengine_3a_3aformula_3a_3autility_10',['Utility',['../namespace_baruah_1_1_maths_engine_1_1_formula_1_1_utility.html',1,'Baruah::MathsEngine::Formula']]],
-  ['baruah_3a_3amathsengine_3a_3alogicaloperation_11',['LogicalOperation',['../namespace_baruah_1_1_maths_engine_1_1_logical_operation.html',1,'Baruah::MathsEngine']]],
-  ['basemathnode_12',['BaseMathNode',['../class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node.html',1,'Baruah::MathsEngine::Core']]],
-  ['basemathnode_2ecs_13',['BaseMathNode.cs',['../_base_math_node_8cs.html',1,'']]],
-  ['basicformula_2ecs_14',['BasicFormula.cs',['../_basic_formula_8cs.html',1,'']]]
+  ['baruah_3a_3amathsengine_3a_3aformula_3a_3aconstants_8',['Constants',['../namespace_baruah_1_1_maths_engine_1_1_formula_1_1_constants.html',1,'Baruah::MathsEngine::Formula']]],
+  ['baruah_3a_3amathsengine_3a_3aformula_3a_3arandom_9',['Random',['../namespace_baruah_1_1_maths_engine_1_1_formula_1_1_random.html',1,'Baruah::MathsEngine::Formula']]],
+  ['baruah_3a_3amathsengine_3a_3aformula_3a_3atrigonometry_10',['Trigonometry',['../namespace_baruah_1_1_maths_engine_1_1_formula_1_1_trigonometry.html',1,'Baruah::MathsEngine::Formula']]],
+  ['baruah_3a_3amathsengine_3a_3aformula_3a_3autility_11',['Utility',['../namespace_baruah_1_1_maths_engine_1_1_formula_1_1_utility.html',1,'Baruah::MathsEngine::Formula']]],
+  ['baruah_3a_3amathsengine_3a_3aformula_3a_3autility_3a_3arange_12',['Range',['../namespace_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_range.html',1,'Baruah::MathsEngine::Formula::Utility']]],
+  ['baruah_3a_3amathsengine_3a_3alogicaloperation_13',['LogicalOperation',['../namespace_baruah_1_1_maths_engine_1_1_logical_operation.html',1,'Baruah::MathsEngine']]],
+  ['basemathnode_14',['BaseMathNode',['../class_baruah_1_1_maths_engine_1_1_core_1_1_base_math_node.html',1,'Baruah::MathsEngine::Core']]],
+  ['basemathnode_2ecs_15',['BaseMathNode.cs',['../_base_math_node_8cs.html',1,'']]],
+  ['baserangenode_16',['BaseRangeNode',['../class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_base_range_node.html',1,'Baruah::MathsEngine::Formula::Utility']]],
+  ['baserangenode_2ecs_17',['BaseRangeNode.cs',['../_base_range_node_8cs.html',1,'']]],
+  ['basicformula_2ecs_18',['BasicFormula.cs',['../_basic_formula_8cs.html',1,'']]]
 ];

@@ -67,8 +67,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_base_math_node_8cs.html",
-"class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_lerp.html#a61e363da87faef0356cdfafde4c41f8c"
+"_absolute_8cs.html",
+"class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_max_node.html#aa61be1f6218e36ff0e4186c4e8cd69f4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

@@ -105,6 +105,10 @@ namespace Baruah.MathsEngine.Editor
 
             AssetDatabase.AddObjectToAsset(node, path);
             AssetDatabase.ImportAsset(path);
+            if (owner is MathFormula mathFormula)
+            {
+                mathFormula.AddNode(node);
+            }
 
             ValueEntry.SmartValue = node;
 
@@ -113,10 +117,17 @@ namespace Baruah.MathsEngine.Editor
 
         private void DeleteNode()
         {
+            var owner = Property.Tree.WeakTargets[0];
+            
             var node = ValueEntry.SmartValue;
 
             if (node == null) return;
-
+            
+            if (owner is MathFormula mathFormula)
+            {
+                mathFormula.AddNode(node);
+            }
+            
             UnityEngine.Object.DestroyImmediate(node, true);
             ValueEntry.SmartValue = null;
         }
