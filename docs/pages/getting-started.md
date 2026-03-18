@@ -12,7 +12,7 @@ This guide will help you quickly set up and use the MathsEngine in your Unity pr
 4. Select **Add package from git URL**.
 5. Enter:
 ```
-https://github.com/arijeetbaruah/Maths-Engine.git
+https://github.com/arijeetbaruah/Maths-Engine.git?path=Packages/com.arijeet.mathsengine/MathsEngine
 ```
 Unity will download and install the package automatically.
 
