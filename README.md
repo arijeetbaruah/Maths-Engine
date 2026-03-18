@@ -73,7 +73,7 @@ Generated equation output:
 3. Paste:
 
 ```
-https://github.com/arijeetbaruah/Maths-Engine.git
+https://github.com/arijeetbaruah/Maths-Engine.git?path=Packages/com.arijeet.mathsengine/MathsEngine
 ```
 
 Unity will install the package automatically.
