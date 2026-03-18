@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['layout_0',['Choosing a layout',['../dir_6da123780a515d741f8a5c21acfd8a82.html#autotoc_md54',1,'']]],
-  ['linking_1',['Paragraph Linking',['../md_docs_2theme_2doxygen-awesome-css_2docs_2extensions.html#extension-para',1,'']]]
+  ['node_0',['Node',['../custom_nodes.html#autotoc_md1',1,'Creating a Custom Node'],['../custom_nodes.html#autotoc_md3',1,'Example: Square Node']]],
+  ['node_20graph_1',['Step 2 — Configure the Node Graph',['../getting_started.html#autotoc_md14',1,'']]],
+  ['node_20inputs_2',['Node Inputs',['../custom_nodes.html#autotoc_md4',1,'']]],
+  ['node_20that_20defines_20the_20calculation_3',['A formula contains a &lt;b&gt;root node&lt;/b&gt; that defines the calculation.',['../getting_started.html#autotoc_md11',1,'']]],
+  ['nodes_4',['Creating Custom Nodes',['../custom_nodes.html',1,'']]]
 ];

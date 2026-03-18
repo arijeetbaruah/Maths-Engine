@@ -18,9 +18,5 @@ var searchData=
   ['basemathnode_2ecs_15',['BaseMathNode.cs',['../_base_math_node_8cs.html',1,'']]],
   ['baserangenode_16',['BaseRangeNode',['../class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_base_range_node.html',1,'Baruah::MathsEngine::Formula::Utility']]],
   ['baserangenode_2ecs_17',['BaseRangeNode.cs',['../_base_range_node_8cs.html',1,'']]],
-  ['basicformula_2ecs_18',['BasicFormula.cs',['../_basic_formula_8cs.html',1,'']]],
-  ['bordered_20images_19',['Bordered Images',['../md_docs_2theme_2doxygen-awesome-css_2docs_2tricks.html#autotoc_md44',1,'']]],
-  ['browser_20support_20',['Browser support',['../dir_6da123780a515d741f8a5c21acfd8a82.html#autotoc_md56',1,'']]],
-  ['button_21',['Fragment Copy Button',['../md_docs_2theme_2doxygen-awesome-css_2docs_2extensions.html#extension-copy-button',1,'']]],
-  ['buttons_22',['Buttons',['../md_docs_2theme_2doxygen-awesome-css_2docs_2tricks.html#autotoc_md43',1,'']]]
+  ['basicformula_2ecs_18',['BasicFormula.cs',['../_basic_formula_8cs.html',1,'']]]
 ];

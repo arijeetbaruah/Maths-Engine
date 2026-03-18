@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['negate_2ecs_0',['Negate.cs',['../_negate_8cs.html',1,'']]]
+  ['pingpongnode_2ecs_0',['PingPongNode.cs',['../_ping_pong_node_8cs.html',1,'']]],
+  ['power_2ecs_1',['Power.cs',['../_power_8cs.html',1,'']]]
 ];
