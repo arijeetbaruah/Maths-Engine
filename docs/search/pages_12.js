@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['—_20configure_20the_20node_20graph_0',['Step 2 — Configure the Node Graph',['../getting_started.html#autotoc_md14',1,'']]],
-  ['—_20create_20a_20formula_20asset_1',['Step 1 — Create a Formula Asset',['../getting_started.html#autotoc_md12',1,'']]],
-  ['—_20evaluate_20the_20formula_2',['Step 3 — Evaluate the Formula',['../getting_started.html#autotoc_md16',1,'']]]
+  ['usage_0',['Usage',['../md_docs_2theme_2doxygen-awesome-css_2docs_2extensions.html#autotoc_md37',1,'Usage'],['../md_docs_2theme_2doxygen-awesome-css_2docs_2extensions.html#autotoc_md39',1,'Usage']]]
 ];

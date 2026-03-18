@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['square_20node_0',['Example: Square Node',['../custom_nodes.html#autotoc_md3',1,'']]],
-  ['started_1',['Getting Started',['../getting_started.html',1,'']]],
-  ['step_201_20—_20create_20a_20formula_20asset_2',['Step 1 — Create a Formula Asset',['../getting_started.html#autotoc_md12',1,'']]],
-  ['step_202_20—_20configure_20the_20node_20graph_3',['Step 2 — Configure the Node Graph',['../getting_started.html#autotoc_md14',1,'']]],
-  ['step_203_20—_20evaluate_20the_20formula_4',['Step 3 — Evaluate the Formula',['../getting_started.html#autotoc_md16',1,'']]]
+  ['page_20navigation_0',['Page Navigation',['../md_docs_2theme_2doxygen-awesome-css_2docs_2extensions.html#extension-page-navigation',1,'']]],
+  ['paragraph_20linking_1',['Paragraph Linking',['../md_docs_2theme_2doxygen-awesome-css_2docs_2extensions.html#extension-para',1,'']]],
+  ['parameters_2',['Passing Parameters',['../getting_started.html#autotoc_md18',1,'']]],
+  ['passing_20parameters_3',['Passing Parameters',['../getting_started.html#autotoc_md18',1,'']]]
 ];

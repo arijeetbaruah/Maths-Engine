@@ -13,10 +13,13 @@ var searchData=
   ['maxnode_2ecs_10',['MaxNode.cs',['../_max_node_8cs.html',1,'']]],
   ['minnode_11',['MinNode',['../class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_min_node.html',1,'Baruah::MathsEngine::Formula::Utility']]],
   ['minnode_2ecs_12',['MinNode.cs',['../_min_node_8cs.html',1,'']]],
-  ['modulo_13',['Modulo',['../class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_modulo.html',1,'Baruah::MathsEngine::Formula::Arithmetic']]],
-  ['modulo_2ecs_14',['Modulo.cs',['../_modulo_8cs.html',1,'']]],
-  ['movetowardsnode_15',['MoveTowardsNode',['../class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_move_towards_node.html',1,'Baruah::MathsEngine::Formula::Utility']]],
-  ['movetowardsnode_2ecs_16',['MoveTowardsNode.cs',['../_move_towards_node_8cs.html',1,'']]],
-  ['multiplicationnode_17',['MultiplicationNode',['../class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node.html',1,'Baruah::MathsEngine::Formula::Arithmetic']]],
-  ['multiplicationnode_2ecs_18',['MultiplicationNode.cs',['../_multiplication_node_8cs.html',1,'']]]
+  ['mode_13',['Disable Dark Mode',['../md_docs_2theme_2doxygen-awesome-css_2docs_2tricks.html#tricks-darkmode',1,'']]],
+  ['mode_20toggle_14',['Dark Mode Toggle',['../md_docs_2theme_2doxygen-awesome-css_2docs_2extensions.html#extension-dark-mode-toggle',1,'']]],
+  ['modulo_15',['Modulo',['../class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_modulo.html',1,'Baruah::MathsEngine::Formula::Arithmetic']]],
+  ['modulo_2ecs_16',['Modulo.cs',['../_modulo_8cs.html',1,'']]],
+  ['motivation_17',['Motivation',['../dir_6da123780a515d741f8a5c21acfd8a82.html#autotoc_md46',1,'']]],
+  ['movetowardsnode_18',['MoveTowardsNode',['../class_baruah_1_1_maths_engine_1_1_formula_1_1_utility_1_1_move_towards_node.html',1,'Baruah::MathsEngine::Formula::Utility']]],
+  ['movetowardsnode_2ecs_19',['MoveTowardsNode.cs',['../_move_towards_node_8cs.html',1,'']]],
+  ['multiplicationnode_20',['MultiplicationNode',['../class_baruah_1_1_maths_engine_1_1_formula_1_1_arithmetic_1_1_multiplication_node.html',1,'Baruah::MathsEngine::Formula::Arithmetic']]],
+  ['multiplicationnode_2ecs_21',['MultiplicationNode.cs',['../_multiplication_node_8cs.html',1,'']]]
 ];

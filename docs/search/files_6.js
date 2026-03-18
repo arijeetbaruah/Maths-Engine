@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['inverselerp_2ecs_0',['InverseLerp.cs',['../_inverse_lerp_8cs.html',1,'']]]
+  ['getting_2dstarted_2emd_0',['getting-started.md',['../getting-started_8md.html',1,'']]]
 ];
