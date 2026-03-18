@@ -1,9 +1,9 @@
 using System.Collections.Generic;
+using Baruah.MathsEngine.Core;
+#if ODIN_INSPECTOR
 using System.Linq;
 using Baruah.MathsEngine.Attribute;
-using Baruah.MathsEngine.Core;
 using Sirenix.Utilities;
-#if ODIN_INSPECTOR
 #if UNITY_EDITOR
 using System;
 using Sirenix.OdinInspector.Editor;
