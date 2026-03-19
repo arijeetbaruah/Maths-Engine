@@ -24,7 +24,7 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
             float ret = 0;
             foreach (var val in _values)
             {
-                ret += val.Calculate(parameter);
+                ret += val != null ? val.Calculate(parameter) : 0;
             }
 
             return ret;
