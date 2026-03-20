@@ -27,12 +27,17 @@ namespace Baruah.MathsEngine.Formula.Trigonometry
         /// <returns>The sine of the input angle.</returns>
         public override float Calculate(object[] parameter)
         {
+            if (_angle == null)
+            {
+                return 0;
+            }
+            
             return Mathf.Sin(_angle.Calculate(parameter));
         }
 
         /// <summary>
         /// Returns the equation representation.
         /// </summary>
-        public override string ToEquation() => "Sin(" + _angle.ToEquation() + ")";
+        public override string ToEquation() => "Sin(" + (_angle != null ? _angle.ToEquation() : "?") + ")";
     }
 }

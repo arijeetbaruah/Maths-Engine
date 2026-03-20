@@ -41,6 +41,11 @@ namespace Baruah.MathsEngine.Formula.Utility.Range
         /// <returns>The clamped result.</returns>
         public override float Calculate(object[] parameter)
         {
+            if (_value == null || _min == null || _max == null)
+            {
+                return 0f;
+            }
+            
             return Mathf.Clamp(
                 _value.Calculate(parameter),
                 _min.Calculate(parameter),
@@ -51,6 +56,9 @@ namespace Baruah.MathsEngine.Formula.Utility.Range
         /// Returns the equation representation.
         /// </summary>
         public override string ToEquation() =>
-            "Clamp(" + _value.ToEquation() + "," + _min.ToEquation() + "," + _max.ToEquation() + ")";
+            "Clamp(" 
+                + (_value != null ? _value.ToEquation() : "?") + "," 
+                + (_min != null ? _min.ToEquation() : "?") + "," 
+                + (_max != null ? _max.ToEquation() : "?") + ")";
     }
 }

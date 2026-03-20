@@ -32,6 +32,11 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
         /// </summary>
         public override float Calculate(object[] parameter)
         {
+            if (_numerator == null || _denominator == null)
+            {
+                return 0f;
+            }
+            
             return _numerator.Calculate(parameter) / _denominator.Calculate(parameter);
         }
 
@@ -39,6 +44,7 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
         /// Returns the equation representation of the division.
         /// </summary>
         public override string ToEquation() =>
-            "(" + _numerator.ToEquation() + " / " + _denominator.ToEquation() + ")";
+            "(" + (_numerator != null ? _numerator.ToEquation() : "?") + " / " +
+            (_denominator != null ? _denominator.ToEquation() : "?") + ")";
     }
 }

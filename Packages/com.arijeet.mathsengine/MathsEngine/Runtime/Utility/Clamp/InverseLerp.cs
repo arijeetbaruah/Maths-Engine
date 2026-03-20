@@ -37,6 +37,11 @@ namespace Baruah.MathsEngine.Formula.Utility.Range
         /// </summary>
         public override float Calculate(object[] parameter)
         {
+            if (_a == null || _b == null || _t == null)
+            {
+                return 0f;
+            }
+            
             return Mathf.InverseLerp(
                 _a.Calculate(parameter),
                 _b.Calculate(parameter),
@@ -47,6 +52,9 @@ namespace Baruah.MathsEngine.Formula.Utility.Range
         /// Returns the equation representation.
         /// </summary>
         public override string ToEquation() =>
-            "InverseLerp(" + _a.ToEquation() + "," + _b.ToEquation() + "," + _t.ToEquation() + ")";
+            "InverseLerp(" 
+                + (_a != null ? _a.ToEquation() : "?") + "," 
+                + (_b != null ? _b.ToEquation() : "?") + "," 
+                + (_t != null ? _t.ToEquation() : "?") + ")";
     }
 }

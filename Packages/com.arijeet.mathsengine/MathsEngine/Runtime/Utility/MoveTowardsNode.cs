@@ -38,6 +38,11 @@ namespace Baruah.MathsEngine.Formula.Utility
         /// </summary>
         public override float Calculate(object[] parameter)
         {
+            if (_current == null || _target == null || _maxDelta == null)
+            {
+                return 0f;
+            }
+            
             return Mathf.MoveTowards(
                 _current.Calculate(parameter),
                 _target.Calculate(parameter),
@@ -48,6 +53,9 @@ namespace Baruah.MathsEngine.Formula.Utility
         /// Returns the equation representation.
         /// </summary>
         public override string ToEquation() =>
-            "MoveTowards(" + _current.ToEquation() + "," + _target.ToEquation() + "," + _maxDelta.ToEquation() + ")";
+            "MoveTowards(" 
+            + (_current != null ? _current.ToEquation() : "?") + "," 
+            + (_target != null ? _target.ToEquation() : "?") + "," 
+            + (_maxDelta != null ? _maxDelta.ToEquation() : "?") + ")";
     }
 }

@@ -24,6 +24,11 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
         /// </summary>
         public override float Calculate(object[] parameter)
         {
+            if (_num == null)
+            {
+                return 0;
+            }
+            
             return -_num.Calculate(parameter);
         }
 
@@ -31,6 +36,6 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
         /// Returns the equation representation.
         /// </summary>
         public override string ToEquation() =>
-            "-(" + _num.ToEquation() + ")";
+            "-(" + (_num != null ? _num.ToEquation() : "?") + ")";
     }
 }

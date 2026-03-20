@@ -32,6 +32,9 @@ namespace Baruah.MathsEngine.Formula.Trigonometry
         /// </summary>
         public override float Calculate(object[] parameter)
         {
+            if (_x == null || _y == null)
+                return 0;
+            
             return Mathf.Atan2(_y.Calculate(parameter), _x.Calculate(parameter));
         }
 
@@ -39,6 +42,6 @@ namespace Baruah.MathsEngine.Formula.Trigonometry
         /// Returns the equation representation.
         /// </summary>
         public override string ToEquation() =>
-            "Atan2(" + _y.ToEquation() + " , " + _x.ToEquation() + ")";
+            "Atan2(" + (_y != null ? _y.ToEquation() : "?") + " , " + (_x != null ? _x.ToEquation() : "?") + ")";
     }
 }
