@@ -30,6 +30,11 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
         /// </summary>
         public override float Calculate(object[] parameter)
         {
+            if (_num1 == null || _num2 == null)
+            {
+                return 0f;
+            }
+            
             return _num1.Calculate(parameter) % _num2.Calculate(parameter);
         }
 
@@ -37,6 +42,7 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
         /// Returns the equation representation.
         /// </summary>
         public override string ToEquation() =>
-            "(" + _num1.ToEquation() + " % " + _num2.ToEquation() + ")";
+            "(" + (_num1 != null ? _num1.ToEquation() : "?") + " % "
+            + (_num2 != null ? _num2.ToEquation() : "?") + ")";
     }
 }

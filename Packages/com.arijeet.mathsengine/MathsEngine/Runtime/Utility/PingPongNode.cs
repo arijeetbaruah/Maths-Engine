@@ -32,6 +32,11 @@ namespace Baruah.MathsEngine.Formula.Utility
         /// </summary>
         public override float Calculate(object[] parameter)
         {
+            if (_t == null || _length == null)
+            {
+                return 0f;
+            }
+            
             return Mathf.PingPong(_t.Calculate(parameter), _length.Calculate(parameter));
         }
 
@@ -39,6 +44,8 @@ namespace Baruah.MathsEngine.Formula.Utility
         /// Returns the equation representation.
         /// </summary>
         public override string ToEquation() =>
-            "PingPong(" + _t.ToEquation() + "," + _length.ToEquation() + ")";
+            "PingPong(" 
+            + (_t != null ? _t.ToEquation() : "?") + "," 
+            + (_length != null ? _length.ToEquation() : "?") + ")";
     }
 }

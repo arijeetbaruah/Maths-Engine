@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8105842580313197687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dfd541500677684792b70bcb45561d6, type: 3}
+  m_Name: ConstantNode
+  m_EditorClassIdentifier: Baruah.MathsEngine::Baruah.MathsEngine.Formula.Constants.ConstantNode
+  _value: 3
 --- !u!114 &-5027285071618572221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,8 +26,8 @@ MonoBehaviour:
   m_Name: MultiplicationNode
   m_EditorClassIdentifier: Baruah.MathsEngine::Baruah.MathsEngine.Formula.Arithmetic.MultiplicationNode
   _values:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1378413695429175985}
+  - {fileID: -8105842580313197687}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30,6 +43,32 @@ MonoBehaviour:
   _node: {fileID: 6386005717146186287}
   _nodes:
   - {fileID: 6386005717146186287}
+--- !u!114 &625266864914502556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dfd541500677684792b70bcb45561d6, type: 3}
+  m_Name: ConstantNode
+  m_EditorClassIdentifier: Baruah.MathsEngine::Baruah.MathsEngine.Formula.Constants.ConstantNode
+  _value: 3
+--- !u!114 &1378413695429175985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dfd541500677684792b70bcb45561d6, type: 3}
+  m_Name: ConstantNode
+  m_EditorClassIdentifier: Baruah.MathsEngine::Baruah.MathsEngine.Formula.Constants.ConstantNode
+  _value: 3
 --- !u!114 &6386005717146186287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43,5 +82,5 @@ MonoBehaviour:
   m_Name: AdditionNode
   m_EditorClassIdentifier: Baruah.MathsEngine::Baruah.MathsEngine.Formula.Arithmetic.AdditionNode
   _values:
-  - {fileID: 0}
+  - {fileID: 625266864914502556}
   - {fileID: -5027285071618572221}

@@ -25,12 +25,17 @@ namespace Baruah.MathsEngine.Formula.Trigonometry
         /// </summary>
         public override float Calculate(object[] parameter)
         {
+            if (_angle == null)
+            {
+                return 0;
+            }
+
             return Mathf.Tan(_angle.Calculate(parameter));
         }
 
         /// <summary>
         /// Returns the equation representation.
         /// </summary>
-        public override string ToEquation() => "Tan(" + _angle.ToEquation() + ")";
+        public override string ToEquation() => "Tan(" + (_angle != null ? _angle.ToEquation() : "?") + ")";
     }
 }

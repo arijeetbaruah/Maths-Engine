@@ -24,7 +24,7 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
 
             for (int index = 1; index < _values.Count; index++)
             {
-                ret -= _values[index].Calculate(parameter);
+                ret -= _values[index] != null ? _values[index].Calculate(parameter) : 0;
             }
 
             return ret;

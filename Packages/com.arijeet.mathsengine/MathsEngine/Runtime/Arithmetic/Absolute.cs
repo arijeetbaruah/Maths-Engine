@@ -24,13 +24,13 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
         /// </summary>
         public override float Calculate(object[] parameter)
         {
-            return Mathf.Abs(_num.Calculate(parameter));
+            return Mathf.Abs( _num != null ? _num.Calculate(parameter) : 0);
         }
 
         /// <summary>
         /// Returns the equation representation.
         /// </summary>
         public override string ToEquation() =>
-            "Abs(" + _num.ToEquation() + ")";
+            "Abs(" + (_num != null ? _num.ToEquation() : "?") + ")";
     }
 }

@@ -34,12 +34,17 @@ namespace Baruah.MathsEngine.Formula.Utility
         /// <returns>The value obtained from the animation curve.</returns>
         public override float Calculate(object[] parameter)
         {
+            if (_curve == null || _time == null)
+            {
+                return 0f;
+            }
+            
             return _curve.Evaluate(_time.Calculate(parameter));
         }
 
         /// <summary>
         /// Returns the equation representation of the node.
         /// </summary>
-        public override string ToEquation() => "AnimationCurve(" + _time.ToEquation() + ")";
+        public override string ToEquation() => "AnimationCurve(" +  (_time != null ? _time.ToEquation() : "?") + ")";
     }
 }

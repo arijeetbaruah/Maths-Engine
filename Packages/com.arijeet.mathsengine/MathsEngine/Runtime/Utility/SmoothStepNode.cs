@@ -37,6 +37,11 @@ namespace Baruah.MathsEngine.Formula.Utility
         /// </summary>
         public override float Calculate(object[] parameter)
         {
+            if (_t == null && _from == null && _to == null)
+            {
+                return 0;
+            }
+            
             return Mathf.SmoothStep(
                 _from.Calculate(parameter),
                 _to.Calculate(parameter),
@@ -47,6 +52,9 @@ namespace Baruah.MathsEngine.Formula.Utility
         /// Returns the equation representation.
         /// </summary>
         public override string ToEquation() =>
-            "SmoothStep(" + _from.ToEquation() + "," + _to.ToEquation() + "," + _t.ToEquation() + ")";
+            "SmoothStep(" 
+            + (_from != null ? _from.ToEquation() : "?") + "," 
+            + (_to != null ? _to.ToEquation() : "?") + "," 
+            + (_t != null ? _t.ToEquation() : "?") + ")";
     }
 }
