@@ -29,16 +29,29 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
 
         /// <summary>
         /// Calculates the division result.
+        /// <summary>
+        /// Compute the value of the numerator node divided by the denominator node.
         /// </summary>
+        /// <param name="parameter">Arguments forwarded to child nodes' Calculate methods.</param>
+        /// <returns>The numerator's calculated value divided by the denominator's calculated value; returns 0 if either child node is null. If the denominator evaluates to zero, the result follows IEEE floating-point rules (Infinity or NaN).</returns>
         public override float Calculate(object[] parameter)
         {
+            if (_numerator == null || _denominator == null)
+            {
+                return 0f;
+            }
+            
             return _numerator.Calculate(parameter) / _denominator.Calculate(parameter);
         }
 
         /// <summary>
         /// Returns the equation representation of the division.
-        /// </summary>
+        /// <summary>
+            /// Formats this division node and its operands as "(numerator / denominator)"; uses "?" for any missing operand.
+            /// </summary>
+            /// <returns>The division expression string, e.g. "(a / b)" or "(? / b)".</returns>
         public override string ToEquation() =>
-            "(" + _numerator.ToEquation() + " / " + _denominator.ToEquation() + ")";
+            "(" + (_numerator != null ? _numerator.ToEquation() : "?") + " / " +
+            (_denominator != null ? _denominator.ToEquation() : "?") + ")";
     }
 }

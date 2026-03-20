@@ -38,9 +38,18 @@ namespace Baruah.MathsEngine.Formula.Utility.Range
         /// Calculates the clamped value.
         /// </summary>
         /// <param name="parameter">Runtime parameters passed through the formula evaluation.</param>
-        /// <returns>The clamped result.</returns>
+        /// <summary>
+        /// Clamps the value produced by the child nodes to the evaluated minimum and maximum.
+        /// </summary>
+        /// <param name="parameter">Evaluation context passed to the child nodes.</param>
+        /// <returns>The resulting float constrained between the evaluated min and max; returns 0f if any child node is missing.</returns>
         public override float Calculate(object[] parameter)
         {
+            if (_value == null || _min == null || _max == null)
+            {
+                return 0f;
+            }
+            
             return Mathf.Clamp(
                 _value.Calculate(parameter),
                 _min.Calculate(parameter),
@@ -49,8 +58,14 @@ namespace Baruah.MathsEngine.Formula.Utility.Range
 
         /// <summary>
         /// Returns the equation representation.
-        /// </summary>
+        /// <summary>
+                /// Formats this node as a Clamp expression.
+                /// </summary>
+                /// <returns>The equation string "Clamp(&lt;value&gt;,&lt;min&gt;,&lt;max&gt;)", where any missing child node is replaced with "?".</returns>
         public override string ToEquation() =>
-            "Clamp(" + _value.ToEquation() + "," + _min.ToEquation() + "," + _max.ToEquation() + ")";
+            "Clamp(" 
+                + (_value != null ? _value.ToEquation() : "?") + "," 
+                + (_min != null ? _min.ToEquation() : "?") + "," 
+                + (_max != null ? _max.ToEquation() : "?") + ")";
     }
 }

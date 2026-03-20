@@ -34,9 +34,18 @@ namespace Baruah.MathsEngine.Formula.Utility.Range
 
         /// <summary>
         /// Calculates the interpolated value.
+        /// <summary>
+        /// Computes the linear interpolation between the `_a` and `_b` node values using `_t` as the interpolation factor.
         /// </summary>
+        /// <param name="parameter">Runtime parameters forwarded to each node's Calculate method.</param>
+        /// <returns>The interpolated float value; returns 0f if any of the `_a`, `_b`, or `_t` nodes is null.</returns>
         public override float Calculate(object[] parameter)
         {
+            if (_a == null || _b == null || _t == null)
+            {
+                return 0f;
+            }
+            
             return Mathf.Lerp(
                 _a.Calculate(parameter),
                 _b.Calculate(parameter),
@@ -45,8 +54,14 @@ namespace Baruah.MathsEngine.Formula.Utility.Range
 
         /// <summary>
         /// Returns the equation representation.
-        /// </summary>
+        /// <summary>
+                /// Builds a string representation of the linear interpolation expression "Lerp(a,b,t)".
+                /// </summary>
+                /// <returns>A string in the form Lerp(aEquation,bEquation,tEquation) where each of aEquation, bEquation, and tEquation is the corresponding node's ToEquation() or "?" if that node is null.</returns>
         public override string ToEquation() =>
-            "Lerp(" + _a.ToEquation() + "," + _b.ToEquation() + "," + _t.ToEquation() + ")";
+            "Lerp("
+                + (_a != null ? _a.ToEquation() : "?") + "," 
+                + (_b != null ? _b.ToEquation() : "?") + "," 
+                + (_t != null ? _t.ToEquation() : "?") + ")";
     }
 }

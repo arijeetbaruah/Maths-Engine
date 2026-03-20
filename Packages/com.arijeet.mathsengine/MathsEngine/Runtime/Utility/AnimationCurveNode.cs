@@ -31,15 +31,26 @@ namespace Baruah.MathsEngine.Formula.Utility
         /// Evaluates the animation curve using the calculated input time.
         /// </summary>
         /// <param name="parameter">Runtime parameters passed through the formula evaluation.</param>
-        /// <returns>The value obtained from the animation curve.</returns>
+        /// <summary>
+        /// Evaluates the configured AnimationCurve at the time produced by the nested time node.
+        /// </summary>
+        /// <returns>`0f` if the configured curve or time node is null; otherwise the curve's value at the time produced by the time node.</returns>
         public override float Calculate(object[] parameter)
         {
+            if (_curve == null || _time == null)
+            {
+                return 0f;
+            }
+            
             return _curve.Evaluate(_time.Calculate(parameter));
         }
 
         /// <summary>
         /// Returns the equation representation of the node.
-        /// </summary>
-        public override string ToEquation() => "AnimationCurve(" + _time.ToEquation() + ")";
+        /// <summary>
+/// Produces the equation string for this animation-curve node, including its time sub-expression.
+/// </summary>
+/// <returns>The equation in the form "AnimationCurve(&lt;time&gt;)", where &lt;time&gt; is the time sub-expression produced by the child node or "?" if the time node is missing.</returns>
+        public override string ToEquation() => "AnimationCurve(" +  (_time != null ? _time.ToEquation() : "?") + ")";
     }
 }

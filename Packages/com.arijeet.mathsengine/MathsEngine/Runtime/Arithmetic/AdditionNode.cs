@@ -18,13 +18,17 @@ namespace Baruah.MathsEngine.Formula.Arithmetic
         /// Calculates the sum of all child nodes.
         /// </summary>
         /// <param name="parameter">Runtime parameters passed to child nodes.</param>
-        /// <returns>The sum of all evaluated nodes.</returns>
+        /// <summary>
+        /// Computes the sum of evaluating each child node in this addition node.
+        /// </summary>
+        /// <param name="parameter">Runtime parameters passed to each child node during evaluation.</param>
+        /// <returns>The sum of all evaluated child node values; null child nodes contribute 0.</returns>
         public override float Calculate(object[] parameter)
         {
             float ret = 0;
             foreach (var val in _values)
             {
-                ret += val.Calculate(parameter);
+                ret += val != null ? val.Calculate(parameter) : 0;
             }
 
             return ret;

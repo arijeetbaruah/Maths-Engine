@@ -34,9 +34,18 @@ namespace Baruah.MathsEngine.Formula.Utility.Range
 
         /// <summary>
         /// Calculates the normalized interpolation factor.
+        /// <summary>
+        /// Computes the normalized interpolation factor of _t between _a and _b using Unity's Mathf.InverseLerp; returns 0 if any input node is null.
         /// </summary>
+        /// <param name="parameter">Evaluation context passed to the child nodes' Calculate methods.</param>
+        /// <returns>Normalized value between 0 and 1 representing _t's relative position between _a and _b; `0` if any node is null.</returns>
         public override float Calculate(object[] parameter)
         {
+            if (_a == null || _b == null || _t == null)
+            {
+                return 0f;
+            }
+            
             return Mathf.InverseLerp(
                 _a.Calculate(parameter),
                 _b.Calculate(parameter),
@@ -45,8 +54,16 @@ namespace Baruah.MathsEngine.Formula.Utility.Range
 
         /// <summary>
         /// Returns the equation representation.
-        /// </summary>
+        /// <summary>
+                /// Builds a symbolic equation for the inverse linear interpolation of the three child nodes.
+                /// </summary>
+                /// <returns>
+                /// A string in the form <c>InverseLerp(a,b,t)</c> where each argument is the corresponding child's <c>ToEquation()</c> result or <c>?</c> if that child is null.
+                /// </returns>
         public override string ToEquation() =>
-            "InverseLerp(" + _a.ToEquation() + "," + _b.ToEquation() + "," + _t.ToEquation() + ")";
+            "InverseLerp(" 
+                + (_a != null ? _a.ToEquation() : "?") + "," 
+                + (_b != null ? _b.ToEquation() : "?") + "," 
+                + (_t != null ? _t.ToEquation() : "?") + ")";
     }
 }

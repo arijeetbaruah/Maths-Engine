@@ -29,16 +29,26 @@ namespace Baruah.MathsEngine.Formula.Trigonometry
 
         /// <summary>
         /// Calculates the angle between the positive X-axis and the vector (x, y).
+        /// <summary>
+        /// Computes the angle in radians of the 2D vector defined by the Y and X child nodes.
         /// </summary>
+        /// <param name="parameter">Calculation parameters forwarded to the child nodes.</param>
+        /// <returns>The angle in radians between the positive X axis and the point (x, y); `0` if either child node is null.</returns>
         public override float Calculate(object[] parameter)
         {
+            if (_x == null || _y == null)
+                return 0;
+            
             return Mathf.Atan2(_y.Calculate(parameter), _x.Calculate(parameter));
         }
 
         /// <summary>
         /// Returns the equation representation.
-        /// </summary>
+        /// <summary>
+            /// Builds the equation string for this node's atan2 operation using its child nodes.
+            /// </summary>
+            /// <returns>A string formatted as "Atan2(&lt;yEquation or ?&gt; , &lt;xEquation or ?&gt;)" where "?" denotes a missing child node.</returns>
         public override string ToEquation() =>
-            "Atan2(" + _y.ToEquation() + " , " + _x.ToEquation() + ")";
+            "Atan2(" + (_y != null ? _y.ToEquation() : "?") + " , " + (_x != null ? _x.ToEquation() : "?") + ")";
     }
 }

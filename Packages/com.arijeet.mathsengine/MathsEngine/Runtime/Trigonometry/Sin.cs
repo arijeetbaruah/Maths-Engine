@@ -24,15 +24,28 @@ namespace Baruah.MathsEngine.Formula.Trigonometry
         /// Calculates the sine of the evaluated angle.
         /// </summary>
         /// <param name="parameter">Runtime parameters passed through the formula evaluation.</param>
-        /// <returns>The sine of the input angle.</returns>
+        /// <summary>
+        /// Computes the sine of the angle produced by the nested angle node using the supplied runtime parameters.
+        /// If the nested angle node is null, returns 0.
+        /// </summary>
+        /// <param name="parameter">Runtime parameters forwarded to the nested angle node's evaluation.</param>
+        /// <returns>The sine of the evaluated angle, or 0 if the internal angle node is null.</returns>
         public override float Calculate(object[] parameter)
         {
+            if (_angle == null)
+            {
+                return 0;
+            }
+            
             return Mathf.Sin(_angle.Calculate(parameter));
         }
 
         /// <summary>
         /// Returns the equation representation.
-        /// </summary>
-        public override string ToEquation() => "Sin(" + _angle.ToEquation() + ")";
+        /// <summary>
+/// Builds a human-readable equation string representing the sine of the angle node.
+/// </summary>
+/// <returns>A string in the form "Sin(X)" where X is the angle node's equation; uses "?" if the angle node is null.</returns>
+        public override string ToEquation() => "Sin(" + (_angle != null ? _angle.ToEquation() : "?") + ")";
     }
 }
